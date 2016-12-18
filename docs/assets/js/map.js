@@ -1,3 +1,4 @@
+//バージョン4
 var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 
     function map_ini() {
