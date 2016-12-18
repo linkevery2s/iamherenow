@@ -2,7 +2,7 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 
     function map_ini() {
 		map = L.map('map_canvas');
-		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   		}).addTo(map);
 		//map.setView([35.5589394, 136.9058424], 8);
