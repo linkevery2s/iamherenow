@@ -17,7 +17,7 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
      } else {
      	alert("GPSの取得に失敗したため、日本地図全図を表示します。")
      }
-     	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+     	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   		}).addTo(map);
 		map.setView([37.7768703, 137.5870323], 6);
@@ -31,7 +31,7 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
      } else {
      	alert("GPSの取得に失敗したため、世界地図全図を表示します。")
      }
-		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
 		}).addTo(map);
 		map.setView([35.6189816, 138.4659385], 3);
