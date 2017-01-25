@@ -6,36 +6,8 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   		}).addTo(map);
-		//map.setView([35.5589394, 136.9058424], 8);
+		map.setView([35.619, 138.466], 3);
 		hash = L.hash(map);
-	}
-
-    function em_n_ini() {
-	map = L.map('map_canvas');
-	if (navigator.geolocation) {
-	   //geolocationの利用
-       navigator.geolocation.getCurrentPosition(gps_get,gps_error2);
-     } else {
-     	alert("GPSの取得に失敗したため、日本地図全図を表示します。")
-     }
-     	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
-  		}).addTo(map);
-		map.setView([37.7768703, 137.5870323], 6);
-	}
-	
-    function em_w_ini() {
-	map = L.map('map_canvas');
-	if (navigator.geolocation) {
-	   //geolocationの利用
-       navigator.geolocation.getCurrentPosition(gps_get,gps_error3);
-     } else {
-     	alert("GPSの取得に失敗したため、世界地図全図を表示します。")
-     }
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
-		}).addTo(map);
-		map.setView([35.6189816, 138.4659385], 3);
 	}
 
 
