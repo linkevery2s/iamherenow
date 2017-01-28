@@ -1,4 +1,4 @@
-//バージョン4
+//version 5.
 var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 
     function map_ini() {
@@ -6,36 +6,8 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   		}).addTo(map);
-		//map.setView([35.5589394, 136.9058424], 8);
+		//map.setView([35.619, 138.466], 3);
 		hash = L.hash(map);
-	}
-
-    function em_n_ini() {
-	map = L.map('map_canvas');
-	if (navigator.geolocation) {
-	   //geolocationの利用
-       navigator.geolocation.getCurrentPosition(gps_get,gps_error2);
-     } else {
-     	alert("GPSの取得に失敗したため、日本地図全図を表示します。")
-     }
-     	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
-  		}).addTo(map);
-		map.setView([37.7768703, 137.5870323], 6);
-	}
-	
-    function em_w_ini() {
-	map = L.map('map_canvas');
-	if (navigator.geolocation) {
-	   //geolocationの利用
-       navigator.geolocation.getCurrentPosition(gps_get,gps_error3);
-     } else {
-     	alert("GPSの取得に失敗したため、世界地図全図を表示します。")
-     }
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
-		}).addTo(map);
-		map.setView([35.6189816, 138.4659385], 3);
 	}
 
 
@@ -92,20 +64,6 @@ function line(){
 	location.href = "line://msg/text/%e4%bb%8a%e3%80%81%e3%81%93%e3%81%93%e3%81%ab%e3%81%84%e3%82%8b%e3%82%88%e3%80%82%0d%0a%0d%0a"+ url;
 }
 
-function mail2(){
-	p = map.getCenter();
-	zoom = map.getZoom();
-	url = "http://iamhere.webcrow.jp/map.html#" + zoom + "/" + p.lat + "/" + p.lng;
-	location.href =  "mailto:?body=MAP URL " + url;
-}
-
-function line2(){
-	p = map.getCenter();
-	zoom = map.getZoom();
-	url = "http://iamhere.webcrow.jp/map.html#" + zoom + "/" + p.lat + "/" + p.lng;
-	location.href = "line://msg/text/%e4%bb%8a%e3%80%81%e3%81%93%e3%81%93%e3%81%ab%e3%81%84%e3%82%8b%e3%82%88%e3%80%82%0d%0a%0d%0a"+ url;
-}
-
 function tel(){
 	$("#tel_mode").show();
 }
@@ -119,9 +77,16 @@ function tel_ok(){
 	location.href = "tel:" + number;
 }
 
-function g_map(){
+function tw(){
 	p = map.getCenter();
 	zoom = map.getZoom();
-	location.href = "https://maps.google.co.jp/maps?ll=" + p.lat + "," + p.lng + "&q=" + p.lat + "," + p.lng + "&z=" + zoom;
+	var url = "https://hitoshi17l.github.io/iamherenow/test/index.html%23" + zoom + "/" + p.lat + "/" + p.lng;
+	location.href = "https://twitter.com/share?url=" + url + "&text=%e4%bb%8a%e3%80%81%e3%81%93%e3%81%93%e3%81%ab%e3%81%84%e3%82%8b%e3%82%88%e3%80%82%0d%0a%0d%0a";
+}
 
+function fb(){
+	p = map.getCenter();
+	zoom = map.getZoom();
+	var url = "https://hitoshi17l.github.io/iamherenow/test/index.html%23" + zoom + "/" + p.lat + "/" + p.lng;
+	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
 }

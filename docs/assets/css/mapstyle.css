@@ -76,11 +76,11 @@ height: 100%;
 #link_text{
     position: fixed;
     bottom: 10%;
-    left: calc(50% - 200px);
-    left: -webkit-calc(50% - 200px);
-    left: -moz-calc(50% - 200px);
-    left: -o-calc(50% - 200px);
-    width: 400px;
+    left: calc(50% - 180px);
+    left: -webkit-calc(50% - 180px);
+    left: -moz-calc(50% - 180px);
+    left: -o-calc(50% - 180px);
+    width: 360px;
     height: 70px;
     background-color: #ffffff;
     color: #FFFFFF;
