@@ -12,15 +12,15 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 
     function em_w_ini() {
 	map = L.map('map_canvas');
+		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
+		}).addTo(map);
 	if (navigator.geolocation) {
 	   //geolocationの利用
        navigator.geolocation.getCurrentPosition(gps_get,gps_error3);
      } else {
      	alert("GPSの取得に失敗したため、世界地図全図を表示します。")
      }
-		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
-		}).addTo(map);
 		map.setView([35.6189816, 138.4659385], 3);
 	}
 	
