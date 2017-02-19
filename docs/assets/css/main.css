@@ -71,6 +71,21 @@ hr {
     border-color: #16a085;
     font-weight: 300;
 }
+
+.btn-red {
+    color: #fff;
+    background-color: #8b0000;
+    border-color: #8b0000;
+    font-weight: 300;
+}
+
+.btn-red:hover, .btn-red:focus, .btn-red:active, .btn-red.active, .open .dropdown-toggle.red-green {
+    color: #fff;
+    background-color: #8b0000;
+    border-color: #8b0000;
+    font-weight: 300;
+}
+
 .tm {
     font-size: 14px;
     line-height: 20px;
@@ -212,7 +227,7 @@ hr {
     transition: all .1s ease-in-out;
 }
 #headerwrap {
-    background: url(../img/header-bg1.jpg) no-repeat center top;
+    background: url(../img/world.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -232,7 +247,7 @@ hr {
 #headerwrap h1 {
     margin-top: 130px;
     color: #fff;
-    font-size: 140px;
+    font-size: 80px;
     font-weight: 700;
     letter-spacing: 3px;
 }

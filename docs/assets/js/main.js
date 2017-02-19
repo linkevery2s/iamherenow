@@ -12,7 +12,7 @@
 
 function mailt(){
 	var url = window.location.href;
-	location.href =  "mailto:?body=MAP URL " + url;
+	location.href =  "mailto:?body=Appli URL " + url;
 }
 
 function linet(){
