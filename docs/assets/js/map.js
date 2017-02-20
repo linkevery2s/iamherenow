@@ -10,25 +10,6 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 		hash = L.hash(map);
 	}
 
-    function em_w_ini() {
-	map = L.map('map_canvas');
-		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
-		}).addTo(map);
-	if (navigator.geolocation) {
-	   //geolocationの利用
-       navigator.geolocation.getCurrentPosition(gps_get,gps_error3);
-     } else {
-     	alert("GPSの取得に失敗したため、世界地図全図を表示します。")
-     }
-		map.setView([35.6189816, 138.4659385], 3);
-	}
-	
-function gps_error3(error) {
-   		//失敗したら…
-       alert("GPSの取得に失敗したため、世界地図全図を表示します。");
-}
-
 function GPS(){
 
 	if (navigator.geolocation) {
@@ -40,7 +21,6 @@ function GPS(){
    
        alert("エラーが発生したので、現在地を取得できませんでした。");
 
-      
      }
    
 }
