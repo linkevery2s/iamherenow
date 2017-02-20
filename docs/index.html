@@ -4,40 +4,33 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0 , user-scalable=no">
-    <meta name="description" content="このサービスは、自分の居場所を地図上で把握し、「今、ここにいるよ。」と伝えるためのWEBアプリです。災害が発生し、避難している全ての方々にお使いいただければと思います。">
+    <meta name="description" content="このサービスは、自分の居場所を地図上で把握し、「今ここ。」と伝えるためのWEBアプリです。災害が発生し、避難している全ての方々にお使いいただければと思います。">
 	<meta property="og:title" content="今ここ。" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://linkevery2s.github.io/iamherenow/index.html" />
     <meta property="og:image" content="assets/img/apple-touch-icon.png" />
     <meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="今ここ。" />
-	<meta name="twitter:description" content="このサービスは、自分の居場所を地図上で把握し、「今、ここにいるよ。」と伝えるためのWEBアプリです。災害が発生し、避難している全ての方々にお使いいただければと思います。" />
+	<meta name="twitter:description" content="このサービスは、自分の居場所を地図上で把握し、「今ここ。」と伝えるためのWEBアプリです。災害が発生し、避難している全ての方々にお使いいただければと思います。" />
 	<meta name="twitter:image" content="assets/img/apple-touch-icon.png" />
     <meta name="author" content="仁志">
-	<meta name="keywords" content="今ここにいるよ。,今ここ。, 避難, 居場所, 安否確認">
+	<meta name="keywords" content="今ここ。, 避難, 居場所, 安否確認">
     <link rel="shortcut icon" href="assets/img/apple-touch-icon.png">
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-
-
     <title>今ここ。</title>
-
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
-
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
-
+	<!--CSSMAP-->
+	<link rel="stylesheet" type="text/css" href="cssmap-continents/cssmap-continents.css" media="screen" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    
     <script src="assets/js/modernizr.custom.js"></script>
-
   </head>
 
   <body>
@@ -73,8 +66,6 @@
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
 
-
-
 	<!-- WELCOME SECTION -->
     <div class="container">
       <div class="row mt">
@@ -92,13 +83,33 @@
 
       </div><!-- /row -->
     </div><!-- /.container -->
-    
+
+	<div class="container">		
+		<div class="row mt">
+<center><h2>世界地図 / World Map</h2></center>
+	</div></div>
+
+<div id="map-continents">
+ <ul class="continents">
+  <li class="c1"><a href="map.html#3/3.51/20.30">Africa</a></li>
+  <li class="c2"><a href="map.html#3/38.96/113.99">Asia</a></li>
+  <li class="c3"><a href="map.html#3/-18.31/135.62">Australia</a></li>
+  <li class="c4"><a href="map.html#3/53.12/9.23">Europe</a></li>
+  <li class="c5"><a href="map.html#3/46.07/-105.03">North America</a></li>
+  <li class="c6"><a href="map.html#3/-29.54/-66.18">South America</a></li>
+ </ul>
+</div>
+
+	<div class="container">		
+		<div class="row mt">
+<center><h2>日本地図 / Japan Map</h2></center>
+	</div></div>
+
     <!-- PORTFOLIO SECTION -->
     <div id="portfolio">
     	<div class="container">
 	    	<div class="row mt">
 				<ul class="grid effect-2" id="grid">
-					<li><a href="map.html#3/35.619/138.466"><img src="assets/img/world.png" alt="世界地図"></a></li>
 					<li><a href="map.html#6/37.777/137.587"><img src="assets/img/nihonz.png" alt="日本地図"></a></li>
 					<li><a href="map.html#7/43.285/142.345"><img src="assets/img/hokkaido.png" alt="北海道"></a></li>
 					<li><a href="map.html#7/39.443/140.389"><img src="assets/img/tohoku.png" alt="東北"></a></li>
@@ -151,7 +162,7 @@
 	<!-- BLOG POSTS -->
 	<div class="container">		
 		<div class="row mt">
-		<center><h1>コンテンツ / CONTENTS</h1></center><br>
+		<center><h2>コンテンツ / CONTENTS</h2></center><br>
 			<div class="col-lg-4">
 				<img class="img-responsive" src="assets/img/post01.jpg" alt="">
 				<h3><a href="greet.html">ご挨拶</a></h3>
@@ -179,7 +190,7 @@
     <div class="container">
       <div class="row mt">
       	<div class="col-lg-8 col-lg-offset-2">
-	        <center><h1>使い方 / MANUAL</h1></center>
+	        <center><h2>使い方 / MANUAL</h2></center>
 	        
 	        <iframe src="https://www.slideshare.net/slideshow/embed_code/key/sS2B2Tp7rqvTbn" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;" allowfullscreen=""> </iframe><br>
 	  
@@ -193,7 +204,7 @@
     <div class="container">
       <div class="row mt">
       	<div class="col-lg-8 col-lg-offset-2">
-			<h1>シェア / SHARE</h1>
+			<h2>シェア / SHARE</h2>
 
 		<img src="assets/img/mail.png" style="width:50px; height: 50px;" id = "mln" onclick= "mailt()">
 		<img src="assets/img/linebutton.png" style="width:50px; height: 50px;" id = "mln" onclick= "linet()">
@@ -207,7 +218,7 @@
     <div class="container">
       <div class="row mt">
       	<div class="col-lg-8 col-lg-offset-2">
-		<h1>ＱＲコード</h1>
+		<h2>ＱＲコード</h2>
 		  <img src="assets/img/qr_code.png" alt="QRコード">
 
 </div></div></div><br><br>
@@ -218,9 +229,7 @@
 		<div class="container">
 			<div class="row">
 
-		        	
 				<iframe height="400" width="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="update.html"></iframe><br>
-					
 
 					<h4>仁志 / Hitoshi Official</h4>
 					<br>
@@ -270,5 +279,19 @@
 			viewportFactor : 0.2
 		} );
 	</script>
+	
+<script type="text/javascript">
+$(document).ready(function(){
+
+// CSSMap;
+$("#map-continents").CSSMap({
+  "size": 1450
+});
+// END OF THE CSSMap;
+
+});
+</script>
+
+	<script type="text/javascript" src="assets/js/jquery.cssmap.min.js"></script>
   </body>
 </html>
