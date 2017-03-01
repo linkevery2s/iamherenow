@@ -57,16 +57,18 @@ function gps_error(error) {
 }
 
 function mail(){
-	p = map.getCenter();
+	var para = location.hash;
+	var par = para.split("/");
 	zoom = map.getZoom();
-	var url = "https://linkevery2s.github.io/iamherenow/em/emap.html%23" + zoom + "/" + p.lat + "/" + p.lng;
+	var url = "https://linkevery2s.github.io/iamherenow/em/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
 	location.href =  "mailto:?body=MAP URL " + url;
 }
 
 function line(){
-	p = map.getCenter();
+	var para = location.hash;
+	var par = para.split("/");
 	zoom = map.getZoom();
-	var url = "https://linkevery2s.github.io/iamherenow/em/emap.html%23" + zoom + "/" + p.lat + "/" + p.lng;
+	var url = "https://linkevery2s.github.io/iamherenow/em/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
 	location.href = "line://msg/text/%e4%bb%8a%e3%80%81%e3%81%93%e3%81%93%e3%81%ab%e3%81%84%e3%82%8b%e3%82%88%e3%80%82%0d%0a%0d%0a"+ url;
 }
 
@@ -84,15 +86,17 @@ function tel_ok(){
 }
 
 function tw(){
-	p = map.getCenter();
+	var para = location.hash;
+	var par = para.split("/");
 	zoom = map.getZoom();
-	var url = "https://linkevery2s.github.io/iamherenow/em/emap.html%23" + zoom + "/" + p.lat + "/" + p.lng;
+	var url = "https://linkevery2s.github.io/iamherenow/em/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
 	location.href = "https://twitter.com/share?url=" + url + "&text=%e4%bb%8a%e3%80%81%e3%81%93%e3%81%93%e3%81%ab%e3%81%84%e3%82%8b%e3%82%88%e3%80%82%0d%0a%0d%0a";
 }
 
 function fb(){
-	p = map.getCenter();
+	var para = location.hash;
+	var par = para.split("/");
 	zoom = map.getZoom();
-	var url = "https://linkevery2s.github.io/iamherenow/em/emap.html%23" + zoom + "/" + p.lat + "/" + p.lng;
+	var url = "https://linkevery2s.github.io/iamherenow/em/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
 	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
 }
