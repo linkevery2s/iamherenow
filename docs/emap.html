@@ -1,33 +1,33 @@
 <html>
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 	<meta property="og:title" content="今ここ。" />
 	<meta property="og:type" content="website" />
-    <meta property="og:image" content="../assets/img/apple-touch-icon.png" />
+    <meta property="og:image" content="assets/img/apple-touch-icon.png" />
     <meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="今ここ。" />
 	<meta name="twitter:description" content="このサービスは、自分の居場所を地図上で把握し、「今ここ。」と伝えるためのWEBアプリです。災害が発生し、避難している全ての方々にお使いいただければと思います。" />
-	<meta name="twitter:image" content="https://linkevery2s.github.io/iamherenow/assets/img/top.png" />
+	<meta name="twitter:image" content="https://linkevery2s.github.io/iamherenow/assets/img/apple-touch-icon.png" />
     <meta name="author" content="仁志">
 	<meta name="keywords" content="今ここ。, 避難, 居場所, 安否確認">
-    <link href="../assets/css/mapstyle.css" rel="stylesheet">
-    <link href="../assets/css/leaflet.css" rel="stylesheet">
-    <link rel="shortcut icon" href="../assets/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link href="assets/css/mapstyle.css" rel="stylesheet">
+    <link href="assets/css/leaflet.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 
     <title>今、ここにいるよ。（地図）</title>
 
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/main.css" rel="stylesheet">
-    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     
 <!--（ここから）=================================================!-->
-<script type ="text/javascript" src="../assets/js/leaflet.js"></script>
-<script type ="text/javascript" src="../assets/js/leaflet-hash.js"></script>
-<script type ="text/javascript" src="../assets/js/map.js"></script>
-<script src="../assets/js/modernizr.custom.js"></script>
+<script type ="text/javascript" src="assets/js/leaflet.js"></script>
+<script type ="text/javascript" src="assets/js/leaflet-hash.js"></script>
+<script type ="text/javascript" src="assets/js/map.js"></script>
+<script src="assets/js/modernizr.custom.js"></script>
 
 <!--緊急モード用-->
 <link href="icon/L.Icon.Pulse.css" rel="stylesheet">
@@ -40,14 +40,14 @@
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="../index.html">今ここ。</a></h1>
+			<h1 class="logo"><a href="index.html">今ここ。</a></h1>
 			<i class="fa fa-arrow-right menu-close"></i>
-			<a href="../index.html">ｈｏｍｅ</a>
-			<a href="../index.html#smap">地図選択（ｍａｐ）</a>
-			<a href="../greet.html">ご挨拶（ｇｒｅｅｔ）</a>
-			<a href="../rule.html">利用規約（ｒｕｌｅ）</a>
-			<a href="../bibliography.html">参考文献（ｂｉｂｌｉｏｇｒａｐｈｙ）</a>
-			<a href="../update.html">更新情報（ｕｐｄａｔｅ）</a>
+			<a href="index.html">ｈｏｍｅ</a>
+			<a href="index.html#smap">地図選択（ｍａｐ）</a>
+			<a href="greet.html">ご挨拶（ｇｒｅｅｔ）</a>
+			<a href="rule.html">利用規約（ｒｕｌｅ）</a>
+			<a href="bibliography.html">参考文献（ｂｉｂｌｉｏｇｒａｐｈｙ）</a>
+			<a href="update.html">更新情報（ｕｐｄａｔｅ）</a>
 		</div>
 		
 		<!-- Menu button -->
@@ -62,10 +62,10 @@
 	<!--tools-->
 	<div id="link_text">
 		<span style="width:50px; height: 50px;" id = "mln" onclick= "GPS()"><i class="fa fa-bullseye fa-2x" aria-hidden="true"></i></span>
-		<img src="../assets/img/mail.png" style="width:50px; height: 50px;" id = "mln" onclick= "mail()">
-		<img src="../assets/img/linebutton.png" style="width:50px; height: 50px;" id = "mln" onclick= "line()">
-		<img src="../assets/img/tw.png" style="width:50px; height: 50px;" id = "mln" onclick= "tw()">
-		<img src="../assets/img/fb.png" style="width:50px; height: 50px;" id = "mln" onclick= "fb()">
+		<img src="assets/img/mail.png" style="width:50px; height: 50px;" id = "mln" onclick= "mail()">
+		<img src="assets/img/linebutton.png" style="width:50px; height: 50px;" id = "mln" onclick= "line()">
+		<img src="assets/img/tw.png" style="width:50px; height: 50px;" id = "mln" onclick= "tw()">
+		<img src="assets/img/fb.png" style="width:50px; height: 50px;" id = "mln" onclick= "fb()">
 		<span style="width:50px; height: 50px;" id = "mln" onclick= "tel()"><i class="fa fa-phone fa-3x" aria-hidden="true"></i></span>
 	</div>
 	
@@ -82,13 +82,13 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery-1.11.3.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/main.js"></script>
-	<script src="../assets/js/masonry.pkgd.min.js"></script>
-	<script src="../assets/js/imagesloaded.js"></script>
-    <script src="../assets/js/classie.js"></script>
-	<script src="../assets/js/AnimOnScroll.js"></script>
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="assets/js/masonry.pkgd.min.js"></script>
+	<script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/classie.js"></script>
+	<script src="assets/js/AnimOnScroll.js"></script>
 	<script>
 		new AnimOnScroll( document.getElementById( 'grid' ), {
 			minDuration : 0.4,
