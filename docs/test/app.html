@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="description" content="このサービスは、自分の居場所を地図上で把握し、「今ここ。」と伝えるためのWEBアプリです。災害が発生し、避難している全ての方々にお使いいただければと思います。" />
+	<meta property="og:title" content="今ここ。" />
+	<meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/img/apple-touch-icon.png" />
+    <meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="今ここ。" />
+	<meta name="twitter:description" content="このサービスは、自分の居場所を地図上で把握し、「今ここ。」と伝えるためのWEBアプリです。災害が発生し、避難している全ての方々にお使いいただければと思います。" />
+	<meta name="twitter:image" content="https://linkevery2s.github.io/iamherenow/assets/img/apple-touch-icon.png" />
+    <meta name="author" content="仁志" />
+	<meta name="keywords" content="今ここ。, 避難, 居場所, 安否確認" />
+    <link rel="shortcut icon" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <title>今ここ。</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<!--CSSMAP-->
+	<link rel="stylesheet" type="text/css" href="cssmap-continents/cssmap-continents.css" media="screen" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script src="assets/js/modernizr.custom.js"></script>
+  </head>
+
+  <body>
+
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html">今ここ。</a></h1>
+			<i class="fa fa-arrow-right menu-close"></i>
+			<a href="index.html">ｈｏｍｅ</a>
+			<a href="index.html#smap">地図選択（ｍａｐ）</a>
+			<a href="greet.html">ご挨拶（ｇｒｅｅｔ）</a>
+			<a href="rule.html">利用規約（ｒｕｌｅ）</a>
+			<a href="bibliography.html">参考文献（ｂｉｂｌｉｏｇｒａｐｈｙ）</a>
+			<a href="update.html">更新情報（ｕｐｄａｔｅ）</a>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="fa fa-bars"></i></div>
+	</nav>
+
+
+	<!-- MAIN IMAGE SECTION -->
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h1>今ここ。</h1>
+					<h2>I Am Here, Now.</h2>
+					<div class="spacer"></div>
+					<a href="#tl"><i class="fa fa-angle-down"></i></a>
+				</div>
+			</div><!-- row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+	<!-- WELCOME SECTION -->
+    <div class="container" id = "tl">
+      <div class="row mt">
+      	<div class="col-lg-8">
+	        <h2>「今、ここにいるよ。」と伝え合う</h2>
+	     	<table border="0" text-align="left" align ="center">
+			<tr><td>
+	        このサービスは、自分の居場所を地図上で把握し、「今、ここにいるよ。」と伝えるためのWEBアプリです。災害が発生し、避難している全ての方々にお使いいただければと思います。
+	        </td></tr></table>
+      	</div>
+      	
+      	<div class="col-lg-4">
+      		<p class="pull-right"><br><button type="button" class="btn btn-red" onclick="em()">緊急モード / Emergency Mode</button></p>
+      	</div>
+
+      </div><!-- /row -->
+    </div><!-- /.container -->
+
+	<div class="container" id = "smap">		
+		<div class="row mt">
+		<div class="col-lg-8">
+<h2>世界地図 / World Map</h2>
+		スマートフォンの場合、２回タップしてください。<br>Please two taps by SmartPhone.
+	</div></div></div>
+
+<div id="map-continents">
+ <ul class="continents">
+  <li class="c1"><a href="map.html#3/3.51/20.30">Africa</a></li>
+  <li class="c2"><a href="map.html#3/38.96/113.99">Asia</a></li>
+  <li class="c3"><a href="map.html#3/-18.31/135.62">Australia</a></li>
+  <li class="c4"><a href="map.html#3/53.12/9.23">Europe</a></li>
+  <li class="c5"><a href="map.html#3/46.07/-105.03">North America</a></li>
+  <li class="c6"><a href="map.html#3/-29.54/-66.18">South America</a></li>
+ </ul>
+</div>
+
+	<div class="container">		
+		<div class="row mt">
+	    	<div class="col-lg-8">
+	    	<h2>日本地図 / Japan Map</h2>
+	    	今いる地域を選択してください。<br>
+	    	Please choose your place.
+	    	</div></div></div>
+	    	
+    <!-- PORTFOLIO SECTION -->
+    <div id="portfolio">
+    	<div class="container">
+	    	<div class="row mt">
+				<ul class="grid effect-2" id="grid">
+					<li><a href="map.html#6/37.777/137.587"><img src="assets/img/nihonz.png" alt="日本地図"></a></li>
+					<li><a href="map.html#7/43.285/142.345"><img src="assets/img/hokkaido.png" alt="北海道"></a></li>
+					<li><a href="map.html#7/39.443/140.389"><img src="assets/img/tohoku.png" alt="東北"></a></li>
+					<li><a href="map.html#9/35.701/139.728"><img src="assets/img/kanto.png" alt="関東"></a></li>
+					<li><a href="map.html#8/35.559/136.906"><img src="assets/img/tyubu.png" alt="中部"></a></li>
+					<li><a href="map.html#8/34.856/135.931"><img src="assets/img/kinki.png" alt="近畿"></a></li>
+					<li><a href="map.html#7/34.269/133.608"><img src="assets/img/tyushikoku.png" alt="中国・四国"></a></li>
+					<li><a href="map.html#7/32.568/130.477"><img src="assets/img/kyusyu.png" alt="九州"></a></li>
+					<li><a href="map.html#10/26.4632/127.8973"><img src="assets/img/okinawa.png" alt="沖縄"></a></li>
+				</ul>
+	    	</div><!-- row -->
+	    </div><!-- container -->
+    </div><!-- portfolio -->
+
+
+	</div>	
+	
+	<!-- SERVICES SECTION -->
+	<div id="services">
+		<div class="container">
+			<div class="row mt">
+				<div class="col-lg-1 centered">
+					<i class="fa fa-globe"></i>
+				</div>
+				<div class="col-lg-3">
+					<h3>災害時の安否確認に</h3>
+					<p>Safety Confirmation.</p>
+				</div>
+
+				<div class="col-lg-1 centered">
+					<i class="fa fa-compass"></i>
+				</div>
+				<div class="col-lg-3">
+					<h3>GPSを使って現在地を</h3>
+					<p>I Am Here in GPS.</p>
+				</div>
+			
+				<div class="col-lg-1 centered">
+					<i class="fa fa-desktop"></i>
+				</div>
+				<div class="col-lg-3">
+					<h3>ＳＮＳで共有</h3>
+					<p>Share by SNS.</p>
+				</div>			
+			
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- services section -->
+
+	<!-- BLOG POSTS -->
+	<div class="container">		
+		<div class="row mt">
+		<center><h2>コンテンツ / CONTENTS</h2></center><br>
+			<div class="col-lg-4">
+				<img class="img-responsive" src="assets/img/post01.jpg" alt="">
+				<h3><a href="greet.html">ご挨拶</a></h3>
+				<p>アプリの紹介<br>Introduction For This Application.</p>
+				<p><a href="greet.html"><i class="fa fa-link"></i> Read More</a></p>
+			</div>
+			<div class="col-lg-4">
+				<img class="img-responsive" src="assets/img/post02.jpg" alt="">
+				<h3><a href="rule.html">利用規約</a></h3>
+				<p>守っていただくルール<br>Rule By Using This Application.</p>
+				<p><a href="rule.html"><i class="fa fa-link"></i> Read More</a></p>
+			</div>
+			<div class="col-lg-4">
+				<img class="img-responsive" src="assets/img/post03.jpg" alt="">
+				<h3><a href="bibliography.html">参考文献</a></h3>
+				<p>参考にさせていただきました。<br>Bibliography.</p>
+				<p><a href="bibliography.html"><i class="fa fa-link"></i> Read More</a></p>
+			</div>		
+		</div><!-- row -->
+	</div><!-- container -->
+
+<center><img src ="assets/img/line.png" style="width: 70%;"></center>
+
+	<!-- WELCOME SECTION -->
+    <div class="container">
+      <div class="row mt">
+      	<div class="col-lg-8 col-lg-offset-2">
+	        <center><h2>使い方 / MANUAL</h2></center>
+	        
+	        <iframe src="https://www.slideshare.net/slideshow/embed_code/key/sS2B2Tp7rqvTbn" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;" allowfullscreen=""> </iframe><br>
+	  
+	        <a href="https://www.slideshare.net/slideshow/embed_code/key/sS2B2Tp7rqvTbn">こちら</a>をご覧ください。
+	    </div>
+	  </div>
+	</div>
+<br>
+<center>
+		<img src ="assets/img/line.png" style="width: 70%;">
+    <div class="container">
+      <div class="row mt">
+      	<div class="col-lg-8 col-lg-offset-2">
+			<h2>シェア / SHARE</h2>
+
+		<img src="assets/img/mail.png" style="width:50px; height: 50px;" id = "mln" onclick= "mailt()">
+		<img src="assets/img/linebutton.png" style="width:50px; height: 50px;" id = "mln" onclick= "linet()">
+		<img src="assets/img/tw.png" style="width:50px; height: 50px;" id = "mln" onclick= "twt()">
+		<img src="assets/img/fb.png" style="width:50px; height: 50px;" id = "mln" onclick= "fbt()">
+
+</div></div></div>
+
+		<br><br><img src ="assets/img/line.png" style="width: 70%;">
+
+    <div class="container">
+      <div class="row mt">
+      	<div class="col-lg-8 col-lg-offset-2">
+		<h2>QRコード / QR CODE</h2>
+		  <img src="assets/img/qr_code.png" alt="QRコード">
+
+</div></div></div><br><br><img src ="assets/img/line.png" style="width: 70%;">
+
+    <div class="container">
+      <div class="row mt">
+      	<div class="col-lg-8 col-lg-offset-2">
+		<p><a href="update.html"><button type="button" class="btn btn-green btn-lg">更新情報 / UPDATE</button></a></p>
+
+</div></div></div>
+<br>
+	<!-- CONTACT FOOTER --->
+	<div id="cf">
+		<div class="container">
+			<div class="row">
+					<h4>仁志 / Hitoshi Official</h4>
+					<br>
+					<p>
+					名古屋大学卒<br><br>
+					＠Nagoya University<br><br>
+					ＩＴを用いて皆の暮らしのお役に立ちたい！自分に出来ることは何か…毎日奮闘中！ <br>
+					<div>
+						<a href="https://twitter.com/hitoshi2s"><img src="assets/img/tw.png" style="width:50px; height: 50px;" id = "mln"></a>
+						<a href="https://www.facebook.com/hitoshi.saito.900"><img src="assets/img/fb.png" style="width:50px; height: 50px;" id = "mln"></a>
+						<a href="http://ameblo.jp/hitoshi51l/"><button type="button" class="btn btn-green btn-lg">BLOG</button></a>
+					</div>
+					</p>
+				
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Contact Footer -->
+
+
+	<!-- CALL TO ACTION -->
+	<div id="call">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<p>&copy; 仁志</p>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Call to action -->
+
+</center>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="assets/js/masonry.pkgd.min.js"></script>
+	<script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/classie.js"></script>
+	<script src="assets/js/AnimOnScroll.js"></script>
+	<script>
+		new AnimOnScroll( document.getElementById( 'grid' ), {
+			minDuration : 0.4,
+			maxDuration : 0.7,
+			viewportFactor : 0.2
+		} );
+	</script>
+	
+<script type="text/javascript">
+$(document).ready(function(){
+
+// CSSMap;
+$("#map-continents").CSSMap({
+  "size": 1450
+});
+// END OF THE CSSMap;
+
+});
+</script>
+
+	<script type="text/javascript" src="assets/js/jquery.cssmap.min.js"></script>
+  </body>
+</html>
