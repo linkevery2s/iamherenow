@@ -3,17 +3,17 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 
     function map_ini() {
 		map = L.map('map_canvas');
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
+		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-		//map.setView([35.619, 138.466], 3);
+		map.setView([35.619, 138.466], 5);
 		hash = L.hash(map);
 	}
 
     function em_ini() {
 		map = L.map('map_canvas');
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
+		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
 		hash = L.hash(map);
 		var para = location.hash;
