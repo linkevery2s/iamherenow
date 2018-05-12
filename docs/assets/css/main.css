@@ -578,3 +578,7 @@ hr {
 #mln{
 	cursor: pointer;
 }
+
+.fa-location-arrow{
+	padding-top: 8px;
+}

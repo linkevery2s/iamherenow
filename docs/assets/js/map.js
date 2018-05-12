@@ -1,5 +1,5 @@
 //version 5.
-var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
+var map;var p;var zoom;var hash;var url;var number;var marker; var markers = []; var gps_button;
 
     function map_ini() {
 		map = L.map('map_canvas');
@@ -8,6 +8,11 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
   		}).addTo(map);
 		map.setView([35.619, 138.466], 5);
 		hash = L.hash(map);
+
+			gps_button = L.easyButton('fa-location-arrow', function(){
+    			GPS();
+			}).addTo( map );
+
 	}
 
     function em_ini() {
@@ -21,6 +26,11 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 		//p = map.getCenter();
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
 		var marker = L.marker([par[1] ,par[2]] ,{icon: pulsingIcon}).addTo(map);
+
+			gps_button = L.easyButton('fa-location-arrow', function(){
+    			GPS();
+			}).addTo( map );
+
 	}
 
 
