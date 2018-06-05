@@ -1,5 +1,5 @@
 //version 5.
-var map;var p;var zoom;var hash;var url;var number;var marker; var markers = []; var gps_button;
+var map;var p;var zoom;var hash;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
 
     function map_ini() {
 		map = L.map('map_canvas');
@@ -12,6 +12,16 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 			gps_button = L.easyButton('fa-location-arrow', function(){
     			GPS();
 			}).addTo( map );
+
+			hinanj = L.easyButton('fa-book fa-2x', function(){
+    			hi();
+			}).addTo( map );
+
+			cloud = L.easyButton('fa-cloud fa-1x', function(){
+    			cl();
+			}).addTo( map );
+
+		ini();
 
 	}
 
@@ -86,8 +96,24 @@ function tel(){
 	$("#tel_mode").show();
 }
 
+function hi(){
+$("#hinan").show();
+}
+
+function cl(){
+$("#cloud").show();
+}
+
 function cancel(){
 	$("#tel_mode").hide();
+}
+
+function cancel_h(){
+	$("#hinan").hide();
+}
+
+function cancel_c(){
+	$("#cloud").hide();
 }
 
 function tel_ok(){
@@ -109,4 +135,47 @@ function fb(){
 	zoom = map.getZoom();
 	var url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
 	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+}
+
+function hok(){
+	
+			geok = L.geoJson(k, {
+
+			style: function (feature) {
+				return feature.properties && feature.properties.style;
+			},
+
+			onEachFeature: geo_k,
+
+			pointToLayer: function (feature, latlng) {
+				return L.circleMarker(latlng, {
+					radius: 10,
+					fillColor: "#2EFE2E",
+					color: "#000",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
+				});
+			}
+		});
+		
+		map.addLayer(geok);
+
+}
+
+function geo_k(feature, layer) {
+    var popup;
+    if (feature.properties && feature.properties.Name) {
+        popup = "名称：" + feature.properties.Name;
+    }
+    
+    if (feature.properties && feature.properties.Jusho){
+    	popup += '<br>住所：' + feature.properties.Jusho;
+    }
+    
+    if (feature.properties && feature.properties.Capacity){
+    	popup += '<br>収容人数：' + feature.properties.Capacity;
+    }
+    
+    layer.bindPopup(popup);
 }

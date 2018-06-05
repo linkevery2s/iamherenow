@@ -1,0 +1,1620 @@
+var k={
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"Name": "稲荷公園",
+"Jusho": "富山県富山市稲荷園町",
+"Capacity": "－",
+"la": "36.70018673000",
+"ln": "137.23329647000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.23329647,
+36.70018673
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "羽根ピースフル公園",
+"Jusho": "富山県富山市婦中町羽根1000-1",
+"Capacity": "－",
+"la": "36.66094290000",
+"ln": "137.14402553000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.14402553,
+36.6609429
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩瀬スポーツ公園",
+"Jusho": "富山県富山市森5-1-17",
+"Capacity": "－",
+"la": "36.74285800000",
+"ln": "137.23928700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.239287,
+36.742858
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城東ふれあい公園",
+"Jusho": "富山県富山市経堂",
+"Capacity": "－",
+"la": "36.69397625000",
+"ln": "137.24558930000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.2455893,
+36.69397625
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城址公園",
+"Jusho": "富山県富山市本丸",
+"Capacity": "－",
+"la": "36.69330000000",
+"ln": "137.21106000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.21106,
+36.6933
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大沢野総合運動公園",
+"Jusho": "富山県富山市八木山650",
+"Capacity": "－",
+"la": "36.59137848000",
+"ln": "137.21743182000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.21743182,
+36.59137848
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富山県岩瀬スポーツ公園",
+"Jusho": "富山県富山市森五丁目",
+"Capacity": "－",
+"la": "36.74267314000",
+"ln": "137.23924584000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.23924584,
+36.74267314
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富山県五福公園",
+"Jusho": "富山県富山市五福5区",
+"Capacity": "－",
+"la": "36.69733219000",
+"ln": "137.18907630000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.1890763,
+36.69733219
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富山県常願寺川公園",
+"Jusho": "富山県富山市水橋常願寺",
+"Capacity": "－",
+"la": "36.69829173000",
+"ln": "137.28079455000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.28079455,
+36.69829173
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富山県総合運動公園",
+"Jusho": "富山県富山市南中田",
+"Capacity": "－",
+"la": "36.62658739000",
+"ln": "137.19646912000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.19646912,
+36.62658739
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富山県富岩運河環水公園",
+"Jusho": "富山県富山市湊入船町62-4",
+"Capacity": "－",
+"la": "36.70965879000",
+"ln": "137.21162873000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.21162873,
+36.70965879
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "布瀬南公園",
+"Jusho": "富山県富山市布瀬町南三丁目",
+"Capacity": "－",
+"la": "36.67193000000",
+"ln": "137.19987000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.19987,
+36.67193
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "駅南緑の丘公園",
+"Jusho": "富山県高岡市赤祖父466",
+"Capacity": "－",
+"la": "36.73146352000",
+"ln": "137.01886875000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.01886875,
+36.73146352
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高岡おとぎの森公園",
+"Jusho": "富山県高岡市下佐野･下黒田",
+"Capacity": "－",
+"la": "36.72424699000",
+"ln": "137.00096806000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.00096806,
+36.72424699
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高岡古城公園",
+"Jusho": "富山県高岡市古城",
+"Capacity": "－",
+"la": "36.74916176000",
+"ln": "137.02130036000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.02130036,
+36.74916176
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城光寺運動公園",
+"Jusho": "富山県高岡市城光寺犬山",
+"Capacity": "－",
+"la": "36.78185425000",
+"ln": "137.03049867000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.03049867,
+36.78185425
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "前田公園",
+"Jusho": "富山県高岡市関町72",
+"Capacity": "－",
+"la": "36.73813899000",
+"ln": "137.02307595000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.02307595,
+36.73813899
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "下村木２号公園",
+"Jusho": "富山県魚津市新金屋1-701",
+"Capacity": "－",
+"la": "36.82127110910",
+"ln": "137.40421976000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.40421976,
+36.8212711091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉島１号公園",
+"Jusho": "富山県魚津市吉島2-801",
+"Capacity": "－",
+"la": "36.82638464000",
+"ln": "137.41262450000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.4126245,
+36.82638464
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "魚津総合公園",
+"Jusho": "富山県魚津市三ヶ1605",
+"Capacity": "－",
+"la": "36.79740384000",
+"ln": "137.38747580000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.3874758,
+36.79740384
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "港町公園",
+"Jusho": "富山県魚津市火の宮町701",
+"Capacity": "－",
+"la": "36.81979991000",
+"ln": "137.39634905000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.39634905,
+36.81979991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "市役所前公園",
+"Jusho": "富山県魚津市釈迦堂1-1001",
+"Capacity": "－",
+"la": "36.82641301000",
+"ln": "137.40862308000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.40862308,
+36.82641301
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "住吉公園",
+"Jusho": "富山県魚津市住吉3129",
+"Capacity": "－",
+"la": "36.80556882000",
+"ln": "137.39481903000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.39481903,
+36.80556882
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上村木２号公園",
+"Jusho": "富山県魚津市新金屋2-1302",
+"Capacity": "－",
+"la": "36.82161863000",
+"ln": "137.40933075000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.40933075,
+36.82161863
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上村木３号公園",
+"Jusho": "富山県魚津市上村木1-1201",
+"Capacity": "－",
+"la": "36.82333496000",
+"ln": "137.41174209000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.41174209,
+36.82333496
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上村木公園",
+"Jusho": "富山県魚津市上村木1-503",
+"Capacity": "－",
+"la": "36.82395908000",
+"ln": "137.40816003000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.40816003,
+36.82395908
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新金屋公園",
+"Jusho": "富山県魚津市新金屋1-1305",
+"Capacity": "－",
+"la": "36.81948386000",
+"ln": "137.40475270000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.4047527,
+36.81948386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "川の瀬公園",
+"Jusho": "富山県魚津市東尾崎5497-62",
+"Capacity": "－",
+"la": "36.84203019000",
+"ln": "137.43057850000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.4305785,
+36.84203019
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "村木公園",
+"Jusho": "富山県魚津市火の宮町1603",
+"Capacity": "－",
+"la": "36.82152865000",
+"ln": "137.39851959000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.39851959,
+36.82152865
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "桃山運動公園（屋内Ｇ・陸上競技場・野球場）",
+"Jusho": "富山県魚津市出字桃山36",
+"Capacity": "930",
+"la": "36.79695573000",
+"ln": "137.43224689000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.43224689,
+36.79695573
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "道下公園",
+"Jusho": "富山県魚津市緑町109",
+"Capacity": "－",
+"la": "36.82327956000",
+"ln": "137.40179586000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.40179586,
+36.82327956
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北鬼江１号公園",
+"Jusho": "富山県魚津市北鬼江2-705",
+"Capacity": "－",
+"la": "36.82803005000",
+"ln": "137.40553027000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.40553027,
+36.82803005
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北鬼江２号公園",
+"Jusho": "富山県魚津市北鬼江2-1803",
+"Capacity": "－",
+"la": "36.83066128000",
+"ln": "137.40481386000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.40481386,
+36.83066128
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "本新１号公園",
+"Jusho": "富山県魚津市本新町1706",
+"Capacity": "－",
+"la": "36.82473923000",
+"ln": "137.40349461000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.40349461,
+36.82473923
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鞍川児童公園",
+"Jusho": "富山県氷見市鞍川265",
+"Capacity": "－",
+"la": "36.85896117000",
+"ln": "136.97334422000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.97334422,
+36.85896117
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "加納児童公園",
+"Jusho": "富山県氷見市加納365",
+"Capacity": "－",
+"la": "36.86721486000",
+"ln": "136.96969813000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.96969813,
+36.86721486
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "窪児童公園",
+"Jusho": "富山県氷見市窪1698",
+"Capacity": "－",
+"la": "36.84171531000",
+"ln": "136.99128268000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.99128268,
+36.84171531
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大野児童公園",
+"Jusho": "富山県氷見市大野371",
+"Capacity": "－",
+"la": "36.86114061000",
+"ln": "136.96482181000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.96482181,
+36.86114061
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "朝日山公園",
+"Jusho": "富山県氷見市幸町16-6",
+"Capacity": "－",
+"la": "36.85413025000",
+"ln": "136.98258007000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.98258007,
+36.85413025
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "氷見運動公園",
+"Jusho": "富山県氷見市大浦新町177",
+"Capacity": "－",
+"la": "36.83027830000",
+"ln": "136.97335882000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.97335882,
+36.8302783
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北大町児童公園",
+"Jusho": "富山県氷見市北大町15-7",
+"Capacity": "－",
+"la": "36.86560491000",
+"ln": "136.98175483000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.98175483,
+36.86560491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "堀田児童公園",
+"Jusho": "富山県氷見市堀田3556-1",
+"Capacity": "－",
+"la": "36.81460585150",
+"ln": "136.97577936500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.975779365,
+36.8146058515
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "駅前中央公園",
+"Jusho": "富山県滑川市吾妻町",
+"Capacity": "4400",
+"la": "36.76796489000",
+"ln": "137.34438266000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.34438266,
+36.76796489
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "滑川市運動公園",
+"Jusho": "富山県滑川市有金･堀江",
+"Capacity": "12100",
+"la": "36.73690689000",
+"ln": "137.34550875000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.34550875,
+36.73690689
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "行田公園グラウンド",
+"Jusho": "富山県滑川市上小泉",
+"Capacity": "2100",
+"la": "36.76043537000",
+"ln": "137.35117739000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.35117739,
+36.76043537
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東福寺野自然公園グラウンド",
+"Jusho": "富山県滑川市東福寺野",
+"Capacity": "2000",
+"la": "36.72821700000",
+"ln": "137.40696700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.406967,
+36.728217
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宇奈月公園",
+"Jusho": "富山県黒部市宇奈月温泉地内",
+"Capacity": "2700",
+"la": "36.81787617000",
+"ln": "137.58087964000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.58087964,
+36.81787617
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宮野運動公園（体育館）",
+"Jusho": "富山県黒部市宮野44",
+"Capacity": "806",
+"la": "36.86555100000",
+"ln": "137.47803900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.478039,
+36.865551
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "なかよし公園",
+"Jusho": "富山県小矢部市泉町1番地",
+"Capacity": "1200",
+"la": "36.67348699910",
+"ln": "136.87357200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.873572,
+36.6734869991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "よしいけ児童公園",
+"Jusho": "富山県小矢部市今石動町2丁目239番地",
+"Capacity": "2050",
+"la": "36.67344200000",
+"ln": "136.87636900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.876369,
+36.673442
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小矢部河川公園",
+"Jusho": "富山県小矢部市西福町3409番地",
+"Capacity": "23000",
+"la": "36.68122960000",
+"ln": "136.88127878000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.88127878,
+36.6812296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "津沢第３児童公園",
+"Jusho": "富山県小矢部市岩武字東島836番地1",
+"Capacity": "1340",
+"la": "36.62381108530",
+"ln": "136.90031102400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.900311024,
+36.6238110853
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "広瀬舘農村公園",
+"Jusho": "富山県南砺市祖谷65-3",
+"Capacity": "－",
+"la": "36.54028359680",
+"ln": "136.85259565400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.852595654,
+36.5402835968
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "広瀬農村公園",
+"Jusho": "富山県南砺市竹内362-1",
+"Capacity": "－",
+"la": "36.55243836470",
+"ln": "136.85790300900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.857903009,
+36.5524383647
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山田農村公園",
+"Jusho": "富山県南砺市大塚60",
+"Capacity": "－",
+"la": "36.53961826600",
+"ln": "136.88901411400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.889014114,
+36.539618266
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小矢部川公園",
+"Jusho": "富山県南砺市福光･荒木地先",
+"Capacity": "－",
+"la": "36.55572706000",
+"ln": "136.87356343000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.87356343,
+36.55572706
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西町公園",
+"Jusho": "富山県南砺市福光448",
+"Capacity": "－",
+"la": "36.56327780150",
+"ln": "136.87071314200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.870713142,
+36.5632778015
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "石黒農村公園",
+"Jusho": "富山県南砺市川西385",
+"Capacity": "－",
+"la": "36.57073017150",
+"ln": "136.86593359700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.865933597,
+36.5707301715
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "太美山農村公園",
+"Jusho": "富山県南砺市太美23",
+"Capacity": "－",
+"la": "36.50492080470",
+"ln": "136.84716774900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.847167749,
+36.5049208047
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大池農村公園",
+"Jusho": "富山県南砺市土生新2200",
+"Capacity": "－",
+"la": "36.51629875410",
+"ln": "136.86038894100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.860388941,
+36.5162987541
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "福光公園",
+"Jusho": "富山県南砺市福光5297",
+"Capacity": "－",
+"la": "36.55701479000",
+"ln": "136.86970227000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.86970227,
+36.55701479
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北山田農村公園",
+"Jusho": "富山県南砺市宗守458-1",
+"Capacity": "－",
+"la": "36.55551615100",
+"ln": "136.90450594600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+136.904505946,
+36.555516151
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "歌の森運動公園",
+"Jusho": "富山県射水市黒河687番地",
+"Capacity": "－",
+"la": "36.71125391000",
+"ln": "137.10203606000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.10203606,
+36.71125391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "県民公園新港の森",
+"Jusho": "富山県射水市二の丸町､作道",
+"Capacity": "－",
+"la": "36.76578671000",
+"ln": "137.09065297000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.09065297,
+36.76578671
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "県民公園太閤山ランド",
+"Jusho": "富山県射水市黒河4774番地6",
+"Capacity": "－",
+"la": "36.69187800000",
+"ln": "137.10365177000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.10365177,
+36.691878
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三日曽根公園",
+"Jusho": "富山県射水市三日曽根16番",
+"Capacity": "－",
+"la": "36.77810886000",
+"ln": "137.07927547000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.07927547,
+36.77810886
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新堀東公園",
+"Jusho": "富山県射水市新堀31番地",
+"Capacity": "－",
+"la": "36.74867800000",
+"ln": "137.12530161000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.12530161,
+36.748678
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "足洗潟公園",
+"Jusho": "富山県射水市本江2924番地",
+"Capacity": "－",
+"la": "36.75952129530",
+"ln": "137.17260260400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.172602604,
+36.7595212953
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "足洗潟公園",
+"Jusho": "富山県射水市本江針山開308番地",
+"Capacity": "－",
+"la": "36.75964645360",
+"ln": "137.16618991200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.166189912,
+36.7596464536
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大開公園",
+"Jusho": "富山県射水市中太閤山16丁目",
+"Capacity": "－",
+"la": "36.70261217000",
+"ln": "137.09796629000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.09796629,
+36.70261217
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大島河川公園",
+"Jusho": "富山県射水市北野地先",
+"Capacity": "－",
+"la": "36.74972146000",
+"ln": "137.05060358000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.05060358,
+36.74972146
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大島中央公園",
+"Jusho": "富山県射水市新開発424番地",
+"Capacity": "－",
+"la": "36.73180000000",
+"ln": "137.07445000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.07445,
+36.7318
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大島中央公園コミュニティ体育館",
+"Jusho": "富山県射水市新開発424番地",
+"Capacity": "－",
+"la": "36.73104166450",
+"ln": "137.07431004400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.074310044,
+36.7310416645
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中山公園",
+"Jusho": "富山県射水市太閤山1丁目",
+"Capacity": "－",
+"la": "36.70943379000",
+"ln": "137.09619518000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.09619518,
+36.70943379
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "天池公園",
+"Jusho": "富山県射水市南太閤山11丁目",
+"Capacity": "－",
+"la": "36.69755561000",
+"ln": "137.09471800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.094718,
+36.69755561
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "奈呉の江西公園",
+"Jusho": "富山県射水市奈呉の江11番地",
+"Capacity": "－",
+"la": "36.76227842000",
+"ln": "137.09566762000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.09566762,
+36.76227842
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "薬勝寺池公園",
+"Jusho": "富山県射水市中太閤山19丁目",
+"Capacity": "－",
+"la": "36.70045311000",
+"ln": "137.08678345000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.08678345,
+36.70045311
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "薬勝寺池南公園",
+"Jusho": "富山県射水市南太閤山7丁目",
+"Capacity": "－",
+"la": "36.69804000000",
+"ln": "137.08418000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.08418,
+36.69804
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "有磯東公園",
+"Jusho": "富山県射水市有磯二丁目36番地",
+"Capacity": "－",
+"la": "36.75852071910",
+"ln": "137.15077839000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.15077839,
+36.7585207191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "丸山総合公園",
+"Jusho": "富山県中新川郡上市町堤谷11-5",
+"Capacity": "1130",
+"la": "36.69175081000",
+"ln": "137.38272540000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.3827254,
+36.69175081
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩峅寺児童公園",
+"Jusho": "富山県中新川郡立山町岩峅寺21",
+"Capacity": "－",
+"la": "36.60760914720",
+"ln": "137.31892777800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.318927778,
+36.6076091472
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "前沢中央公園",
+"Jusho": "富山県中新川郡立山町前沢2626",
+"Capacity": "－",
+"la": "36.66178706000",
+"ln": "137.31319556000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.31319556,
+36.66178706
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大日町児童公園",
+"Jusho": "富山県中新川郡立山町蔵本新",
+"Capacity": "－",
+"la": "36.66452631700",
+"ln": "137.29524194900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.295241949,
+36.664526317
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "米沢児童公園",
+"Jusho": "富山県中新川郡立山町米沢3-9",
+"Capacity": "－",
+"la": "36.66232040000",
+"ln": "137.31845050000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.3184505,
+36.6623204
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "立山町総合公園",
+"Jusho": "富山県中新川郡立山町野沢1",
+"Capacity": "－",
+"la": "36.65866441000",
+"ln": "137.34351086000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.34351086,
+36.65866441
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中央公園（運動公園）",
+"Jusho": "富山県下新川郡入善町入膳456",
+"Capacity": "－",
+"la": "36.92220415000",
+"ln": "137.50555139000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.50555139,
+36.92220415
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "２班公園",
+"Jusho": "富山県下新川郡朝日町",
+"Capacity": "－",
+"la": "36.93260407180",
+"ln": "137.56226268800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.562262688,
+36.9326040718
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "３班公園",
+"Jusho": "富山県下新川郡朝日町",
+"Capacity": "－",
+"la": "36.93349650730",
+"ln": "137.56088792000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.56088792,
+36.9334965073
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "よこお団地内公園",
+"Jusho": "富山県下新川郡朝日町",
+"Capacity": "－",
+"la": "36.95395412760",
+"ln": "137.56889474000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.56889474,
+36.9539541276
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "向陽団地公園",
+"Jusho": "富山県下新川郡朝日町",
+"Capacity": "－",
+"la": "36.95399291700",
+"ln": "137.55660799500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.556607995,
+36.953992917
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼の保公園",
+"Jusho": "富山県下新川郡朝日町",
+"Capacity": "－",
+"la": "36.95353162450",
+"ln": "137.56410550300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.564105503,
+36.9535316245
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中草野公園",
+"Jusho": "富山県下新川郡朝日町",
+"Capacity": "－",
+"la": "36.95826227220",
+"ln": "137.55150870900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.551508709,
+36.9582622722
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "明野公園",
+"Jusho": "富山県下新川郡朝日町",
+"Capacity": "－",
+"la": "36.94093789980",
+"ln": "137.56200204200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.562002042,
+36.9409378998
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "陽光台公園",
+"Jusho": "富山県下新川郡朝日町",
+"Capacity": "－",
+"la": "36.93776541150",
+"ln": "137.56285768700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.562857687,
+36.9377654115
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "六区公園",
+"Jusho": "富山県下新川郡朝日町",
+"Capacity": "－",
+"la": "36.93725719850",
+"ln": "137.56151479900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.561514799,
+36.9372571985
+]
+}
+}
+]
+};

@@ -1,0 +1,13452 @@
+var st={
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"Name": "クリエーター支援センター（旧青葉小学校）",
+"Jusho": "静岡県静岡市葵区",
+"Capacity": "－",
+"la": "34.97666983490",
+"ln": "138.38484545900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.384845459,
+34.9766698349
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "葵小学校",
+"Jusho": "静岡県静岡市葵区域内町7-9",
+"Capacity": "308",
+"la": "34.98183441380",
+"ln": "138.38337372400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.383373724,
+34.9818344138
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "安西小学校",
+"Jusho": "静岡県静岡市葵区安西1-96-3",
+"Capacity": "705",
+"la": "34.98124600000",
+"ln": "138.37406100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.374061,
+34.981246
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "安東小学校",
+"Jusho": "静岡県静岡市葵区安東3-16-1",
+"Capacity": "592",
+"la": "34.99179300000",
+"ln": "138.38352300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.383523,
+34.991793
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "安倍口小学校",
+"Jusho": "静岡県静岡市葵区安倍口新田50",
+"Capacity": "1216",
+"la": "35.02215100000",
+"ln": "138.35974700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.359747,
+35.022151
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "井宮小学校",
+"Jusho": "静岡県静岡市葵区平和1-7-1",
+"Capacity": "1001",
+"la": "34.98843200000",
+"ln": "138.36685800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.366858,
+34.988432
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "井宮北小学校",
+"Jusho": "静岡県静岡市葵区上伝馬2-1",
+"Capacity": "453",
+"la": "35.00470800000",
+"ln": "138.36882900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.368829,
+35.004708
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "井川小学校",
+"Jusho": "静岡県静岡市葵区井川708-1",
+"Capacity": "238",
+"la": "35.22367700000",
+"ln": "138.23936400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.239364,
+35.223677
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "井川北小学校跡地",
+"Jusho": "静岡県静岡市葵区田代358",
+"Capacity": "－",
+"la": "35.25366641280",
+"ln": "138.24102878900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.241028789,
+35.2536664128
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "横内小学校",
+"Jusho": "静岡県静岡市葵区縁町1-1",
+"Capacity": "713",
+"la": "34.98612700000",
+"ln": "138.39302200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.393022,
+34.986127
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "玉川小学校",
+"Jusho": "静岡県静岡市葵区落合103-3",
+"Capacity": "244",
+"la": "35.11004800000",
+"ln": "138.33397400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.333974,
+35.110048
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "玉川西小学校跡地",
+"Jusho": "静岡県静岡市葵区落合1417-12",
+"Capacity": "－",
+"la": "35.11713379190",
+"ln": "138.30596434800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.305964348,
+35.1171337919
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "駒形小学校",
+"Jusho": "静岡県静岡市葵区南安倍2-1-1",
+"Capacity": "510",
+"la": "34.96154700000",
+"ln": "138.37310800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.373108,
+34.961547
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "松野小学校",
+"Jusho": "静岡県静岡市葵区松野598-2",
+"Capacity": "423",
+"la": "35.07654600000",
+"ln": "138.36732100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.367321,
+35.076546
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城北小学校",
+"Jusho": "静岡県静岡市葵区北安東4-27-3",
+"Capacity": "758",
+"la": "35.00276400000",
+"ln": "138.38780000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.3878,
+35.002764
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新通小学校",
+"Jusho": "静岡県静岡市葵区駒形通2-4-47",
+"Capacity": "866",
+"la": "34.96940700000",
+"ln": "138.37727400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.377274,
+34.969407
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水見色小学校",
+"Jusho": "静岡県静岡市葵区水見色1040-3",
+"Capacity": "112",
+"la": "35.03831300000",
+"ln": "138.29455900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.294559,
+35.038313
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清沢小学校",
+"Jusho": "静岡県静岡市葵区相俣99-1",
+"Capacity": "149",
+"la": "35.03327600000",
+"ln": "138.24536300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.245363,
+35.033276
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清沢東小学校跡地",
+"Jusho": "静岡県静岡市葵区鍵穴72",
+"Capacity": "－",
+"la": "35.04935687390",
+"ln": "138.24682008200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.246820082,
+35.0493568739
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西奈小学校",
+"Jusho": "静岡県静岡市葵区瀬名3-23-1",
+"Capacity": "365",
+"la": "35.02329000000",
+"ln": "138.42207400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.422074,
+35.02329
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西奈南小学校",
+"Jusho": "静岡県静岡市葵区南瀬名町1-20",
+"Capacity": "342",
+"la": "35.00216400000",
+"ln": "138.42239600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.422396,
+35.002164
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "静岡大学附属静岡小学校",
+"Jusho": "静岡県静岡市葵区駿府町1-94",
+"Capacity": "233",
+"la": "34.97812800000",
+"ln": "138.38596700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.385967,
+34.978128
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "千代田小学校",
+"Jusho": "静岡県静岡市葵区沓谷5-47-1",
+"Capacity": "484",
+"la": "34.99591400000",
+"ln": "138.40691900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.406919,
+34.995914
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "千代田東小学校",
+"Jusho": "静岡県静岡市葵区川合3-4-1",
+"Capacity": "615",
+"la": "35.00615600000",
+"ln": "138.41351000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.41351,
+35.006156
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "賎機中小学校",
+"Jusho": "静岡県静岡市葵区牛妻2095-2",
+"Capacity": "273",
+"la": "35.06414500000",
+"ln": "138.37018900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.370189,
+35.064145
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "賎機南小学校",
+"Jusho": "静岡県静岡市葵区松富3-1-46",
+"Capacity": "752",
+"la": "35.01456800000",
+"ln": "138.37466200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.374662,
+35.014568
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "賎機北小学校",
+"Jusho": "静岡県静岡市葵区俵沢234-1",
+"Capacity": "211",
+"la": "35.10827000000",
+"ln": "138.36741800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.367418,
+35.10827
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "足久保小学校",
+"Jusho": "静岡県静岡市葵区足久保奥組741-1",
+"Capacity": "964",
+"la": "35.06109600000",
+"ln": "138.33822400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.338224,
+35.061096
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大河内小学校",
+"Jusho": "静岡県静岡市葵区平野1850-3",
+"Capacity": "－",
+"la": "35.14828100000",
+"ln": "138.36170500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.361705,
+35.148281
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大河内北小学校跡地",
+"Jusho": "静岡県静岡市葵区",
+"Capacity": "－",
+"la": "35.19088747940",
+"ln": "138.36024753200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.360247532,
+35.1908874794
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大川小学校",
+"Jusho": "静岡県静岡市葵区日向876",
+"Capacity": "238",
+"la": "35.09202500000",
+"ln": "138.24189500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.241895,
+35.092025
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中藁科小学校",
+"Jusho": "静岡県静岡市葵区大原942-1",
+"Capacity": "343",
+"la": "35.00945200000",
+"ln": "138.27675700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.276757,
+35.009452
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中藁科小学校小布杉分校",
+"Jusho": "静岡県静岡市葵区小布杉1756-1",
+"Capacity": "349",
+"la": "34.99851500000",
+"ln": "138.24385100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.243851,
+34.998515
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "伝馬町小学校",
+"Jusho": "静岡県静岡市葵区伝馬町14-2",
+"Capacity": "637",
+"la": "34.97501800000",
+"ln": "138.39124400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.391244,
+34.975018
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田町小学校",
+"Jusho": "静岡県静岡市葵区田町5-70",
+"Capacity": "710",
+"la": "34.96729600000",
+"ln": "138.36671900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.366719,
+34.967296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "特別支援教育センター（旧一番町小学校）",
+"Jusho": "静岡県静岡市葵区一番町50",
+"Capacity": "150",
+"la": "34.97621896800",
+"ln": "138.37280507200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.372805072,
+34.976218968
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南藁科小学校",
+"Jusho": "静岡県静岡市葵区吉津400",
+"Capacity": "391",
+"la": "34.97968200000",
+"ln": "138.31552200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.315522,
+34.979682
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "梅ヶ島小学校",
+"Jusho": "静岡県静岡市葵区梅ヶ島1309-1",
+"Capacity": "248",
+"la": "35.24372443550",
+"ln": "138.34031146600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.340311466,
+35.2437244355
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "番町小学校",
+"Jusho": "静岡県静岡市葵区新富町1-23-1",
+"Capacity": "641",
+"la": "34.97506562770",
+"ln": "138.36912201600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.369122016,
+34.9750656277
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "美和小学校",
+"Jusho": "静岡県静岡市葵区遠藤新田69-1",
+"Capacity": "905",
+"la": "35.02992800000",
+"ln": "138.36841300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.368413,
+35.029928
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "服織小学校",
+"Jusho": "静岡県静岡市葵区羽鳥6-9-1",
+"Capacity": "275",
+"la": "34.98559900000",
+"ln": "138.33661100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.336611,
+34.985599
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "服織西小学校",
+"Jusho": "静岡県静岡市葵区新聞759-1-1",
+"Capacity": "506",
+"la": "34.99431900000",
+"ln": "138.30758600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.307586,
+34.994319
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "峰山小学校",
+"Jusho": "静岡県静岡市葵区黒俣2741-16",
+"Capacity": "166",
+"la": "35.06864000000",
+"ln": "138.20673500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.206735,
+35.06864
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北沼上小学校",
+"Jusho": "静岡県静岡市葵区北沼上1020",
+"Capacity": "239",
+"la": "35.04748200000",
+"ln": "138.42404600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.424046,
+35.047482
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "麻機小学校",
+"Jusho": "静岡県静岡市葵区有永421-1",
+"Capacity": "902",
+"la": "35.02503400000",
+"ln": "138.38963500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.389635,
+35.025034
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "竜南小学校",
+"Jusho": "静岡県静岡市葵区竜南1-23-1",
+"Capacity": "812",
+"la": "34.99912600000",
+"ln": "138.39643800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.396438,
+34.999126
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "久能小学校",
+"Jusho": "静岡県静岡市駿河区古宿213-2",
+"Capacity": "273",
+"la": "34.95793700000",
+"ln": "138.45657200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.456572,
+34.957937
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宮竹小学校",
+"Jusho": "静岡県静岡市駿河区宮竹2-12-1",
+"Capacity": "324",
+"la": "34.95193700000",
+"ln": "138.41752000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.41752,
+34.951937
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "森下小学校",
+"Jusho": "静岡県静岡市駿河区森下町2-1",
+"Capacity": "745",
+"la": "34.97129600000",
+"ln": "138.39291100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.392911,
+34.971296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西豊田小学校",
+"Jusho": "静岡県静岡市駿河区曲金2-8-80",
+"Capacity": "246",
+"la": "34.97835100000",
+"ln": "138.40752100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.407521,
+34.978351
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "川原小学校",
+"Jusho": "静岡県静岡市駿河区下川原4-14-1",
+"Capacity": "773",
+"la": "34.93743900000",
+"ln": "138.38288500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.382885,
+34.937439
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大谷小学校",
+"Jusho": "静岡県静岡市駿河区大谷3683-2",
+"Capacity": "780",
+"la": "34.95474300000",
+"ln": "138.42932500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.429325,
+34.954743
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大里西小学校",
+"Jusho": "静岡県静岡市駿河区中原400",
+"Capacity": "468",
+"la": "34.95704800000",
+"ln": "138.38660700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.386607,
+34.957048
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大里東小学校",
+"Jusho": "静岡県静岡市駿河区高松2310",
+"Capacity": "401",
+"la": "34.94646600000",
+"ln": "138.41899300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.418993,
+34.946466
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中田小学校",
+"Jusho": "静岡県静岡市駿河区中田2-14-1",
+"Capacity": "1219",
+"la": "34.96376900000",
+"ln": "138.39313300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.393133,
+34.963769
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中島小学校",
+"Jusho": "静岡県静岡市駿河区中島2992-1",
+"Capacity": "276",
+"la": "34.94080000000",
+"ln": "138.39969500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.399695,
+34.9408
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長田西小学校",
+"Jusho": "静岡県静岡市駿河区丸子6-15-65",
+"Capacity": "186",
+"la": "34.94621500000",
+"ln": "138.35011100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.350111,
+34.946215
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長田東小学校",
+"Jusho": "静岡県静岡市駿河区東新田3-10-1",
+"Capacity": "579",
+"la": "34.94604900000",
+"ln": "138.37274700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.372747,
+34.946049
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長田南小学校",
+"Jusho": "静岡県静岡市駿河区広野4-7-1",
+"Capacity": "570",
+"la": "34.92802300000",
+"ln": "138.36980300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.369803,
+34.928023
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長田北小学校",
+"Jusho": "静岡県静岡市駿河区向敷地890",
+"Capacity": "276",
+"la": "34.96218500000",
+"ln": "138.35885900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.358859,
+34.962185
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東源台小学校",
+"Jusho": "静岡県静岡市駿河区国吉田6-7-45",
+"Capacity": "717",
+"la": "34.98912800000",
+"ln": "138.43746300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.437463,
+34.989128
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東豊田小学校",
+"Jusho": "静岡県静岡市駿河区池田491-2",
+"Capacity": "1717",
+"la": "34.98393700000",
+"ln": "138.42351900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.423519,
+34.983937
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南部小学校",
+"Jusho": "静岡県静岡市駿河区南八幡町11-1",
+"Capacity": "430",
+"la": "34.96254700000",
+"ln": "138.40335500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.403355,
+34.962547
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士見小学校",
+"Jusho": "静岡県静岡市駿河区登呂1-1-1",
+"Capacity": "836",
+"la": "34.96074200000",
+"ln": "138.41004900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.410049,
+34.960742
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "蒲原西小学校",
+"Jusho": "静岡県静岡市清水区蒲原新田2-25-1",
+"Capacity": "778",
+"la": "35.11890700000",
+"ln": "138.59556800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.595568,
+35.118907
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "蒲原東小学校",
+"Jusho": "静岡県静岡市清水区蒲原666",
+"Capacity": "833",
+"la": "35.11703300000",
+"ln": "138.60935700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.609357,
+35.117033
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水庵原小学校",
+"Jusho": "静岡県静岡市清水区庵原町1723",
+"Capacity": "1916",
+"la": "35.05198300000",
+"ln": "138.47509700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.475097,
+35.051983
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水岡小学校",
+"Jusho": "静岡県静岡市清水区神田町4-3",
+"Capacity": "913",
+"la": "35.00734900000",
+"ln": "138.48068100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.480681,
+35.007349
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水興津小学校",
+"Jusho": "静岡県静岡市清水区興津中町350-1",
+"Capacity": "382",
+"la": "35.05465000000",
+"ln": "138.52617500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.526175,
+35.05465
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水駒越小学校",
+"Jusho": "静岡県静岡市清水区駒越東町2-20",
+"Capacity": "751",
+"la": "34.98188000000",
+"ln": "138.50190100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.501901,
+34.98188
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水江尻小学校",
+"Jusho": "静岡県静岡市清水区江尻町14-63",
+"Capacity": "1605",
+"la": "35.02120900000",
+"ln": "138.47984700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.479847,
+35.021209
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水高部小学校",
+"Jusho": "静岡県静岡市清水区押切1115-2",
+"Capacity": "859",
+"la": "35.02940200000",
+"ln": "138.45018300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.450183,
+35.029402
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水高部東小学校",
+"Jusho": "静岡県静岡市清水区押切1907",
+"Capacity": "1198",
+"la": "35.03514800000",
+"ln": "138.45569400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.455694,
+35.035148
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水三保第一小学校",
+"Jusho": "静岡県静岡市清水区三保1069-1",
+"Capacity": "849",
+"la": "35.00104500000",
+"ln": "138.52220500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.522205,
+35.001045
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水三保第二小学校",
+"Jusho": "静岡県静岡市清水区折戸5-8-2",
+"Capacity": "734",
+"la": "34.99090700000",
+"ln": "138.51676100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.516761,
+34.990907
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水宍原小学校",
+"Jusho": "静岡県静岡市清水区宍原919",
+"Capacity": "260",
+"la": "35.16002400000",
+"ln": "138.51853400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.518534,
+35.160024
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水小河内小学校",
+"Jusho": "静岡県静岡市清水区小河内2723",
+"Capacity": "425",
+"la": "35.12108600000",
+"ln": "138.51178600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.511786,
+35.121086
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水小学校",
+"Jusho": "静岡県静岡市清水区松井町15-1",
+"Capacity": "729",
+"la": "35.00246100000",
+"ln": "138.49037400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.490374,
+35.002461
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水小島小学校",
+"Jusho": "静岡県静岡市清水区小島町619",
+"Capacity": "671",
+"la": "35.09197900000",
+"ln": "138.51523000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.51523,
+35.091979
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水西河内小学校",
+"Jusho": "静岡県静岡市清水区西里143",
+"Capacity": "453",
+"la": "35.12180600000",
+"ln": "138.44337600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.443376,
+35.121806
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水袖師小学校",
+"Jusho": "静岡県静岡市清水区袖師町420",
+"Capacity": "906",
+"la": "35.03548500000",
+"ln": "138.48945700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.489457,
+35.035485
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水中河内小学校",
+"Jusho": "静岡県静岡市清水区中河内2583-1",
+"Capacity": "446",
+"la": "35.13732714080",
+"ln": "138.47056205800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.470562058,
+35.1373271408
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水辻小学校",
+"Jusho": "静岡県静岡市清水区辻4-3-40",
+"Capacity": "879",
+"la": "35.02681900000",
+"ln": "138.48456900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.484569,
+35.026819
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水入江小学校",
+"Jusho": "静岡県静岡市清水区追分2-3-1",
+"Capacity": "1233",
+"la": "35.01434800000",
+"ln": "138.47359800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.473598,
+35.014348
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水飯田小学校",
+"Jusho": "静岡県静岡市清水区下野中2-40",
+"Capacity": "1332",
+"la": "35.03492900000",
+"ln": "138.46901400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.469014,
+35.034929
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水飯田東小学校",
+"Jusho": "静岡県静岡市清水区八坂北1-23-40",
+"Capacity": "845",
+"la": "35.03504000000",
+"ln": "138.47329200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.473292,
+35.03504
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水浜田小学校",
+"Jusho": "静岡県静岡市清水区浜田町11-1",
+"Capacity": "755",
+"la": "35.01323700000",
+"ln": "138.48323600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.483236,
+35.013237
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水不二見小学校",
+"Jusho": "静岡県静岡市清水区新緑町2-21",
+"Capacity": "1119",
+"la": "34.99557300000",
+"ln": "138.48915200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.489152,
+34.995573
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水有度第一小学校",
+"Jusho": "静岡県静岡市清水区有度本町3-1",
+"Capacity": "917",
+"la": "35.00804300000",
+"ln": "138.45348900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.453489,
+35.008043
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水有度第二小学校",
+"Jusho": "静岡県静岡市清水区草薙杉道3-19-1",
+"Capacity": "1052",
+"la": "35.00096100000",
+"ln": "138.45137800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.451378,
+35.000961
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水和田島小学校",
+"Jusho": "静岡県静岡市清水区和田島611",
+"Capacity": "448",
+"la": "35.10861400000",
+"ln": "138.48092900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.480929,
+35.108614
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "静岡信用金庫総合グランド清水高部小学校",
+"Jusho": "静岡県静岡市清水区",
+"Capacity": "－",
+"la": "35.02963453600",
+"ln": "138.45110614900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.451106149,
+35.029634536
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "船越小学校",
+"Jusho": "静岡県静岡市清水区北矢部831-1",
+"Capacity": "733",
+"la": "34.99851700000",
+"ln": "138.47182100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.471821,
+34.998517
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "由比小学校",
+"Jusho": "静岡県静岡市清水区由比町屋原329",
+"Capacity": "760",
+"la": "35.10833999910",
+"ln": "138.55741700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.557417,
+35.1083399991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "由比北小学校",
+"Jusho": "静岡県静岡市清水区由比入山2158",
+"Capacity": "636",
+"la": "35.12922399910",
+"ln": "138.55697300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.556973,
+35.1292239991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）高砂小学校",
+"Jusho": "静岡県浜松市中区寺島町450",
+"Capacity": "－",
+"la": "34.70089399910",
+"ln": "137.74048100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.740481,
+34.7008939991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "葵が丘小学校",
+"Jusho": "静岡県浜松市中区高丘東三丁目51-1",
+"Capacity": "－",
+"la": "34.76255299910",
+"ln": "137.71670200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.716702,
+34.7625529991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "葵西小学校",
+"Jusho": "静岡県浜松市中区葵西二丁目25-1",
+"Capacity": "－",
+"la": "34.76797300000",
+"ln": "137.71065200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.710652,
+34.767973
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "曳馬小学校",
+"Jusho": "静岡県浜松市中区曳馬一丁目1-35",
+"Capacity": "－",
+"la": "34.72626800000",
+"ln": "137.73843500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.738435,
+34.726268
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "花川小学校",
+"Jusho": "静岡県浜松市中区花川町781",
+"Capacity": "－",
+"la": "34.77400300000",
+"ln": "137.68580100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.685801,
+34.774003
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鴨江小学校",
+"Jusho": "静岡県浜松市中区西伊場町4-1",
+"Capacity": "－",
+"la": "34.70311499910",
+"ln": "137.70903800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.709038,
+34.7031149991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "県居小学校",
+"Jusho": "静岡県浜松市中区東伊場二丁目5-1",
+"Capacity": "－",
+"la": "34.69850499910",
+"ln": "137.72170400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.721704,
+34.6985049991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元城小学校",
+"Jusho": "静岡県浜松市中区元城町102-1",
+"Capacity": "－",
+"la": "34.71219800000",
+"ln": "137.72650900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.726509,
+34.712198
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "広沢小学校",
+"Jusho": "静岡県浜松市中区広沢二丁目51-1",
+"Capacity": "－",
+"la": "34.71658599910",
+"ln": "137.71367600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.713676,
+34.7165859991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "佐藤小学校",
+"Jusho": "静岡県浜松市中区佐藤二丁目32-1",
+"Capacity": "－",
+"la": "34.71520099910",
+"ln": "137.74888400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.748884,
+34.7152009991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "佐鳴台小学校",
+"Jusho": "静岡県浜松市中区佐鳴台三丁目31-1",
+"Capacity": "－",
+"la": "34.70600299910",
+"ln": "137.69681700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.696817,
+34.7060029991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上島小学校",
+"Jusho": "静岡県浜松市中区上島一丁目21-1",
+"Capacity": "－",
+"la": "34.73616299910",
+"ln": "137.74170600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.741706,
+34.7361629991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城北小学校",
+"Jusho": "静岡県浜松市中区住吉一丁目23-1",
+"Capacity": "－",
+"la": "34.72872400000",
+"ln": "137.72398000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.72398,
+34.728724
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "瑞穂小学校",
+"Jusho": "静岡県浜松市中区高丘北三丁目15-8",
+"Capacity": "－",
+"la": "34.76535799910",
+"ln": "137.69864800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.698648,
+34.7653579991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西小学校",
+"Jusho": "静岡県浜松市中区鴨江町70-1",
+"Capacity": "－",
+"la": "34.70622600000",
+"ln": "137.72126000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.72126,
+34.706226
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "泉小学校",
+"Jusho": "静岡県浜松市中区泉一丁目16-1",
+"Capacity": "－",
+"la": "34.73866699910",
+"ln": "137.72122900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.721229,
+34.7386669991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浅間小学校",
+"Jusho": "静岡県浜松市中区西浅田二丁目12-1",
+"Capacity": "－",
+"la": "34.69200599910",
+"ln": "137.72681500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.726815,
+34.6920059991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "船越小学校",
+"Jusho": "静岡県浜松市中区船越町29-1",
+"Capacity": "－",
+"la": "34.71808599910",
+"ln": "137.74395200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.743952,
+34.7180859991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "双葉小学校",
+"Jusho": "静岡県浜松市中区海老塚二丁目5-1",
+"Capacity": "－",
+"la": "34.69997699910",
+"ln": "137.73217600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.732176,
+34.6999769991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "相生小学校",
+"Jusho": "静岡県浜松市中区向宿三丁目8-1",
+"Capacity": "－",
+"la": "34.70122799910",
+"ln": "137.75303500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.753035,
+34.7012279991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "追分小学校",
+"Jusho": "静岡県浜松市中区布橋一丁目9-1",
+"Capacity": "－",
+"la": "34.72047499910",
+"ln": "137.72012000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.72012,
+34.7204749991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東小学校",
+"Jusho": "静岡県浜松市中区中央二丁目2-1",
+"Capacity": "－",
+"la": "34.71185999910",
+"ln": "137.73848500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.738485,
+34.7118599991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "萩丘小学校",
+"Jusho": "静岡県浜松市中区幸五丁目12-1",
+"Capacity": "－",
+"la": "34.74677699910",
+"ln": "137.72600700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.726007,
+34.7467769991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富塚小学校",
+"Jusho": "静岡県浜松市中区富塚町1803",
+"Capacity": "－",
+"la": "34.72611199910",
+"ln": "137.70323200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.703232,
+34.7261119991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富塚西小学校",
+"Jusho": "静岡県浜松市中区富塚町3541",
+"Capacity": "－",
+"la": "34.72855699910",
+"ln": "137.69984300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.699843,
+34.7285569991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北小学校",
+"Jusho": "静岡県浜松市中区山下町192",
+"Capacity": "－",
+"la": "34.71850299910",
+"ln": "137.72989700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.729897,
+34.7185029991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "竜禅寺小学校",
+"Jusho": "静岡県浜松市中区龍禅寺町844",
+"Capacity": "－",
+"la": "34.69788599910",
+"ln": "137.74312300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.743123,
+34.6978859991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "笠井小学校",
+"Jusho": "静岡県浜松市東区笠井町1050",
+"Capacity": "－",
+"la": "34.77238900000",
+"ln": "137.79533300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.795333,
+34.772389
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "蒲小学校",
+"Jusho": "静岡県浜松市東区神立町5",
+"Capacity": "－",
+"la": "34.71675399910",
+"ln": "137.75806300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.758063,
+34.7167539991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "積志小学校",
+"Jusho": "静岡県浜松市東区積志町1497-1",
+"Capacity": "－",
+"la": "34.76580399910",
+"ln": "137.76016900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.760169,
+34.7658039991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大瀬小学校",
+"Jusho": "静岡県浜松市東区大瀬町2218",
+"Capacity": "－",
+"la": "34.75683299910",
+"ln": "137.77292000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.77292,
+34.7568329991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中ノ町小学校",
+"Jusho": "静岡県浜松市東区中野町427-1",
+"Capacity": "－",
+"la": "34.73014299910",
+"ln": "137.79316900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.793169,
+34.7301429991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中郡小学校",
+"Jusho": "静岡県浜松市東区中郡町915",
+"Capacity": "－",
+"la": "34.77074899910",
+"ln": "137.77430700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.774307,
+34.7707489991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊西小学校",
+"Jusho": "静岡県浜松市東区豊西町1551",
+"Capacity": "－",
+"la": "34.76741799910",
+"ln": "137.80408200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.804082,
+34.7674179991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "有玉小学校",
+"Jusho": "静岡県浜松市東区有玉南町614",
+"Capacity": "－",
+"la": "34.75810999910",
+"ln": "137.75028200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.750282,
+34.7581099991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "与進小学校",
+"Jusho": "静岡県浜松市東区天王町1351",
+"Capacity": "－",
+"la": "34.74105699910",
+"ln": "137.77117100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.771171,
+34.7410569991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "与進北小学校",
+"Jusho": "静岡県浜松市東区市野町2715",
+"Capacity": "－",
+"la": "34.74677899910",
+"ln": "137.76589400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.765894,
+34.7467789991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "和田小学校",
+"Jusho": "静岡県浜松市東区薬師町273-2",
+"Capacity": "－",
+"la": "34.72469799910",
+"ln": "137.78286600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.782866,
+34.7246979991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "和田東小学校",
+"Jusho": "静岡県浜松市東区安間町437-2",
+"Capacity": "－",
+"la": "34.72100500000",
+"ln": "137.78919800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.789198,
+34.721005
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "伊佐見小学校",
+"Jusho": "静岡県浜松市西区伊左地町5644",
+"Capacity": "－",
+"la": "34.74544199910",
+"ln": "137.65570800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.655708,
+34.7454419991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "篠原小学校",
+"Jusho": "静岡県浜松市西区篠原町10300",
+"Capacity": "－",
+"la": "34.68381099910",
+"ln": "137.65640500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.656405,
+34.6838109991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "神久呂小学校",
+"Jusho": "静岡県浜松市西区神ｹ谷町3490",
+"Capacity": "－",
+"la": "34.72725099910",
+"ln": "137.66881800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.668818,
+34.7272509991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西都台小学校",
+"Jusho": "静岡県浜松市西区西鴨江町1106",
+"Capacity": "－",
+"la": "34.70330799910",
+"ln": "137.66434700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.664347,
+34.7033079991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "村櫛小学校",
+"Jusho": "静岡県浜松市西区村櫛町2551",
+"Capacity": "－",
+"la": "34.72827599910",
+"ln": "137.59535600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.595356,
+34.7282759991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大平台小学校",
+"Jusho": "静岡県浜松市西区大平台三丁目6-1",
+"Capacity": "－",
+"la": "34.71498299910",
+"ln": "137.68067600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.680676,
+34.7149829991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南庄内小学校",
+"Jusho": "静岡県浜松市西区庄和町108-3",
+"Capacity": "－",
+"la": "34.74741299910",
+"ln": "137.60249300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.602493,
+34.7474129991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "入野小学校",
+"Jusho": "静岡県浜松市西区入野町8757",
+"Capacity": "－",
+"la": "34.69942099910",
+"ln": "137.68642900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.686429,
+34.6994209991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜松市立舞阪小学校南棟",
+"Jusho": "静岡県浜松市西区舞阪町舞阪76",
+"Capacity": "－",
+"la": "34.68602503580",
+"ln": "137.61144688400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.611446884,
+34.6860250358
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "舞阪小学校",
+"Jusho": "静岡県浜松市西区舞阪町舞阪76",
+"Capacity": "－",
+"la": "34.68577499910",
+"ln": "137.61110400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.611104,
+34.6857749991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "舞阪小学校西棟",
+"Jusho": "静岡県浜松市西区舞阪町舞阪76",
+"Capacity": "－",
+"la": "34.68589800000",
+"ln": "137.61143500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.611435,
+34.685898
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北庄内小学校",
+"Jusho": "静岡県浜松市西区白洲町295-1",
+"Capacity": "－",
+"la": "34.75868899910",
+"ln": "137.62651700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.626517,
+34.7586889991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "雄踏小学校",
+"Jusho": "静岡県浜松市西区雄踏町宇布見7997-1",
+"Capacity": "－",
+"la": "34.70178899910",
+"ln": "137.63214700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.632147,
+34.7017889991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "和地小学校",
+"Jusho": "静岡県浜松市西区湖東町2005",
+"Capacity": "－",
+"la": "34.76657799910",
+"ln": "137.66676200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.666762,
+34.7665779991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）遠州浜小学校南棟",
+"Jusho": "静岡県浜松市南区遠州浜二丁目9-1",
+"Capacity": "－",
+"la": "34.65846821330",
+"ln": "137.76788524200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.767885242,
+34.6584682133
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "遠州浜小学校",
+"Jusho": "静岡県浜松市南区遠州浜二丁目9-1",
+"Capacity": "－",
+"la": "34.65826299910",
+"ln": "137.76789400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.767894,
+34.6582629991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "可美小学校",
+"Jusho": "静岡県浜松市南区若林町1748",
+"Capacity": "－",
+"la": "34.68950899910",
+"ln": "137.69561700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.695617,
+34.6895089991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "河輪小学校",
+"Jusho": "静岡県浜松市南区東町333",
+"Capacity": "－",
+"la": "34.67614999910",
+"ln": "137.78258800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.782588,
+34.6761499991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "五島小学校",
+"Jusho": "静岡県浜松市南区西島町510",
+"Capacity": "－",
+"la": "34.66778899910",
+"ln": "137.76983900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.769839,
+34.6677889991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "砂丘小学校",
+"Jusho": "静岡県浜松市南区白羽町2512",
+"Capacity": "－",
+"la": "34.66753699910",
+"ln": "137.72606600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.726066,
+34.6675369991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新津小学校",
+"Jusho": "静岡県浜松市南区新橋町777",
+"Capacity": "－",
+"la": "34.68297899910",
+"ln": "137.70326200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.703262,
+34.6829789991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南の星小学校",
+"Jusho": "静岡県浜松市南区西島町1148-2",
+"Capacity": "－",
+"la": "34.66254800000",
+"ln": "137.76873100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.768731,
+34.662548
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白脇小学校",
+"Jusho": "静岡県浜松市南区寺脇町431",
+"Capacity": "－",
+"la": "34.68189699910",
+"ln": "137.74509200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.745092,
+34.6818969991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "飯田小学校",
+"Jusho": "静岡県浜松市南区飯田町978",
+"Capacity": "－",
+"la": "34.70636699910",
+"ln": "137.77428400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.774284,
+34.7063669991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "芳川小学校",
+"Jusho": "静岡県浜松市南区芳川町206-1",
+"Capacity": "－",
+"la": "34.69247999910",
+"ln": "137.76706200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.767062,
+34.6924799991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "芳川北小学校",
+"Jusho": "静岡県浜松市南区頭陀寺町1046-1",
+"Capacity": "－",
+"la": "34.69894999910",
+"ln": "137.76103500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.761035,
+34.6989499991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）伊平小学校",
+"Jusho": "静岡県浜松市北区引佐町伊平580-2",
+"Capacity": "－",
+"la": "34.86435599910",
+"ln": "137.66084800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.660848,
+34.8643559991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）久留女木小学校",
+"Jusho": "静岡県浜松市北区引佐町西久留女木63-4",
+"Capacity": "－",
+"la": "34.90289399910",
+"ln": "137.69810000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.6981,
+34.9028939991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）川名小学校",
+"Jusho": "静岡県浜松市北区引佐町川名470-1",
+"Capacity": "－",
+"la": "34.86991299910",
+"ln": "137.70147000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.70147,
+34.8699129991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）滝沢小学校",
+"Jusho": "静岡県浜松市北区滝沢町1520",
+"Capacity": "－",
+"la": "34.85826399910",
+"ln": "137.71781000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.71781,
+34.8582639991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "伊目小学校",
+"Jusho": "静岡県浜松市北区細江町気賀3241",
+"Capacity": "－",
+"la": "34.78754199910",
+"ln": "137.64351900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.643519,
+34.7875419991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "井伊谷小学校",
+"Jusho": "静岡県浜松市北区引佐町井伊谷680",
+"Capacity": "－",
+"la": "34.83228600000",
+"ln": "137.67261600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.672616,
+34.832286
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "奥山小学校",
+"Jusho": "静岡県浜松市北区引佐町奥山1101-1",
+"Capacity": "－",
+"la": "34.84517300000",
+"ln": "137.62921100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.629211,
+34.845173
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "気賀小学校",
+"Jusho": "静岡県浜松市北区細江町気賀11529",
+"Capacity": "－",
+"la": "34.81071599910",
+"ln": "137.65499200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.654992,
+34.8107159991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金指小学校",
+"Jusho": "静岡県浜松市北区引佐町金指1369",
+"Capacity": "－",
+"la": "34.82143600000",
+"ln": "137.67808400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.678084,
+34.821436
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三ヶ日西小学校",
+"Jusho": "静岡県浜松市北区三ヶ日町三ヶ日301-1",
+"Capacity": "－",
+"la": "34.80918099910",
+"ln": "137.55357700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.553577,
+34.8091809991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三ヶ日東小学校",
+"Jusho": "静岡県浜松市北区三ヶ日町都筑2266-2",
+"Capacity": "－",
+"la": "34.79337799910",
+"ln": "137.58188200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.581882,
+34.7933779991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三方原小学校",
+"Jusho": "静岡県浜松市北区三方原町682",
+"Capacity": "－",
+"la": "34.77796799910",
+"ln": "137.71206300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.712063,
+34.7779679991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "初生小学校",
+"Jusho": "静岡県浜松市北区初生町1001-2",
+"Capacity": "－",
+"la": "34.76888599910",
+"ln": "137.72747800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.727478,
+34.7688859991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西気賀小学校",
+"Jusho": "静岡県浜松市北区細江町気賀9994-1",
+"Capacity": "－",
+"la": "34.80181899910",
+"ln": "137.62413500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.624135,
+34.8018189991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大崎小学校",
+"Jusho": "静岡県浜松市北区三ヶ日町大崎1665-2",
+"Capacity": "－",
+"la": "34.77195899910",
+"ln": "137.56257200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.562572,
+34.7719589991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中川小学校",
+"Jusho": "静岡県浜松市北区細江町中川2553",
+"Capacity": "－",
+"la": "34.80924099910",
+"ln": "137.67784100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.677841,
+34.8092409991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "都田小学校",
+"Jusho": "静岡県浜松市北区都田町5609-2",
+"Capacity": "－",
+"la": "34.82743399910",
+"ln": "137.71719900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.717199,
+34.8274339991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "都田南小学校",
+"Jusho": "静岡県浜松市北区都田町8756",
+"Capacity": "－",
+"la": "34.81232499910",
+"ln": "137.73667000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.73667,
+34.8123249991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "尾奈小学校",
+"Jusho": "静岡県浜松市北区三ヶ日町下尾奈1431",
+"Capacity": "－",
+"la": "34.78502099910",
+"ln": "137.53835400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.538354,
+34.7850209991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "平山小学校",
+"Jusho": "静岡県浜松市北区三ヶ日町平山200",
+"Capacity": "－",
+"la": "34.82459999910",
+"ln": "137.53688700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.536887,
+34.8245999991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊岡小学校",
+"Jusho": "静岡県浜松市北区豊岡町22",
+"Capacity": "－",
+"la": "34.78724399910",
+"ln": "137.71989500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.719895,
+34.7872439991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "伎倍小学校",
+"Jusho": "静岡県浜松市浜北区貴布祢2646",
+"Capacity": "－",
+"la": "34.80104500000",
+"ln": "137.78388600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.783886,
+34.801045
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新原小学校",
+"Jusho": "静岡県浜松市浜北区新原2331",
+"Capacity": "－",
+"la": "34.81818799910",
+"ln": "137.78050000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.7805,
+34.8181879991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "赤佐小学校",
+"Jusho": "静岡県浜松市浜北区於呂2790",
+"Capacity": "－",
+"la": "34.83752000000",
+"ln": "137.79738600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.797386,
+34.83752
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大平小学校",
+"Jusho": "静岡県浜松市浜北区大平686",
+"Capacity": "－",
+"la": "34.85295999910",
+"ln": "137.74283600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.742836,
+34.8529599991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中瀬小学校",
+"Jusho": "静岡県浜松市浜北区中瀬3648-1",
+"Capacity": "－",
+"la": "34.82377299910",
+"ln": "137.81077400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.810774,
+34.8237729991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "内野小学校",
+"Jusho": "静岡県浜松市浜北区内野1702",
+"Capacity": "－",
+"la": "34.78471799910",
+"ln": "137.75739100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.757391,
+34.7847179991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜名小学校",
+"Jusho": "静岡県浜松市浜北区小松1450",
+"Capacity": "－",
+"la": "34.78974599910",
+"ln": "137.76855700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.768557,
+34.7897459991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北浜小学校",
+"Jusho": "静岡県浜松市浜北区横須賀800",
+"Capacity": "－",
+"la": "34.79244200000",
+"ln": "137.79219300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.792193,
+34.792442
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北浜東小学校",
+"Jusho": "静岡県浜松市浜北区善地1546",
+"Capacity": "－",
+"la": "34.79219399910",
+"ln": "137.81055200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.810552,
+34.7921939991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北浜南小学校",
+"Jusho": "静岡県浜松市浜北区寺島3010",
+"Capacity": "－",
+"la": "34.78441499910",
+"ln": "137.79136000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.79136,
+34.7844149991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北浜北小学校",
+"Jusho": "静岡県浜松市浜北区西美薗1588",
+"Capacity": "－",
+"la": "34.80274699910",
+"ln": "137.79583100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.795831,
+34.8027469991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "麁玉小学校",
+"Jusho": "静岡県浜松市浜北区宮口262",
+"Capacity": "－",
+"la": "34.82949100000",
+"ln": "137.77080600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.770806,
+34.829491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）西浦小学校",
+"Jusho": "静岡県浜松市天竜区水窪町奥領家5296-18",
+"Capacity": "－",
+"la": "35.21187237440",
+"ln": "137.89140437900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.891404379,
+35.2118723744
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）龍山北小学校",
+"Jusho": "静岡県浜松市天竜区龍山町瀬尻926-37",
+"Capacity": "－",
+"la": "35.02180104550",
+"ln": "137.83702243300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.837022433,
+35.0218010455
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浦川小学校",
+"Jusho": "静岡県浜松市天竜区佐久間町浦川2819",
+"Capacity": "－",
+"la": "35.05496099910",
+"ln": "137.76474200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.764742,
+35.0549609991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "横山小学校",
+"Jusho": "静岡県浜松市天竜区横山町547",
+"Capacity": "－",
+"la": "34.94283999910",
+"ln": "137.81735500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.817355,
+34.9428399991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "下阿多古小学校",
+"Jusho": "静岡県浜松市天竜区両島762",
+"Capacity": "－",
+"la": "34.88287399910",
+"ln": "137.79194200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.791942,
+34.8828739991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "気田小学校",
+"Jusho": "静岡県浜松市天竜区春野町気田603-1",
+"Capacity": "－",
+"la": "35.00388799910",
+"ln": "137.90564800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.905648,
+35.0038879991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鏡山小学校",
+"Jusho": "静岡県浜松市天竜区只来97-3",
+"Capacity": "－",
+"la": "34.89351199910",
+"ln": "137.85974200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.859742,
+34.8935119991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "熊小学校",
+"Jusho": "静岡県浜松市天竜区熊2153",
+"Capacity": "－",
+"la": "34.95972399910",
+"ln": "137.73302700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.733027,
+34.9597239991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "熊切小学校",
+"Jusho": "静岡県浜松市天竜区春野町石打松下211-1",
+"Capacity": "－",
+"la": "34.99815999910",
+"ln": "137.93938500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.939385,
+34.9981599991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "犬居小学校",
+"Jusho": "静岡県浜松市天竜区春野町堀之内993-1",
+"Capacity": "－",
+"la": "34.95923199910",
+"ln": "137.89783700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.897837,
+34.9592319991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "光明小学校",
+"Jusho": "静岡県浜松市天竜区山東2550",
+"Capacity": "－",
+"la": "34.87770799910",
+"ln": "137.82446700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.824467,
+34.8777079991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "佐久間小学校",
+"Jusho": "静岡県浜松市天竜区佐久間町半場50-1",
+"Capacity": "－",
+"la": "35.08764099910",
+"ln": "137.80267600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.802676,
+35.0876409991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "春野北小学校",
+"Jusho": "静岡県浜松市天竜区春野町杉242-2",
+"Capacity": "－",
+"la": "35.03163899910",
+"ln": "137.98042100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.980421,
+35.0316389991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上阿多古小学校",
+"Jusho": "静岡県浜松市天竜区西藤平1318",
+"Capacity": "－",
+"la": "34.91228599910",
+"ln": "137.76366600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.763666,
+34.9122859991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城西小学校",
+"Jusho": "静岡県浜松市天竜区佐久間町相月2874",
+"Capacity": "－",
+"la": "35.13950299910",
+"ln": "137.86111800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.861118,
+35.1395029991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水窪小学校",
+"Jusho": "静岡県浜松市天竜区水窪町奥領家2697-1",
+"Capacity": "－",
+"la": "35.16120299910",
+"ln": "137.86834300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.868343,
+35.1612029991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "二俣小学校",
+"Jusho": "静岡県浜松市天竜区二俣町二俣867-1",
+"Capacity": "－",
+"la": "34.86401399910",
+"ln": "137.81239800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.812398,
+34.8640139991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "龍山第一小学校",
+"Jusho": "静岡県浜松市天竜区龍山町大嶺565-5",
+"Capacity": "－",
+"la": "34.97046899910",
+"ln": "137.82533400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.825334,
+34.9704689991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "愛鷹小学校",
+"Jusho": "静岡県沼津市西椎路673-1",
+"Capacity": "－",
+"la": "35.13120200000",
+"ln": "138.83003300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.830033,
+35.131202
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "開北小学校",
+"Jusho": "静岡県沼津市高沢町17-1",
+"Capacity": "－",
+"la": "35.10767700000",
+"ln": "138.85417000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.85417,
+35.107677
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金岡小学校",
+"Jusho": "静岡県沼津市江原町3-1",
+"Capacity": "－",
+"la": "35.11928800000",
+"ln": "138.86136400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.861364,
+35.119288
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "原小学校",
+"Jusho": "静岡県沼津市原1200",
+"Capacity": "－",
+"la": "35.12803400000",
+"ln": "138.79298100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.792981,
+35.128034
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "原東小学校",
+"Jusho": "静岡県沼津市大塚814-1",
+"Capacity": "－",
+"la": "35.12680900000",
+"ln": "138.80985600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.809856,
+35.126809
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "香貫小学校",
+"Jusho": "静岡県沼津市下香貫猪沼986",
+"Capacity": "－",
+"la": "35.08229100000",
+"ln": "138.88408600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.884086,
+35.082291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "今沢小学校",
+"Jusho": "静岡県沼津市東原76-1",
+"Capacity": "－",
+"la": "35.12481300000",
+"ln": "138.81808900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.818089,
+35.124813
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼津市立戸田小学校",
+"Jusho": "静岡県沼津市戸田883",
+"Capacity": "－",
+"la": "34.97233000000",
+"ln": "138.77915100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.779151,
+34.97233
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼津市立西浦小学校",
+"Jusho": "静岡県沼津市西浦平沢255-2",
+"Capacity": "－",
+"la": "35.01910300000",
+"ln": "138.85617200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.856172,
+35.019103
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼津市立静浦小学校",
+"Jusho": "静岡県沼津市獅子浜17",
+"Capacity": "－",
+"la": "35.05132200000",
+"ln": "138.88558500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.885585,
+35.051322
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼津市立千本小学校",
+"Jusho": "静岡県沼津市千本1910-19",
+"Capacity": "－",
+"la": "35.09645600000",
+"ln": "138.84747600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.847476,
+35.096456
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼津市立第三小学校",
+"Jusho": "静岡県沼津市下香貫下障子3157-2",
+"Capacity": "－",
+"la": "35.08020700000",
+"ln": "138.86922600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.869226,
+35.080207
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼津市立第四小学校",
+"Jusho": "静岡県沼津市御幸町4-1",
+"Capacity": "－",
+"la": "35.09706700000",
+"ln": "138.86447500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.864475,
+35.097067
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼津市立第二小学校",
+"Jusho": "静岡県沼津市常盤町2-32",
+"Capacity": "－",
+"la": "35.08931400000",
+"ln": "138.85462900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.854629,
+35.089314
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼津市立内浦小学校",
+"Jusho": "静岡県沼津市内浦三津410-1",
+"Capacity": "－",
+"la": "35.02477000000",
+"ln": "138.90125100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.901251,
+35.02477
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "静浦西小学校",
+"Jusho": "静岡県沼津市志下350",
+"Capacity": "－",
+"la": "35.06373700000",
+"ln": "138.88375300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.883753,
+35.063737
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大岡小学校",
+"Jusho": "静岡県沼津市平町7-24",
+"Capacity": "－",
+"la": "35.11270500000",
+"ln": "138.87936300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.879363,
+35.112705
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大岡南小学校",
+"Jusho": "静岡県沼津市大岡2358",
+"Capacity": "－",
+"la": "35.10323400000",
+"ln": "138.87655800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.876558,
+35.103234
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大平小学校",
+"Jusho": "静岡県沼津市大平2200",
+"Capacity": "－",
+"la": "35.07637600000",
+"ln": "138.91050000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.9105,
+35.076376
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第一小学校",
+"Jusho": "静岡県沼津市八幡町65-1",
+"Capacity": "8000",
+"la": "35.09895600000",
+"ln": "138.85403100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.854031,
+35.098956
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第五小学校",
+"Jusho": "静岡県沼津市米山町9-1",
+"Capacity": "－",
+"la": "35.10751100000",
+"ln": "138.86375300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.863753,
+35.107511
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沢田小学校",
+"Jusho": "静岡県沼津市中沢田715",
+"Capacity": "－",
+"la": "35.12885100000",
+"ln": "138.85248000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.85248,
+35.128851
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浮島小学校",
+"Jusho": "静岡県沼津市平沼811",
+"Capacity": "－",
+"la": "35.14714300000",
+"ln": "138.78445400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.784454,
+35.147143
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "片浜小学校",
+"Jusho": "静岡県沼津市大諏訪41",
+"Capacity": "－",
+"la": "35.11087100000",
+"ln": "138.82872700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.828727,
+35.110871
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "門池小学校",
+"Jusho": "静岡県沼津市岡一色88-2",
+"Capacity": "－",
+"la": "35.12514900000",
+"ln": "138.88216800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.882168,
+35.125149
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "伊豆山小学校",
+"Jusho": "静岡県熱海市伊豆山711番地",
+"Capacity": "－",
+"la": "35.11579400000",
+"ln": "139.08366100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.083661,
+35.115794
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "多賀小学校",
+"Jusho": "静岡県熱海市下多賀920番地の1",
+"Capacity": "－",
+"la": "35.04899600000",
+"ln": "139.06956800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.069568,
+35.048996
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第一小学校",
+"Jusho": "静岡県熱海市西山町41番1号",
+"Capacity": "－",
+"la": "35.10160000000",
+"ln": "139.06717900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.067179,
+35.1016
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第二小学校",
+"Jusho": "静岡県熱海市桜町3番20号",
+"Capacity": "－",
+"la": "35.08887900000",
+"ln": "139.06770700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.067707,
+35.088879
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "桃山小学校",
+"Jusho": "静岡県熱海市桃山町6番5号",
+"Capacity": "－",
+"la": "35.10632200000",
+"ln": "139.07420600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.074206,
+35.106322
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "網代小学校",
+"Jusho": "静岡県熱海市網代195番地",
+"Capacity": "－",
+"la": "35.04824700000",
+"ln": "139.09256500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.092565,
+35.048247
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東小学校",
+"Jusho": "静岡県三島市東町10-1",
+"Capacity": "－",
+"la": "35.117984",
+"ln": "138.924638"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.924638,
+35.117984
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西小学校",
+"Jusho": "静岡県三島市緑町7-7",
+"Capacity": "－",
+"la": "35.116473",
+"ln": "138.908939"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.908939,
+35.116473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南小学校",
+"Jusho": "静岡県三島市富田町6-1",
+"Capacity": "－",
+"la": "35.109781",
+"ln": "138.917785"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.917785,
+35.109781
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北小学校",
+"Jusho": "静岡県三島市文教町1-4-8",
+"Capacity": "－",
+"la": "35.131202",
+"ln": "138.913257"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.913257,
+35.131202
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "錦田小学校",
+"Jusho": "静岡県三島市谷田966",
+"Capacity": "－",
+"la": "35.11305",
+"ln": "138.936399"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.936399,
+35.11305
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "向山小学校",
+"Jusho": "静岡県三島市谷田1946",
+"Capacity": "－",
+"la": "35.10455",
+"ln": "138.938459"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.938459,
+35.10455
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山田小学校",
+"Jusho": "静岡県三島市川原ヶ谷812",
+"Capacity": "－",
+"la": "35.133282",
+"ln": "138.934125"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.934125,
+35.133282
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "坂小学校",
+"Jusho": "静岡県三島市市山新田163-2",
+"Capacity": "－",
+"la": "35.13676",
+"ln": "138.961682"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.961682,
+35.13676
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "徳倉小学校",
+"Jusho": "静岡県三島市徳倉4-1-45",
+"Capacity": "－",
+"la": "35.142292",
+"ln": "138.913182"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.913182,
+35.142292
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沢地小学校",
+"Jusho": "静岡県三島市沢地127-1",
+"Capacity": "－",
+"la": "35.140502",
+"ln": "138.926389"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.926389,
+35.140502
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北上小学校",
+"Jusho": "静岡県三島市徳倉844-1",
+"Capacity": "－",
+"la": "35.149324",
+"ln": "138.913429"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.913429,
+35.149324
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "佐野小学校",
+"Jusho": "静岡県三島市佐野238",
+"Capacity": "－",
+"la": "35.168559",
+"ln": "138.924083"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.924083,
+35.168559
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中郷小学校",
+"Jusho": "静岡県三島市梅名453",
+"Capacity": "－",
+"la": "35.094929",
+"ln": "138.927516"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.927516,
+35.094929
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長伏小学校",
+"Jusho": "静岡県三島市長伏226-5",
+"Capacity": "－",
+"la": "35.085378",
+"ln": "138.914598"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.914598,
+35.085378
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "井之頭小学校",
+"Jusho": "静岡県富士宮市猪之頭168",
+"Capacity": "－",
+"la": "35.36197400000",
+"ln": "138.56524800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.565248,
+35.361974
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "稲子小学校",
+"Jusho": "静岡県富士宮市上稲子830",
+"Capacity": "－",
+"la": "35.25448599910",
+"ln": "138.53205800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.532058,
+35.2544859991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "貴船小学校",
+"Jusho": "静岡県富士宮市貴船町3-3",
+"Capacity": "－",
+"la": "35.22738000000",
+"ln": "138.60269200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.602692,
+35.22738
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "黒田小学校",
+"Jusho": "静岡県富士宮市星山1030-2",
+"Capacity": "－",
+"la": "35.20946600000",
+"ln": "138.61652400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.616524,
+35.209466
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山宮小学校",
+"Jusho": "静岡県富士宮市山宮1560-1",
+"Capacity": "－",
+"la": "35.27015300000",
+"ln": "138.62777200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.627772,
+35.270153
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "芝富小学校",
+"Jusho": "静岡県富士宮市長貫1323",
+"Capacity": "－",
+"la": "35.20646599910",
+"ln": "138.56636200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.566362,
+35.2064659991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上井出小学校",
+"Jusho": "静岡県富士宮市上井出1400",
+"Capacity": "－",
+"la": "35.30970400000",
+"ln": "138.60121800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.601218,
+35.309704
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上野小学校",
+"Jusho": "静岡県富士宮市下条408",
+"Capacity": "－",
+"la": "35.27409600000",
+"ln": "138.57960900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.579609,
+35.274096
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "人穴小学校",
+"Jusho": "静岡県富士宮市人穴362",
+"Capacity": "－",
+"la": "35.35197600000",
+"ln": "138.59591200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.595912,
+35.351976
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西小学校、フィルムパーク",
+"Jusho": "静岡県富士宮市安居山380",
+"Capacity": "－",
+"la": "35.20902100000",
+"ln": "138.59127700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.591277,
+35.209021
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大宮小学校",
+"Jusho": "静岡県富士宮市元城町2-1",
+"Capacity": "－",
+"la": "35.22657500000",
+"ln": "138.61246900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.612469,
+35.226575
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大富士小学校",
+"Jusho": "静岡県富士宮市万野原新田3992",
+"Capacity": "－",
+"la": "35.25073800000",
+"ln": "138.62141200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.621412,
+35.250738
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "内房小学校",
+"Jusho": "静岡県富士宮市内房3909",
+"Capacity": "－",
+"la": "35.19385499910",
+"ln": "138.55061300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.550613,
+35.1938549991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白糸小学校",
+"Jusho": "静岡県富士宮市原1115",
+"Capacity": "－",
+"la": "35.31417500000",
+"ln": "138.57844200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.578442,
+35.314175
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富丘小学校",
+"Jusho": "静岡県富士宮市淀師489-4",
+"Capacity": "－",
+"la": "35.24257200000",
+"ln": "138.59666400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.596664,
+35.242572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士見小学校、市営舞々木墓地",
+"Jusho": "静岡県富士宮市富士見ヶ丘1794",
+"Capacity": "－",
+"la": "35.23760100000",
+"ln": "138.62571700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.625717,
+35.237601
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士根南小学校",
+"Jusho": "静岡県富士宮市小泉1675",
+"Capacity": "－",
+"la": "35.22552000000",
+"ln": "138.63691100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.636911,
+35.22552
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士根北小学校",
+"Jusho": "静岡県富士宮市村山1499",
+"Capacity": "－",
+"la": "35.25421100000",
+"ln": "138.65263100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.652631,
+35.254211
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北山小学校",
+"Jusho": "静岡県富士宮市北山1582",
+"Capacity": "－",
+"la": "35.28634500000",
+"ln": "138.60449600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.604496,
+35.286345
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "柚野小学校",
+"Jusho": "静岡県富士宮市上柚野88",
+"Capacity": "－",
+"la": "35.25790299910",
+"ln": "138.55264000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.55264,
+35.2579029991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旭小学校",
+"Jusho": "静岡県伊東市岡1270-1",
+"Capacity": "3550",
+"la": "34.95864600000",
+"ln": "139.09254200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.092542,
+34.958646
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "伊久美小学校",
+"Jusho": "静岡県島田市伊久美3690-1",
+"Capacity": "2500",
+"la": "34.92857300000",
+"ln": "138.14118800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.141188,
+34.928573
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "伊太小学校",
+"Jusho": "静岡県島田市伊太1314",
+"Capacity": "3000",
+"la": "34.84891700000",
+"ln": "138.15202200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.152022,
+34.848917
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金谷小学校",
+"Jusho": "静岡県島田市金谷根岸町33",
+"Capacity": "5500",
+"la": "34.82633600000",
+"ln": "138.12735700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.127357,
+34.826336
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "五和小学校",
+"Jusho": "静岡県島田市牛尾435",
+"Capacity": "3000",
+"la": "34.84697200000",
+"ln": "138.12241300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.122413,
+34.846972
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山村都市交流センターささま（旧笹間小学校）",
+"Jusho": "静岡県島田市川根町笹間上391",
+"Capacity": "400",
+"la": "35.00695128480",
+"ln": "138.14534071400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.145340714,
+35.0069512848
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "初倉小学校",
+"Jusho": "静岡県島田市阪本1331",
+"Capacity": "4000",
+"la": "34.80620000000",
+"ln": "138.22290300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.222903,
+34.8062
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "初倉南小学校",
+"Jusho": "静岡県島田市南原10",
+"Capacity": "4500",
+"la": "34.79736800000",
+"ln": "138.22493100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.224931,
+34.797368
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "神座小学校",
+"Jusho": "静岡県島田市神座1444",
+"Capacity": "2500",
+"la": "34.87419000000",
+"ln": "138.10833000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.10833,
+34.87419
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "川根小学校",
+"Jusho": "静岡県島田市川根町家山420",
+"Capacity": "800",
+"la": "34.93940399910",
+"ln": "138.07541700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.075417,
+34.9394039991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "相賀小学校",
+"Jusho": "静岡県島田市相賀875",
+"Capacity": "2500",
+"la": "34.87355200000",
+"ln": "138.13496700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.134967,
+34.873552
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大津小学校",
+"Jusho": "静岡県島田市落合160-1",
+"Capacity": "3500",
+"la": "34.85497200000",
+"ln": "138.18090700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.180907,
+34.854972
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "島田第一小学校",
+"Jusho": "静岡県島田市稲荷二丁目19-1",
+"Capacity": "－",
+"la": "34.83977900000",
+"ln": "138.15282700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.152827,
+34.839779
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "島田第五小学校",
+"Jusho": "静岡県島田市旭二丁目25-1",
+"Capacity": "5500",
+"la": "34.83103100000",
+"ln": "138.19754400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.197544,
+34.831031
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "島田第三小学校",
+"Jusho": "静岡県島田市南一丁目10-1",
+"Capacity": "3000",
+"la": "34.82672600000",
+"ln": "138.17893500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.178935,
+34.826726
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "島田第四小学校",
+"Jusho": "静岡県島田市中河町201",
+"Capacity": "5000",
+"la": "34.84230700000",
+"ln": "138.17868500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.178685,
+34.842307
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "島田第二小学校",
+"Jusho": "静岡県島田市中溝町2372",
+"Capacity": "3000",
+"la": "34.83703000000",
+"ln": "138.16943600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.169436,
+34.83703
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "湯日小学校",
+"Jusho": "静岡県島田市湯日564",
+"Capacity": "3500",
+"la": "34.80603400000",
+"ln": "138.17915700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.179157,
+34.806034
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "六合小学校",
+"Jusho": "静岡県島田市道悦玉丁目13-1",
+"Capacity": "3000",
+"la": "34.83586400000",
+"ln": "138.21001500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.210015,
+34.835864
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "六合東小学校",
+"Jusho": "静岡県島田市東町1200",
+"Capacity": "3500",
+"la": "34.83464100000",
+"ln": "138.22193100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.221931,
+34.834641
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩松小学校",
+"Jusho": "静岡県富士市松岡850",
+"Capacity": "1284",
+"la": "35.16449900000",
+"ln": "138.63274600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.632746,
+35.164499
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩松北小学校",
+"Jusho": "静岡県富士市岩本123-1",
+"Capacity": "1083",
+"la": "35.17535900000",
+"ln": "138.63944000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.63944,
+35.175359
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉永第一小学校",
+"Jusho": "静岡県富士市比奈1431",
+"Capacity": "2092",
+"la": "35.16614000000",
+"ln": "138.72148700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.721487,
+35.16614
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉原小学校",
+"Jusho": "静岡県富士市高嶺町6-1",
+"Capacity": "1484",
+"la": "35.15800100000",
+"ln": "138.68307400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.683074,
+35.158001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宮士中央小学校",
+"Jusho": "静岡県富士市米之宮町295",
+"Capacity": "1291",
+"la": "35.16638500000",
+"ln": "138.65874800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.658748,
+35.166385
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元吉原小学校",
+"Jusho": "静岡県富士市今井3-4-2",
+"Capacity": "1135",
+"la": "35.13972600000",
+"ln": "138.71671000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.71671,
+35.139726
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "原田小学校",
+"Jusho": "静岡県富士市",
+"Capacity": "1121",
+"la": "35.16975490120",
+"ln": "138.70824680100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.708246801,
+35.1697549012
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "広見小学校",
+"Jusho": "静岡県富士市広見本町1-1",
+"Capacity": "1423",
+"la": "35.18452600000",
+"ln": "138.68604600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.686046,
+35.184526
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "今泉小学校",
+"Jusho": "静岡県富士市今泉3-17-1",
+"Capacity": "1739",
+"la": "35.16247300000",
+"ln": "138.69771100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.697711,
+35.162473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "神戸小学校",
+"Jusho": "静岡県富士市神戸633",
+"Capacity": "1061",
+"la": "35.18983100000",
+"ln": "138.71234800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.712348,
+35.189831
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須津小学校",
+"Jusho": "静岡県富士市",
+"Capacity": "1262",
+"la": "35.16217047670",
+"ln": "138.73854496400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.738544964,
+35.1621704767
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "青葉台小学校",
+"Jusho": "静岡県富士市一色295",
+"Capacity": "1324",
+"la": "35.18847600000",
+"ln": "138.69809900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.698099,
+35.188476
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大淵第一小学校",
+"Jusho": "静岡県富士市大淵3012",
+"Capacity": "1807",
+"la": "35.21171700000",
+"ln": "138.68604500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.686045,
+35.211717
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鷹岡小学校",
+"Jusho": "静岡県富士市久沢2-3-1",
+"Capacity": "1288",
+"la": "35.19074700000",
+"ln": "138.64824400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.648244,
+35.190747
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "天間小学校",
+"Jusho": "静岡県富士市天間50",
+"Capacity": "1104",
+"la": "35.20071800000",
+"ln": "138.63560600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.635606,
+35.200718
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "伝法小学校",
+"Jusho": "静岡県富士市伝法2743",
+"Capacity": "1321",
+"la": "35.17044400000",
+"ln": "138.66890900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.668909,
+35.170444
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田子浦小学校",
+"Jusho": "静岡県富士市中丸98",
+"Capacity": "1407",
+"la": "35.13861500000",
+"ln": "138.67074200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.670742,
+35.138615
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士見台小学校",
+"Jusho": "静岡県富士市富士見台1-12",
+"Capacity": "1278",
+"la": "35.18427600000",
+"ln": "138.71029300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.710293,
+35.184276
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士川第一小学校",
+"Jusho": "静岡県富士市岩淵107番地",
+"Capacity": "1139",
+"la": "35.14876034110",
+"ln": "138.61804537200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.618045372,
+35.1487603411
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士川第二小学校",
+"Jusho": "静岡県富士市北松野1959番地",
+"Capacity": "879",
+"la": "35.18417742560",
+"ln": "138.59718659400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.597186594,
+35.1841774256
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士第一小学校",
+"Jusho": "静岡県富士市本市場280-2",
+"Capacity": "1734",
+"la": "35.15639000000",
+"ln": "138.65316100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.653161,
+35.15639
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士第二小学校",
+"Jusho": "静岡県富士市横割1-8-1",
+"Capacity": "1380",
+"la": "35.14766900000",
+"ln": "138.65335500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.653355,
+35.147669
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士南小学校",
+"Jusho": "静岡県富士市宮下551",
+"Capacity": "1342",
+"la": "35.13555900000",
+"ln": "138.64593900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.645939,
+35.135559
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩田小学校",
+"Jusho": "静岡県磐田市匂坂中987",
+"Capacity": "－",
+"la": "34.76691900000",
+"ln": "137.83185700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.831857,
+34.766919
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "向笠小学校",
+"Jusho": "静岡県磐田市向笠竹之内391-6",
+"Capacity": "－",
+"la": "34.76153200000",
+"ln": "137.87663200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.876632,
+34.761532
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "青城小学校",
+"Jusho": "静岡県磐田市中田55",
+"Capacity": "－",
+"la": "34.71453600000",
+"ln": "137.82494300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.824943,
+34.714536
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大藤小学校",
+"Jusho": "静岡県磐田市大久保282-1",
+"Capacity": "－",
+"la": "34.77647400000",
+"ln": "137.84799500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.847995,
+34.776474
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長野小学校",
+"Jusho": "静岡県磐田市小島736",
+"Capacity": "－",
+"la": "34.68459600000",
+"ln": "137.83097200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.830972,
+34.684596
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田原小学校",
+"Jusho": "静岡県磐田市三ヶ野1030-1",
+"Capacity": "－",
+"la": "34.73456300000",
+"ln": "137.88882400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.888824,
+34.734563
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東部小学校",
+"Jusho": "静岡県磐田市東貝塚206",
+"Capacity": "－",
+"la": "34.71198200000",
+"ln": "137.87929900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.879299,
+34.711982
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "磐田西小学校",
+"Jusho": "静岡県磐田市中泉2522-2",
+"Capacity": "－",
+"la": "34.71686900000",
+"ln": "137.84558000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.84558,
+34.716869
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "磐田中部小学校",
+"Jusho": "静岡県磐田市中泉1203-2",
+"Capacity": "－",
+"la": "34.71739700000",
+"ln": "137.84958000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.84958,
+34.717397
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "磐田南小学校",
+"Jusho": "静岡県磐田市千手堂1356-1",
+"Capacity": "－",
+"la": "34.69201200000",
+"ln": "137.84419300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.844193,
+34.692012
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "磐田北小学校",
+"Jusho": "静岡県磐田市見付2352",
+"Capacity": "－",
+"la": "34.73017300000",
+"ln": "137.85882800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.858828,
+34.730173
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士見小学校",
+"Jusho": "静岡県磐田市富士見町4-9-5",
+"Capacity": "－",
+"la": "34.73678400000",
+"ln": "137.86743800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.867438,
+34.736784
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "福田小学校",
+"Jusho": "静岡県磐田市下太380",
+"Capacity": "－",
+"la": "34.68393000000",
+"ln": "137.87627300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.876273,
+34.68393
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊岡東小学校",
+"Jusho": "静岡県磐田市敷地891-1",
+"Capacity": "－",
+"la": "34.83537400000",
+"ln": "137.86502900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.865029,
+34.835374
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊岡南小学校",
+"Jusho": "静岡県磐田市上神増1410",
+"Capacity": "－",
+"la": "34.81555200000",
+"ln": "137.84732700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.847327,
+34.815552
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊岡北小学校",
+"Jusho": "静岡県磐田市下野部158-1",
+"Capacity": "－",
+"la": "34.83663200000",
+"ln": "137.84341000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.84341,
+34.836632
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊田東小学校",
+"Jusho": "静岡県磐田市高見丘57",
+"Capacity": "－",
+"la": "34.74336600000",
+"ln": "137.83885800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.838858,
+34.743366
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊田南小学校",
+"Jusho": "静岡県磐田市森下300",
+"Capacity": "－",
+"la": "34.72106200000",
+"ln": "137.82280400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.822804,
+34.721062
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊田北部小学校",
+"Jusho": "静岡県磐田市加茂1026",
+"Capacity": "－",
+"la": "34.73944900000",
+"ln": "137.82633100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.826331,
+34.739449
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊浜小学校",
+"Jusho": "静岡県磐田市豊浜9",
+"Capacity": "－",
+"la": "34.68704100000",
+"ln": "137.89929800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.899298,
+34.687041
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "竜洋西小学校",
+"Jusho": "静岡県磐田市川袋1900",
+"Capacity": "－",
+"la": "34.67573400000",
+"ln": "137.80100200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.801002,
+34.675734
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "竜洋東小学校",
+"Jusho": "静岡県磐田市中平松23",
+"Capacity": "－",
+"la": "34.67265200000",
+"ln": "137.82322300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.823223,
+34.672652
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "竜洋北小学校",
+"Jusho": "静岡県磐田市堀之内356",
+"Capacity": "－",
+"la": "34.69437100000",
+"ln": "137.81069600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.810696,
+34.694371
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "港小学校",
+"Jusho": "静岡県焼津市石津港町40-2",
+"Capacity": "－",
+"la": "34.84078100000",
+"ln": "138.32694700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.326947,
+34.840781
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "黒石小学校",
+"Jusho": "静岡県焼津市大住1246",
+"Capacity": "－",
+"la": "34.85072500000",
+"ln": "138.30064500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.300645,
+34.850725
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小川小学校",
+"Jusho": "静岡県焼津市小川2525",
+"Capacity": "－",
+"la": "34.84978000000",
+"ln": "138.31691900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.316919,
+34.84978
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "焼津西小学校",
+"Jusho": "静岡県焼津市塩津117-1",
+"Capacity": "－",
+"la": "34.86605600000",
+"ln": "138.30994900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.309949,
+34.866056
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "焼津東小学校",
+"Jusho": "静岡県焼津市栄町5-14-1",
+"Capacity": "－",
+"la": "34.86794500000",
+"ln": "138.31828100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.318281,
+34.867945
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "焼津南小学校",
+"Jusho": "静岡県焼津市焼津5-5-1",
+"Capacity": "－",
+"la": "34.86105600000",
+"ln": "138.31725300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.317253,
+34.861056
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大富小学校",
+"Jusho": "静岡県焼津市中根新田637",
+"Capacity": "－",
+"la": "34.83417200000",
+"ln": "138.29486800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.294868,
+34.834172
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東益津小学校",
+"Jusho": "静岡県焼津市石脇上65",
+"Capacity": "－",
+"la": "34.88655400000",
+"ln": "138.32030900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.320309,
+34.886554
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊田小学校",
+"Jusho": "静岡県焼津市五ｹ堀之内2",
+"Capacity": "－",
+"la": "34.86352900000",
+"ln": "138.29036800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.290368,
+34.863529
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "和田小学校",
+"Jusho": "静岡県焼津市田尻541",
+"Capacity": "－",
+"la": "34.82747800000",
+"ln": "138.32108700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.321087,
+34.827478
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "横須賀小学校",
+"Jusho": "静岡県掛川市横須賀1110番地",
+"Capacity": "－",
+"la": "34.67984900000",
+"ln": "137.98448400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.984484,
+34.679849
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "原谷小学校",
+"Jusho": "静岡県掛川市本郷561番地の1",
+"Capacity": "－",
+"la": "34.80636100000",
+"ln": "137.95445600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.954456,
+34.806361
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "原田小学校",
+"Jusho": "静岡県掛川市原里1623番地の1",
+"Capacity": "－",
+"la": "35.16947200000",
+"ln": "138.70826600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.708266,
+35.169472
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "佐束小学校",
+"Jusho": "静岡県掛川市小貫1474番地",
+"Capacity": "－",
+"la": "34.71640200000",
+"ln": "138.05364500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.053645,
+34.716402
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "桜木小学校",
+"Jusho": "静岡県掛川市下垂木1472番地の1",
+"Capacity": "－",
+"la": "34.79444700000",
+"ln": "137.98570400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.985704,
+34.794447
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上内田小学校",
+"Jusho": "静岡県掛川市上内田3325番地",
+"Capacity": "－",
+"la": "34.74789700000",
+"ln": "138.04250600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.042506,
+34.747897
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城北小学校",
+"Jusho": "静岡県掛川市水垂178番地",
+"Capacity": "－",
+"la": "34.78506000000",
+"ln": "138.01731300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.017313,
+34.78506
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西郷小学校",
+"Jusho": "静岡県掛川市上西郷2606番地の2",
+"Capacity": "－",
+"la": "34.80616800000",
+"ln": "138.01295100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.012951,
+34.806168
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西山口小学校",
+"Jusho": "静岡県掛川市成滝145番地",
+"Capacity": "－",
+"la": "34.77878300000",
+"ln": "138.03647800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.036478,
+34.778783
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "千浜小学校",
+"Jusho": "静岡県掛川市千浜5849番地",
+"Capacity": "－",
+"la": "34.65929900000",
+"ln": "138.07500600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.075006,
+34.659299
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "曽我小学校",
+"Jusho": "静岡県掛川市領家384番地",
+"Capacity": "－",
+"la": "34.76339400000",
+"ln": "137.97578900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.975789,
+34.763394
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "倉真小学校",
+"Jusho": "静岡県掛川市倉真3774番地",
+"Capacity": "－",
+"la": "34.81697300000",
+"ln": "138.03561600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.035616,
+34.816973
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大坂小学校",
+"Jusho": "静岡県掛川市大坂5667番地",
+"Capacity": "－",
+"la": "34.67551800000",
+"ln": "138.04698000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.04698,
+34.675518
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大渕小学校",
+"Jusho": "静岡県掛川市大渕5602番地",
+"Capacity": "－",
+"la": "34.67187800000",
+"ln": "138.01251000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.01251,
+34.671878
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第一小学校",
+"Jusho": "静岡県掛川市掛川1108番地の1",
+"Capacity": "－",
+"la": "34.77642100000",
+"ln": "138.01739600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.017396,
+34.776421
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第二小学校",
+"Jusho": "静岡県掛川市大池438番地の1",
+"Capacity": "－",
+"la": "34.77450400000",
+"ln": "137.99431500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.994315,
+34.774504
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中央小学校",
+"Jusho": "静岡県掛川市下俣633番地",
+"Capacity": "－",
+"la": "34.77010800000",
+"ln": "138.00481400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.004814,
+34.770108
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中小学校",
+"Jusho": "静岡県掛川市中3080番地",
+"Capacity": "－",
+"la": "34.68848900000",
+"ln": "138.05906200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.059062,
+34.688489
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "土方小学校",
+"Jusho": "静岡県掛川市上土方286番地の1",
+"Capacity": "－",
+"la": "34.70762500000",
+"ln": "138.04181300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.041813,
+34.707625
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "日坂小学校",
+"Jusho": "静岡県掛川市大野3番地の1",
+"Capacity": "－",
+"la": "34.80267000000",
+"ln": "138.07300200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.073002,
+34.80267
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "和田岡小学校",
+"Jusho": "静岡県掛川市吉岡639番地の2",
+"Capacity": "－",
+"la": "34.78461400000",
+"ln": "137.95573400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.955734,
+34.784614
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "稲葉小学校",
+"Jusho": "静岡県藤枝市堀之内2337",
+"Capacity": "3103",
+"la": "34.88188600000",
+"ln": "138.21804200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.218042,
+34.881886
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岡部小学校",
+"Jusho": "静岡県藤枝市内谷997-2",
+"Capacity": "4609",
+"la": "34.90949499910",
+"ln": "138.28328500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.283285,
+34.9094949991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "広幡小学校",
+"Jusho": "静岡県藤枝市鬼島424",
+"Capacity": "6178",
+"la": "34.89074800000",
+"ln": "138.28200800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.282008,
+34.890748
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高洲小学校",
+"Jusho": "静岡県藤枝市高柳1315",
+"Capacity": "5633",
+"la": "34.84297600000",
+"ln": "138.27001000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.27001,
+34.842976
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高洲南小学校",
+"Jusho": "静岡県藤枝市高洲37-1",
+"Capacity": "4864",
+"la": "34.83564300000",
+"ln": "138.26309400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.263094,
+34.835643
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "瀬戸谷小学校",
+"Jusho": "静岡県藤枝市本郷872",
+"Capacity": "4506",
+"la": "34.91343700000",
+"ln": "138.20121000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.20121,
+34.913437
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西益津小学校",
+"Jusho": "静岡県藤枝市田中1-7-20",
+"Capacity": "6874",
+"la": "34.87216700000",
+"ln": "138.27453700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.274537,
+34.872167
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "青島小学校",
+"Jusho": "静岡県藤枝市:下青島10",
+"Capacity": "8144",
+"la": "34.84872300000",
+"ln": "138.23809600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.238096,
+34.848723
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "青島東小学校",
+"Jusho": "静岡県藤枝市志太5-1-1",
+"Capacity": "7767",
+"la": "34.85991700000",
+"ln": "138.25495600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.254956,
+34.859917
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "青島北小学校",
+"Jusho": "静岡県藤枝市南駿河台2-11-1",
+"Capacity": "7731",
+"la": "34.86038000000",
+"ln": "138.23687100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.236871,
+34.86038
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大洲小学校",
+"Jusho": "静岡県藤枝市大洲5-20",
+"Capacity": "3993",
+"la": "34.82669900000",
+"ln": "138.25165100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.251651,
+34.826699
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "朝比奈第一小学校",
+"Jusho": "静岡県藤枝市入舟1021",
+"Capacity": "4310",
+"la": "34.95257199910",
+"ln": "138.25156600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.251566,
+34.9525719991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "藤岡小学校",
+"Jusho": "静岡県藤枝市藤岡3-14-1",
+"Capacity": "5578",
+"la": "34.88722000000",
+"ln": "138.26656500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.266565,
+34.88722
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "藤枝小学校",
+"Jusho": "静岡県藤枝市天王町1-1-l",
+"Capacity": "8538",
+"la": "34.87422200000",
+"ln": "138.26017700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.260177,
+34.874222
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "葉梨小学校",
+"Jusho": "静岡県藤枝市下之郷111-1",
+"Capacity": "4891",
+"la": "34.89474600000",
+"ln": "138.24828900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.248289,
+34.894746
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "葉梨西北小学校",
+"Jusho": "静岡県藤枝市西方1080",
+"Capacity": "3439",
+"la": "34.92527000000",
+"ln": "138.23595700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.235957,
+34.92527
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "印野小学校",
+"Jusho": "静岡県御殿場市印野1710",
+"Capacity": "－",
+"la": "35.30037400000",
+"ln": "138.87755500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.877555,
+35.300374
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "玉穂小学校",
+"Jusho": "静岡県御殿場市中畑441",
+"Capacity": "－",
+"la": "35.31528900000",
+"ln": "138.90574700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.905747,
+35.315289
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "原里小学校",
+"Jusho": "静岡県御殿場市川島田1902",
+"Capacity": "－",
+"la": "35.30059700000",
+"ln": "138.90802400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.908024,
+35.300597
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御殿場小学校",
+"Jusho": "静岡県御殿場市萩原361-1",
+"Capacity": "－",
+"la": "35.31104200000",
+"ln": "138.93624200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.936242,
+35.311042
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御殿場南小学校",
+"Jusho": "静岡県御殿場市川島田580",
+"Capacity": "－",
+"la": "35.29559900000",
+"ln": "138.93224200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.932242,
+35.295599
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高根小学校",
+"Jusho": "静岡県御殿場市塚原38-5",
+"Capacity": "－",
+"la": "35.33029100000",
+"ln": "138.94043500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.940435,
+35.330291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "神山小学校",
+"Jusho": "静岡県御殿場市神山478-2",
+"Capacity": "－",
+"la": "35.23244100000",
+"ln": "138.92321800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.923218,
+35.232441
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "朝日小学校",
+"Jusho": "静岡県御殿場市川島田84-1",
+"Capacity": "－",
+"la": "35.29071100000",
+"ln": "138.92579900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.925799,
+35.290711
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東小学校",
+"Jusho": "静岡県御殿場市西田中310",
+"Capacity": "－",
+"la": "35.31576400000",
+"ln": "138.94574000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.94574,
+35.315764
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士岡小学校",
+"Jusho": "静岡県御殿場市中山161",
+"Capacity": "－",
+"la": "35.25977100000",
+"ln": "138.92193900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.921939,
+35.259771
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "笠原小学校（笠原支部）",
+"Jusho": "静岡県袋井市山崎4822",
+"Capacity": "564",
+"la": "34.69729099910",
+"ln": "137.95381900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.953819,
+34.6972909991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高南小学校（高南支部）",
+"Jusho": "静岡県袋井市上田町306-2",
+"Capacity": "872",
+"la": "34.73473099910",
+"ln": "137.93454200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.934542,
+34.7347309991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "今井小学校（今井支部）",
+"Jusho": "静岡県袋井市太田692",
+"Capacity": "628",
+"la": "34.76753099910",
+"ln": "137.89063000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.89063,
+34.7675309991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三川小学校（三川支部）",
+"Jusho": "静岡県袋井市友永38",
+"Capacity": "493",
+"la": "34.79816699910",
+"ln": "137.87913100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.879131,
+34.7981669991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山名小学校（宇刈支部）",
+"Jusho": "静岡県袋井市春岡684",
+"Capacity": "991",
+"la": "34.79033499910",
+"ln": "137.91359900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.913599,
+34.7903349991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浅羽東小学校",
+"Jusho": "静岡県袋井市浅羽2800",
+"Capacity": "913",
+"la": "34.72056600000",
+"ln": "137.92765500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.927655,
+34.720566
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浅羽南小学校（浅羽南支部）",
+"Jusho": "静岡県袋井市西同笠148",
+"Capacity": "953",
+"la": "34.68123699910",
+"ln": "137.93462800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.934628,
+34.6812369991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浅羽北小学校",
+"Jusho": "静岡県袋井市浅羽1322",
+"Capacity": "927",
+"la": "34.70815000000",
+"ln": "137.92212800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.922128,
+34.70815
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "袋井西小学校（川井支部）",
+"Jusho": "静岡県袋井市川井442",
+"Capacity": "796",
+"la": "34.74603499910",
+"ln": "137.91640500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.916405,
+34.7460349991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "袋井東小学校（袋井東支部）",
+"Jusho": "静岡県袋井市広岡2317-1",
+"Capacity": "708",
+"la": "34.75822799910",
+"ln": "137.94506900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.945069,
+34.7582279991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "袋井南小学校（高尾支部）",
+"Jusho": "静岡県袋井市高尾740",
+"Capacity": "1058",
+"la": "34.74209099910",
+"ln": "137.93187600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.931876,
+34.7420909991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "袋井北小学校（袋井北支部）",
+"Jusho": "静岡県袋井市久能1580",
+"Capacity": "1222",
+"la": "34.75858899910",
+"ln": "137.91498800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.914988,
+34.7585889991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "稲梓小学校",
+"Jusho": "静岡県下田市椎原224",
+"Capacity": "－",
+"la": "34.72296500000",
+"ln": "138.92614400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.926144,
+34.722965
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "稲生沢小学校",
+"Jusho": "静岡県下田市立野6-1",
+"Capacity": "－",
+"la": "34.69666200000",
+"ln": "138.93708800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.937088,
+34.696662
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "下田小学校",
+"Jusho": "静岡県下田市5丁目3-1",
+"Capacity": "－",
+"la": "34.67234200000",
+"ln": "138.93983500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.939835,
+34.672342
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大賀茂小学校",
+"Jusho": "静岡県下田市大賀茂1429",
+"Capacity": "－",
+"la": "34.67621900000",
+"ln": "138.90495400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.904954,
+34.676219
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "朝日小学校",
+"Jusho": "静岡県下田市吉佐美544",
+"Capacity": "－",
+"la": "34.66038700000",
+"ln": "138.91936900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.919369,
+34.660387
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白浜小学校",
+"Jusho": "静岡県下田市白浜1324-1",
+"Capacity": "－",
+"la": "34.70027300000",
+"ln": "138.97141900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.971419,
+34.700273
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜崎小学校",
+"Jusho": "静岡県下田市須崎1785-1",
+"Capacity": "－",
+"la": "34.66863800000",
+"ln": "138.96380900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.963809,
+34.668638
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岡崎小学校",
+"Jusho": "静岡県湖西市岡崎634-2",
+"Capacity": "7633",
+"la": "34.72452100000",
+"ln": "137.50300200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.503002,
+34.724521
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新居小学校",
+"Jusho": "静岡県湖西市新居町新居1770",
+"Capacity": "5690",
+"la": "34.69033399910",
+"ln": "137.56149900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.561499,
+34.6903339991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "知波田小学校",
+"Jusho": "静岡県湖西市大知波1144",
+"Capacity": "2863",
+"la": "34.75904500000",
+"ln": "137.51086100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.510861,
+34.759045
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東小学校",
+"Jusho": "静岡県湖西市新所680",
+"Capacity": "7128",
+"la": "34.74002100000",
+"ln": "137.53586000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.53586,
+34.740021
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白須賀小学校",
+"Jusho": "静岡県湖西市白須賀5030",
+"Capacity": "3909",
+"la": "34.68499900000",
+"ln": "137.50744800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.507448,
+34.684999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鷲津小学校",
+"Jusho": "静岡県湖西市鷲津670",
+"Capacity": "4903",
+"la": "34.71319100000",
+"ln": "137.54138900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.541389,
+34.713191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）土肥南小学校",
+"Jusho": "静岡県伊豆市八木沢1445-1",
+"Capacity": "－",
+"la": "34.89090709000",
+"ln": "138.77090402400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.770904024,
+34.89090709
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "熊坂小学校",
+"Jusho": "静岡県伊豆市熊坂708-3",
+"Capacity": "－",
+"la": "34.99058100000",
+"ln": "138.93069400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.930694,
+34.990581
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "月ヶ瀬小学校",
+"Jusho": "静岡県伊豆市月ヶ瀬444番",
+"Capacity": "－",
+"la": "34.91580799910",
+"ln": "138.92425600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.924256,
+34.9158079991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "修善寺熊坂小学校",
+"Jusho": "静岡県伊豆市熊坂1116",
+"Capacity": "－",
+"la": "34.99043175440",
+"ln": "138.93097309400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.930973094,
+34.9904317544
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "修善寺小学校",
+"Jusho": "静岡県伊豆市修善寺3244",
+"Capacity": "－",
+"la": "34.96950000000",
+"ln": "138.91744600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.917446,
+34.9695
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "修善寺東小学校",
+"Jusho": "静岡県伊豆市本立野419",
+"Capacity": "－",
+"la": "34.96983300000",
+"ln": "138.94310900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.943109,
+34.969833
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "修善寺南小学校",
+"Jusho": "静岡県伊豆市柏久保449",
+"Capacity": "－",
+"la": "34.97727700000",
+"ln": "138.95085900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.950859,
+34.977277
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大見小学校",
+"Jusho": "静岡県伊豆市八幡158-2",
+"Capacity": "－",
+"la": "34.95872600000",
+"ln": "138.99863300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.998633,
+34.958726
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大東小学校",
+"Jusho": "静岡県伊豆市徳永900",
+"Capacity": "－",
+"la": "34.94858900000",
+"ln": "139.03115800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.031158,
+34.948589
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中伊豆小学校",
+"Jusho": "静岡県伊豆市八幡158番2号",
+"Capacity": "－",
+"la": "34.95877965390",
+"ln": "138.99864250700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.998642507,
+34.9587796539
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "土肥小学校",
+"Jusho": "静岡県伊豆市土肥638",
+"Capacity": "－",
+"la": "34.91203100000",
+"ln": "138.79428900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.794289,
+34.912031
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "土肥南小学校",
+"Jusho": "静岡県伊豆市八木沢1445-1",
+"Capacity": "－",
+"la": "34.89094120710",
+"ln": "138.77088025600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.770880256,
+34.8909412071
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "湯ヶ島小学校",
+"Jusho": "静岡県伊豆市湯ヶ島136番",
+"Capacity": "－",
+"la": "34.89254599910",
+"ln": "138.93143700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.931437,
+34.8925459991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "八岳小学校",
+"Jusho": "静岡県伊豆市原保384",
+"Capacity": "－",
+"la": "34.92384000000",
+"ln": "138.99846700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.998467,
+34.92384
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "横地小学校",
+"Jusho": "静岡県菊川市東横地1886",
+"Capacity": "2069",
+"la": "34.72545400000",
+"ln": "138.09508800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.095088,
+34.725454
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "加茂小学校",
+"Jusho": "静岡県菊川市加茂5114",
+"Capacity": "5246",
+"la": "34.74497700000",
+"ln": "138.08309000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.08309,
+34.744977
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "河城小学校",
+"Jusho": "静岡県菊川市吉沢556-2",
+"Capacity": "1984",
+"la": "34.77361900000",
+"ln": "138.11305400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.113054,
+34.773619
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "内田小学校",
+"Jusho": "静岡県菊川市下内田1637",
+"Capacity": "2774",
+"la": "34.72623400000",
+"ln": "138.07303200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.073032,
+34.726234
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "堀之内小学校",
+"Jusho": "静岡県菊川市西方2140",
+"Capacity": "2119",
+"la": "34.76256200000",
+"ln": "138.07461500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.074615,
+34.762562
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "六郷小学校",
+"Jusho": "静岡県菊川市本所2200",
+"Capacity": "2298",
+"la": "34.74586800000",
+"ln": "138.09453100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.094531,
+34.745868
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大仁小学校",
+"Jusho": "静岡県伊豆の国市三福325",
+"Capacity": "－",
+"la": "35.00846800000",
+"ln": "138.94708100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.947081,
+35.008468
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大仁東小学校",
+"Jusho": "静岡県伊豆の国市下畑1930",
+"Capacity": "－",
+"la": "35.01002500000",
+"ln": "138.99113300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.991133,
+35.010025
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大仁北小学校",
+"Jusho": "静岡県伊豆の国市守木312",
+"Capacity": "－",
+"la": "35.01805000000",
+"ln": "138.94813600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.948136,
+35.01805
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長岡南小学校",
+"Jusho": "静岡県伊豆の国市長岡1294-1",
+"Capacity": "－",
+"la": "35.03135400000",
+"ln": "138.93799800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.937998,
+35.031354
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長岡北小学校",
+"Jusho": "静岡県伊豆の国市南江間1200",
+"Capacity": "－",
+"la": "35.05390700000",
+"ln": "138.92649800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.926498,
+35.053907
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "韮山小学校",
+"Jusho": "静岡県伊豆の国市四日町350",
+"Capacity": "－",
+"la": "35.05571300000",
+"ln": "138.94788600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.947886,
+35.055713
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "韮山南小学校",
+"Jusho": "静岡県伊豆の国市中817-1",
+"Capacity": "－",
+"la": "35.03874300000",
+"ln": "138.95274700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.952747,
+35.038743
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "細江小学校（体育館・校舎）",
+"Jusho": "静岡県牧之原市細江1260",
+"Capacity": "－",
+"la": "34.75000623090",
+"ln": "138.23591740300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.235917403,
+34.7500062309
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "細江小学校グラウンド",
+"Jusho": "静岡県牧之原市細江1260",
+"Capacity": "－",
+"la": "34.75028451650",
+"ln": "138.23656507900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.236565079,
+34.7502845165
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "坂部小学校（体育館・校舎）",
+"Jusho": "静岡県牧之原市坂部468-1",
+"Capacity": "－",
+"la": "34.77834800000",
+"ln": "138.20866300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.208663,
+34.778348
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "坂部小学校グラウンド",
+"Jusho": "静岡県牧之原市坂部468-1",
+"Capacity": "－",
+"la": "34.77877748580",
+"ln": "138.20896604100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.208966041,
+34.7787774858
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "勝間田小学校（体育館・校舎）",
+"Jusho": "静岡県牧之原市勝間588-3",
+"Capacity": "－",
+"la": "34.76637145620",
+"ln": "138.18717001400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.187170014,
+34.7663714562
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "勝間田小学校グラウンド",
+"Jusho": "静岡県牧之原市勝間588-3",
+"Capacity": "－",
+"la": "34.76600536220",
+"ln": "138.18746117100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.187461171,
+34.7660053622
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "菅山小学校",
+"Jusho": "静岡県牧之原市西山寺6-1",
+"Capacity": "－",
+"la": "34.69821500000",
+"ln": "138.17735400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.177354,
+34.698215
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "川崎小学校（体育館・校舎）",
+"Jusho": "静岡県牧之原市静波1001-1",
+"Capacity": "－",
+"la": "34.73809065830",
+"ln": "138.22466460700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.224664607,
+34.7380906583
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "相良小学校",
+"Jusho": "静岡県牧之原市波津1643",
+"Capacity": "－",
+"la": "34.68652300000",
+"ln": "138.19674100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.196741,
+34.686523
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "地頭方小学校",
+"Jusho": "静岡県牧之原市地頭方981",
+"Capacity": "－",
+"la": "34.63761000000",
+"ln": "138.19313300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.193133,
+34.63761
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "萩間小学校",
+"Jusho": "静岡県牧之原市黒子75",
+"Capacity": "－",
+"la": "34.71676700000",
+"ln": "138.18210300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.182103,
+34.716767
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "片浜小学校",
+"Jusho": "静岡県牧之原市片浜1210",
+"Capacity": "－",
+"la": "34.71396300000",
+"ln": "138.21287600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.212876,
+34.713963
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "牧之原小学校",
+"Jusho": "静岡県牧之原市東萩間2082-13",
+"Capacity": "－",
+"la": "34.75803799910",
+"ln": "138.13535800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.135358,
+34.7580379991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "稲取小学校",
+"Jusho": "静岡県賀茂郡東伊豆町稲取614-1",
+"Capacity": "－",
+"la": "34.76974200000",
+"ln": "139.03874800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.038748,
+34.769742
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大川小学校",
+"Jusho": "静岡県賀茂郡東伊豆町大川312",
+"Capacity": "－",
+"la": "34.84162100000",
+"ln": "139.07349100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.073491,
+34.841621
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "熱川小学校",
+"Jusho": "静岡県賀茂郡東伊豆町奈良本771-1",
+"Capacity": "－",
+"la": "34.81276400000",
+"ln": "139.06024400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.060244,
+34.812764
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三浜小学校",
+"Jusho": "静岡県賀茂郡南伊豆町子浦1472",
+"Capacity": "－",
+"la": "34.67163900000",
+"ln": "138.78438000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.78438,
+34.671639
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南伊豆東小学校",
+"Jusho": "静岡県賀茂郡南伊豆町湊243",
+"Capacity": "－",
+"la": "34.64912500000",
+"ln": "138.88518200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.885182,
+34.649125
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南中小学校",
+"Jusho": "静岡県賀茂郡南伊豆町上賀茂80",
+"Capacity": "－",
+"la": "34.65667200000",
+"ln": "138.86020600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.860206,
+34.656672
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩科小学校",
+"Jusho": "静岡県賀茂郡松崎町岩科北側442",
+"Capacity": "－",
+"la": "34.73685100000",
+"ln": "138.78584700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.785847,
+34.736851
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩科小学校校門付近",
+"Jusho": "静岡県賀茂郡松崎町",
+"Capacity": "－",
+"la": "34.73656258240",
+"ln": "138.78552362700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.785523627,
+34.7365625824
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三浦小学校",
+"Jusho": "静岡県賀茂郡松崎町石部279",
+"Capacity": "－",
+"la": "34.72307200000",
+"ln": "138.76043300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.760433,
+34.723072
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中川小学校",
+"Jusho": "静岡県賀茂郡松崎町峰輪450",
+"Capacity": "－",
+"la": "34.75818200000",
+"ln": "138.82176100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.821761,
+34.758182
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "賀茂小学校",
+"Jusho": "静岡県賀茂郡西伊豆町宇久須836-2",
+"Capacity": "2828",
+"la": "34.84787300000",
+"ln": "138.78473300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.784733,
+34.847873
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "仁科小学校",
+"Jusho": "静岡県賀茂郡西伊豆町仁科184",
+"Capacity": "1431",
+"la": "34.77304300000",
+"ln": "138.78034700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.780347,
+34.773043
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田子小学校",
+"Jusho": "静岡県賀茂郡西伊豆町田子1320",
+"Capacity": "833",
+"la": "34.80329000000",
+"ln": "138.76670700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.766707,
+34.80329
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "桑村小学校",
+"Jusho": "静岡県田方郡函南町桑原933",
+"Capacity": "－",
+"la": "35.11417900000",
+"ln": "138.97260500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.972605,
+35.114179
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西小学校",
+"Jusho": "静岡県田方郡函南町間宮475",
+"Capacity": "－",
+"la": "35.08187600000",
+"ln": "138.93738600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.937386,
+35.081876
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "丹那小学校",
+"Jusho": "静岡県田方郡函南町丹那443",
+"Capacity": "－",
+"la": "35.10623700000",
+"ln": "139.01949000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.01949,
+35.106237
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東小学校、同第２グラウンド",
+"Jusho": "静岡県田方郡函南町平井972",
+"Capacity": "－",
+"la": "35.08945600000",
+"ln": "138.96076000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.96076,
+35.089456
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "函南小学校、同第２グラウンド",
+"Jusho": "静岡県田方郡函南町仁田148",
+"Capacity": "－",
+"la": "35.08248208870",
+"ln": "138.94591685300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.945916853,
+35.0824820887
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水小学校",
+"Jusho": "静岡県駿東郡清水町堂庭87",
+"Capacity": "3682",
+"la": "35.10245600000",
+"ln": "138.90380600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.903806,
+35.102456
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西小学校",
+"Jusho": "静岡県駿東郡清水町長沢220",
+"Capacity": "7261",
+"la": "35.10570600000",
+"ln": "138.89666700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.896667,
+35.105706
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南小学校",
+"Jusho": "静岡県駿東郡清水町湯川182-1",
+"Capacity": "5887",
+"la": "35.09081799910",
+"ln": "138.90625000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.90625,
+35.0908179991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長泉小学校",
+"Jusho": "静岡県駿東郡長泉町中土狩872-2",
+"Capacity": "－",
+"la": "35.13742500000",
+"ln": "138.89863800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.898638,
+35.137425
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南小学校",
+"Jusho": "静岡県駿東郡長泉町竹原100",
+"Capacity": "－",
+"la": "35.12242699910",
+"ln": "138.89413900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.894139,
+35.1224269991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北小学校",
+"Jusho": "静岡県駿東郡長泉町下長窪1060",
+"Capacity": "－",
+"la": "35.14917300000",
+"ln": "138.88805600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.888056,
+35.149173
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須走小学校",
+"Jusho": "静岡県駿東郡小山町須走70-18",
+"Capacity": "300",
+"la": "35.36398000000",
+"ln": "138.86988600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.869886,
+35.36398
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "成美小学校",
+"Jusho": "静岡県駿東郡小山町藤曲150",
+"Capacity": "300",
+"la": "35.36367600000",
+"ln": "138.98553900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.985539,
+35.363676
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "足柄小学校",
+"Jusho": "静岡県駿東郡小山町竹之下2411-1",
+"Capacity": "300",
+"la": "35.33301300000",
+"ln": "138.98298600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.982986,
+35.333013
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北郷小学校",
+"Jusho": "静岡県駿東郡小山町用沢604-1",
+"Capacity": "300",
+"la": "35.34459400000",
+"ln": "138.94229500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.942295,
+35.344594
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "明倫小学校",
+"Jusho": "静岡県駿東郡小山町菅沼627",
+"Capacity": "300",
+"la": "35.35228800000",
+"ln": "138.97826300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.978263,
+35.352288
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉田町立住吉小学校",
+"Jusho": "静岡県榛原郡吉田町住吉2223",
+"Capacity": "964",
+"la": "34.75929000000",
+"ln": "138.25381800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.253818,
+34.75929
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "自彊小学校",
+"Jusho": "静岡県榛原郡吉田町神戸1748-2",
+"Capacity": "－",
+"la": "34.78578700000",
+"ln": "138.24051300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.240513,
+34.785787
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "住吉小学校",
+"Jusho": "静岡県榛原郡吉田町住吉2223",
+"Capacity": "－",
+"la": "34.75935700000",
+"ln": "138.25394500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.253945,
+34.759357
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中央小学校",
+"Jusho": "静岡県榛原郡吉田町片岡850-1",
+"Capacity": "－",
+"la": "34.77134400000",
+"ln": "138.25959500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.259595,
+34.771344
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宮園小学校",
+"Jusho": "静岡県周智郡森町谷中650",
+"Capacity": "－",
+"la": "34.81702500000",
+"ln": "137.89946000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.89946,
+34.817025
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三倉小学校",
+"Jusho": "静岡県周智郡森町三倉740",
+"Capacity": "－",
+"la": "34.90240500000",
+"ln": "137.94731500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.947315,
+34.902405
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "森小学校",
+"Jusho": "静岡県周智郡森町森125",
+"Capacity": "－",
+"la": "34.83788400000",
+"ln": "137.92920800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.929208,
+34.837884
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "天方小学校",
+"Jusho": "静岡県周智郡森町大鳥居220",
+"Capacity": "－",
+"la": "34.85859400000",
+"ln": "137.94173100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.941731,
+34.858594
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "飯田小学校",
+"Jusho": "静岡県周智郡森町飯田3310-1",
+"Capacity": "－",
+"la": "34.81163800000",
+"ln": "137.92137500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.921375,
+34.811638
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南小学校",
+"Jusho": "静岡県賀茂郡河津町笹原328-1",
+"Capacity": "－",
+"la": "34.74768200000",
+"ln": "138.99315100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.993151,
+34.747682
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東小学校",
+"Jusho": "静岡県賀茂郡河津町見高1032",
+"Capacity": "－",
+"la": "34.75419300000",
+"ln": "139.01312100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.013121,
+34.754193
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西小学校",
+"Jusho": "静岡県賀茂郡河津町湯ケ野80-1",
+"Capacity": "－",
+"la": "34.77626600000",
+"ln": "138.95239100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.952391,
+34.776266
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中央小学校",
+"Jusho": "静岡県榛原郡川根本町上長尾1000",
+"Capacity": "－",
+"la": "35.04430800000",
+"ln": "138.08249700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.082497,
+35.044308
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中川根南部小学校",
+"Jusho": "静岡県榛原郡川根本町下長尾281",
+"Capacity": "－",
+"la": "35.02575500000",
+"ln": "138.08499700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.084997,
+35.025755
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中川根第一小学校",
+"Jusho": "静岡県榛原郡川根本町徳山100",
+"Capacity": "－",
+"la": "35.07552700000",
+"ln": "138.10871600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.108716,
+35.075527
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "本川根小学校",
+"Jusho": "静岡県榛原郡川根本町千頭1236-6",
+"Capacity": "－",
+"la": "35.10480200000",
+"ln": "138.13615700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.136157,
+35.104802
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東小学校",
+"Jusho": "静岡県裾野市茶畑399",
+"Capacity": "－",
+"la": "35.174511",
+"ln": "138.914261"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.914261,
+35.174511
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西小学校",
+"Jusho": "静岡県裾野市佐野1143",
+"Capacity": "－",
+"la": "35.177383",
+"ln": "138.904709"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.904709,
+35.177383
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南小学校",
+"Jusho": "静岡県裾野市伊豆島田806-5",
+"Capacity": "－",
+"la": "35.156120",
+"ln": "138.904785"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.904785,
+35.15612
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "深良小学校",
+"Jusho": "静岡県裾野市深良655",
+"Capacity": "－",
+"la": "35.202614",
+"ln": "138.918396"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.918396,
+35.202614
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富岡第一小学校",
+"Jusho": "静岡県裾野市御宿600",
+"Capacity": "－",
+"la": "35.201004",
+"ln": "138.905258"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.905258,
+35.201004
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "千福が丘小学校",
+"Jusho": "静岡県裾野市千福が丘4-12-1",
+"Capacity": "－",
+"la": "35.198959",
+"ln": "138.883102"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.883102,
+35.198959
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須山小学校",
+"Jusho": "静岡県裾野市須山165",
+"Capacity": "－",
+"la": "35.250385",
+"ln": "138.846909"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.846909,
+35.250385
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西小学校",
+"Jusho": "静岡県裾野市佐野1143",
+"Capacity": "－",
+"la": "35.177383",
+"ln": "138.904709"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.904709,
+35.177383
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南小学校",
+"Jusho": "静岡県裾野市伊豆島田806-5",
+"Capacity": "－",
+"la": "35.156120",
+"ln": "138.904785"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.904785,
+35.15612
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東小学校",
+"Jusho": "静岡県裾野市茶畑399",
+"Capacity": "－",
+"la": "35.174511",
+"ln": "138.914261"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.914261,
+35.174511
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "向田小学校",
+"Jusho": "静岡県裾野市茶畑1133",
+"Capacity": "－",
+"la": "35.174103",
+"ln": "138.921417"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.921417,
+35.174103
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "深良小学校",
+"Jusho": "静岡県裾野市深良655",
+"Capacity": "－",
+"la": "35.202614",
+"ln": "138.918396"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.918396,
+35.202614
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富岡第一小学校",
+"Jusho": "静岡県裾野市御宿600",
+"Capacity": "－",
+"la": "35.201004",
+"ln": "138.905258"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.905258,
+35.201004
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富岡第二小学校",
+"Jusho": "静岡県裾野市下和田890",
+"Capacity": "－",
+"la": "35.232224",
+"ln": "138.873734"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.873734,
+35.232224
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "千福が丘小学校",
+"Jusho": "静岡県裾野市千福が丘4-12-1",
+"Capacity": "－",
+"la": "35.198959",
+"ln": "138.883102"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.883102,
+35.198959
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須山小学校",
+"Jusho": "静岡県裾野市須山165",
+"Capacity": "－",
+"la": "35.250385",
+"ln": "138.846909"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.846909,
+35.250385
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御前崎小学校（体育館）",
+"Jusho": "静岡県御前崎市御前崎3556",
+"Capacity": "－",
+"la": "34.604265",
+"ln": "138.216186"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.216186,
+34.604265
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白羽小学校（体育館）",
+"Jusho": "静岡県御前崎市白羽3521-3",
+"Capacity": "－",
+"la": "34.611171",
+"ln": "138.189884"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.189884,
+34.611171
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜岡東小学校（体育館）",
+"Jusho": "静岡県御前崎市佐倉1403-1",
+"Capacity": "－",
+"la": "34.635867",
+"ln": "138.159344"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.159344,
+34.635867
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第一小学校（体育館）",
+"Jusho": "静岡県御前崎市池新田1520",
+"Capacity": "－",
+"la": "34.652174",
+"ln": "138.120393"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.120393,
+34.652174
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜岡北小学校（体育館）",
+"Jusho": "静岡県御前崎市下朝比奈753",
+"Capacity": "－",
+"la": "34.669248",
+"ln": "138.134234"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.134234,
+34.669248
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御前崎小学校グラウンド",
+"Jusho": "静岡県御前崎市御前崎3556",
+"Capacity": "－",
+"la": "34.604974",
+"ln": "138.215794"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.215794,
+34.604974
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白羽小学校グラウンド",
+"Jusho": "静岡県御前崎市白羽3521-3",
+"Capacity": "－",
+"la": "34.610292",
+"ln": "138.190042"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.190042,
+34.610292
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜岡東小学校グラウンド",
+"Jusho": "静岡県御前崎市佐倉1403-1",
+"Capacity": "－",
+"la": "34.634865",
+"ln": "138.159328"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.159328,
+34.634865
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第一小学校グラウンド",
+"Jusho": "静岡県御前崎市池新田1520",
+"Capacity": "－",
+"la": "34.653236",
+"ln": "138.120745"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.120745,
+34.653236
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜岡北小学校グラウンド",
+"Jusho": "静岡県御前崎市下朝比奈753",
+"Capacity": "－",
+"la": "34.669561",
+"ln": "138.135296"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.135296,
+34.669561
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "安東中学校",
+"Jusho": "静岡県静岡市葵区安東3-13-1",
+"Capacity": "802",
+"la": "34.99290400000",
+"ln": "138.38443900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.384439,
+34.992904
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "安倍川中学校",
+"Jusho": "静岡県静岡市葵区弥鞘2-11-1",
+"Capacity": "280",
+"la": "34.96288900000",
+"ln": "138.36859400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.368594,
+34.962889
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "井川中学校",
+"Jusho": "静岡県静岡市葵区井川1561-3",
+"Capacity": "322",
+"la": "35.21897300000",
+"ln": "138.23515200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.235152,
+35.218973
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城内中学校",
+"Jusho": "静岡県静岡市葵区駿府町1-107",
+"Capacity": "596",
+"la": "34.97698067510",
+"ln": "138.38585363300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.385853633,
+34.9769806751
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "観山中学校",
+"Jusho": "静岡県静岡市葵区観山8-2",
+"Capacity": "2908",
+"la": "35.01298500000",
+"ln": "138.39374300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.393743,
+35.012985
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "玉川中学校",
+"Jusho": "静岡県静岡市葵区落合840",
+"Capacity": "154",
+"la": "35.11616600000",
+"ln": "138.32704100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.327041,
+35.116166
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城内中学校",
+"Jusho": "静岡県静岡市葵区駿府町1-107",
+"Capacity": "－",
+"la": "34.97687800000",
+"ln": "138.38585600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.385856,
+34.976878
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西奈中学校",
+"Jusho": "静岡県静岡市葵区東瀬名町14-1",
+"Capacity": "412",
+"la": "35.01123500000",
+"ln": "138.42781600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.427816,
+35.011235
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "静岡大学附属静岡中学校",
+"Jusho": "静岡県静岡市葵区駿府町1-86",
+"Capacity": "340",
+"la": "34.97904500000",
+"ln": "138.38627300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.386273,
+34.979045
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "賎機中学校",
+"Jusho": "静岡県静岡市葵区下1353-1",
+"Capacity": "695",
+"la": "35.03226100000",
+"ln": "138.37763400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.377634,
+35.032261
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大河内中学校",
+"Jusho": "静岡県静岡市葵区平野1850-66",
+"Capacity": "207",
+"la": "35.14927900000",
+"ln": "138.36194900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.361949,
+35.149279
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大川中学校",
+"Jusho": "静岡県静岡市葵区日向876",
+"Capacity": "－",
+"la": "35.09235800000",
+"ln": "138.24092300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.240923,
+35.092358
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東中学校",
+"Jusho": "静岡県静岡市葵区沓谷1-6-1",
+"Capacity": "529",
+"la": "34.98601600000",
+"ln": "138.39721600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.397216,
+34.986016
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "梅ヶ島中学校",
+"Jusho": "静岡県静岡市葵区梅ヶ島1309-1",
+"Capacity": "360",
+"la": "35.24340900000",
+"ln": "138.34056400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.340564,
+35.243409
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "美和中学校",
+"Jusho": "静岡県静岡市葵区足久保口組3276-2",
+"Capacity": "1772",
+"la": "35.04381500000",
+"ln": "138.36785700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.367857,
+35.043815
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "服織中学校",
+"Jusho": "静岡県静岡市葵区羽鳥1-8-1",
+"Capacity": "311",
+"la": "34.98090500000",
+"ln": "138.34449900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.344499,
+34.980905
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "末広中学校",
+"Jusho": "静岡県静岡市葵区末広町41",
+"Capacity": "643",
+"la": "34.98246100000",
+"ln": "138.37260700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.372607,
+34.982461
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "竜爪中学校",
+"Jusho": "静岡県静岡市葵区瀬名7-31-40",
+"Capacity": "567",
+"la": "35.03004000000",
+"ln": "138.42376800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.423768,
+35.03004
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "龍上中学校",
+"Jusho": "静岡県静岡市葵区平和2-2-1",
+"Capacity": "1009",
+"la": "34.99196000000",
+"ln": "138.36674700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.366747,
+34.99196
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "藁科中学校",
+"Jusho": "静岡県静岡市葵区大原1398-1",
+"Capacity": "210",
+"la": "35.00871400000",
+"ln": "138.28256600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.282566,
+35.008714
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高松中学校",
+"Jusho": "静岡県静岡市駿河区登呂4-6-1",
+"Capacity": "988",
+"la": "34.95843700000",
+"ln": "138.41029900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.410299,
+34.958437
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城山中学校",
+"Jusho": "静岡県静岡市駿河区小坂2-33",
+"Capacity": "2478",
+"la": "34.93055000000",
+"ln": "138.35702700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.357027,
+34.93055
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大里中学校",
+"Jusho": "静岡県静岡市駿河区中野新田57-5",
+"Capacity": "684",
+"la": "34.95174300000",
+"ln": "138.38488500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.384885,
+34.951743
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中島中学校",
+"Jusho": "静岡県静岡市駿河区中島3303",
+"Capacity": "847",
+"la": "34.93485600000",
+"ln": "138.39482900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.394829,
+34.934856
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長田西中学校",
+"Jusho": "静岡県静岡市駿河区丸子1-1-1",
+"Capacity": "1195",
+"la": "34.94746500000",
+"ln": "138.35938700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.359387,
+34.947465
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長田南中学校",
+"Jusho": "静岡県静岡市駿河区みずほ3-9-1",
+"Capacity": "495",
+"la": "34.93771600000",
+"ln": "138.36816500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.368165,
+34.937716
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東豊田中学校",
+"Jusho": "静岡県静岡市駿河区国吉田5-23-1",
+"Capacity": "702",
+"la": "34.99135000000",
+"ln": "138.43710200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.437102,
+34.99135
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南中学校",
+"Jusho": "静岡県静岡市駿河区宮竹2-11-1",
+"Capacity": "711",
+"la": "34.95121500000",
+"ln": "138.41849300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.418493,
+34.951215
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊田中学校",
+"Jusho": "静岡県静岡市駿河区豊田1-3-1",
+"Capacity": "1106",
+"la": "34.97104600000",
+"ln": "138.40888200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.408882,
+34.971046
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "蒲原中学校",
+"Jusho": "静岡県静岡市清水区蒲原49",
+"Capacity": "687",
+"la": "35.12406000000",
+"ln": "138.61957900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.619579,
+35.12406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水庵原中学校",
+"Jusho": "静岡県静岡市清水区原245",
+"Capacity": "498",
+"la": "35.05056600000",
+"ln": "138.48004100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.480041,
+35.050566
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水興津中学校",
+"Jusho": "静岡県静岡市清水区興津中町1478-10",
+"Capacity": "497",
+"la": "35.05612100000",
+"ln": "138.52214800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.522148,
+35.056121
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水小島中学校",
+"Jusho": "静岡県静岡市清水区但沼町271",
+"Capacity": "576",
+"la": "35.10170000000",
+"ln": "138.51048000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.51048,
+35.1017
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水袖師中学校",
+"Jusho": "静岡県静岡市清水区西久保125-1",
+"Capacity": "657",
+"la": "35.03912300000",
+"ln": "138.48562400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.485624,
+35.039123
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水第一中学校",
+"Jusho": "静岡県静岡市清水区宮代町5-55",
+"Capacity": "738",
+"la": "35.02684700000",
+"ln": "138.48354100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.483541,
+35.026847
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水第五中学校",
+"Jusho": "静岡県静岡市清水区三保1720",
+"Capacity": "863",
+"la": "35.00123900000",
+"ln": "138.52481600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.524816,
+35.001239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水第三中学校",
+"Jusho": "静岡県静岡市清水区三光町3-57",
+"Capacity": "1507",
+"la": "35.00182200000",
+"ln": "138.48715300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.487153,
+35.001822
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水第四中学校",
+"Jusho": "静岡県静岡市清水区村松683-1",
+"Capacity": "705",
+"la": "34.99040700000",
+"ln": "138.48709700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.487097,
+34.990407
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水第七中学校",
+"Jusho": "静岡県静岡市清水区草薙3-9-20",
+"Capacity": "1000",
+"la": "35.00237700000",
+"ln": "138.44804500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.448045,
+35.002377
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水第二中学校",
+"Jusho": "静岡県静岡市清水区神田町4-57",
+"Capacity": "1956",
+"la": "35.00707100000",
+"ln": "138.47982000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.47982,
+35.007071
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水第八中学校",
+"Jusho": "静岡県静岡市清水区追分4-2429",
+"Capacity": "1034",
+"la": "35.01479300000",
+"ln": "138.46754300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.467543,
+35.014793
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水第六中学校",
+"Jusho": "静岡県静岡市清水区天王西10-40",
+"Capacity": "1052",
+"la": "35.03015200000",
+"ln": "138.45965400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.459654,
+35.030152
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水飯田中学校",
+"Jusho": "静岡県静岡市清水区山原112-1",
+"Capacity": "1330",
+"la": "35.04140000000",
+"ln": "138.46851400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.468514,
+35.0414
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水両河内中学校",
+"Jusho": "静岡県静岡市清水区和田島303",
+"Capacity": "457",
+"la": "35.10783700000",
+"ln": "138.47906800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.479068,
+35.107837
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "由比中学校",
+"Jusho": "静岡県静岡市清水区由比456",
+"Capacity": "731",
+"la": "35.11042299910",
+"ln": "138.56236100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.562361,
+35.1104229991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "曳馬中学校",
+"Jusho": "静岡県浜松市中区曳馬四丁目2-15",
+"Capacity": "－",
+"la": "34.72997400000",
+"ln": "137.74178500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.741785,
+34.729974
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "開成中学校",
+"Jusho": "静岡県浜松市中区高丘北一丁目15-20",
+"Capacity": "－",
+"la": "34.76008099910",
+"ln": "137.70767500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.707675,
+34.7600809991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "江西中学校",
+"Jusho": "静岡県浜松市中区神田町123",
+"Capacity": "－",
+"la": "34.68822799910",
+"ln": "137.72645400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.726454,
+34.6882279991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高台中学校",
+"Jusho": "静岡県浜松市中区住吉五丁目19-1",
+"Capacity": "－",
+"la": "34.73546300000",
+"ln": "137.73054400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.730544,
+34.735463
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "佐鳴台中学校",
+"Jusho": "静岡県浜松市中区佐鳴台三丁目32-1",
+"Capacity": "－",
+"la": "34.70672599910",
+"ln": "137.69862200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.698622,
+34.7067259991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西部中学校",
+"Jusho": "静岡県浜松市中区鴨江二丁目17-1",
+"Capacity": "－",
+"la": "34.70264300000",
+"ln": "137.71501000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.71501,
+34.702643
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中部中学校",
+"Jusho": "静岡県浜松市中区松城町108-1",
+"Capacity": "－",
+"la": "34.71314199910",
+"ln": "137.72298200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.722982,
+34.7131419991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南部中学校",
+"Jusho": "静岡県浜松市中区龍禅寺町706",
+"Capacity": "－",
+"la": "34.69371899910",
+"ln": "137.73833900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.738339,
+34.6937189991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "八幡中学校",
+"Jusho": "静岡県浜松市中区野口町1533",
+"Capacity": "－",
+"la": "34.71897499910",
+"ln": "137.74167500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.741675,
+34.7189749991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富塚中学校",
+"Jusho": "静岡県浜松市中区富塚町460-1",
+"Capacity": "－",
+"la": "34.72250199910",
+"ln": "137.70342700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.703427,
+34.7225019991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北部中学校",
+"Jusho": "静岡県浜松市中区文丘町28-1",
+"Capacity": "－",
+"la": "34.72680699910",
+"ln": "137.71417500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.714175,
+34.7268069991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "蜆塚中学校",
+"Jusho": "静岡県浜松市中区蜆塚二丁目15-1",
+"Capacity": "－",
+"la": "34.71400300000",
+"ln": "137.70870400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.708704,
+34.714003
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "笠井中学校",
+"Jusho": "静岡県浜松市東区笠井町1055",
+"Capacity": "－",
+"la": "34.77133300000",
+"ln": "137.79280500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.792805,
+34.771333
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "丸塚中学校",
+"Jusho": "静岡県浜松市東区丸塚町1050",
+"Capacity": "－",
+"la": "34.72614100000",
+"ln": "137.75489600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.754896,
+34.726141
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "積志中学校",
+"Jusho": "静岡県浜松市東区有玉北町1200",
+"Capacity": "－",
+"la": "34.76535899910",
+"ln": "137.75778100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.757781,
+34.7653589991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中郡中学校",
+"Jusho": "静岡県浜松市東区中郡町897",
+"Capacity": "－",
+"la": "34.76916599910",
+"ln": "137.77497400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.774974,
+34.7691659991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "天竜中学校",
+"Jusho": "静岡県浜松市東区龍光町43",
+"Capacity": "－",
+"la": "34.72106199910",
+"ln": "137.78730800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.787308,
+34.7210619991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "与進中学校",
+"Jusho": "静岡県浜松市東区市野町1405-1",
+"Capacity": "－",
+"la": "34.74339099910",
+"ln": "137.77747600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.777476,
+34.7433909991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "湖東中学校",
+"Jusho": "静岡県浜松市西区佐浜町4540",
+"Capacity": "－",
+"la": "34.75594099910",
+"ln": "137.65776300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.657763,
+34.7559409991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "篠原中学校",
+"Jusho": "静岡県浜松市西区篠原町20200-1",
+"Capacity": "－",
+"la": "34.68200599910",
+"ln": "137.65798800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.657988,
+34.6820059991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "庄内中学校",
+"Jusho": "静岡県浜松市西区庄内町100",
+"Capacity": "－",
+"la": "34.75516199910",
+"ln": "137.60868600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.608686,
+34.7551619991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "神久呂中学校",
+"Jusho": "静岡県浜松市西区大久保町6633",
+"Capacity": "－",
+"la": "34.72505599910",
+"ln": "137.66565200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.665652,
+34.7250559991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "入野中学校",
+"Jusho": "静岡県浜松市西区入野町17059",
+"Capacity": "－",
+"la": "34.70175299910",
+"ln": "137.67695700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.676957,
+34.7017529991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜松市立舞阪中学校",
+"Jusho": "静岡県浜松市西区舞阪町舞阪4601",
+"Capacity": "－",
+"la": "34.67943899910",
+"ln": "137.61623000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.61623,
+34.6794389991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "雄踏中学校",
+"Jusho": "静岡県浜松市西区雄踏町宇布見9595",
+"Capacity": "－",
+"la": "34.69380399910",
+"ln": "137.63327000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.63327,
+34.6938039991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "可美中学校",
+"Jusho": "静岡県浜松市南区増楽町700",
+"Capacity": "－",
+"la": "34.68720899910",
+"ln": "137.69117400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.691174,
+34.6872089991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "江南中学校南棟",
+"Jusho": "静岡県浜松市南区江之島町1266-3",
+"Capacity": "－",
+"la": "34.66353799910",
+"ln": "137.75350800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.753508,
+34.6635379991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新津中学校",
+"Jusho": "静岡県浜松市南区新橋町748",
+"Capacity": "－",
+"la": "34.68339599910",
+"ln": "137.70134500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.701345,
+34.6833959991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東部中学校",
+"Jusho": "静岡県浜松市南区飯田町1038",
+"Capacity": "－",
+"la": "34.70308899910",
+"ln": "137.77383900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.773839,
+34.7030889991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東陽中学校",
+"Jusho": "静岡県浜松市南区西町700",
+"Capacity": "－",
+"la": "34.68078699910",
+"ln": "137.77739400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.777394,
+34.6807869991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南陽中学校",
+"Jusho": "静岡県浜松市南区芳川町80",
+"Capacity": "－",
+"la": "34.69372899910",
+"ln": "137.76500700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.765007,
+34.6937289991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "引佐南部中学校",
+"Jusho": "静岡県浜松市北区引佐町横尾426",
+"Capacity": "－",
+"la": "34.83440300000",
+"ln": "137.66256500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.662565,
+34.834403
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "引佐北部小中学校",
+"Jusho": "静岡県浜松市北区引佐町四方浄134-6",
+"Capacity": "－",
+"la": "34.89897933590",
+"ln": "137.65561520100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.655615201,
+34.8989793359
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "細江中学校",
+"Jusho": "静岡県浜松市北区細江町気賀7300-1",
+"Capacity": "－",
+"la": "34.80728799910",
+"ln": "137.64718000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.64718,
+34.8072879991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三方原中学校",
+"Jusho": "静岡県浜松市北区豊岡町196",
+"Capacity": "－",
+"la": "34.78896599910",
+"ln": "137.71986700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.719867,
+34.7889659991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "都田中学校",
+"Jusho": "静岡県浜松市北区都田町5824-18",
+"Capacity": "－",
+"la": "34.83271099910",
+"ln": "137.72061600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.720616,
+34.8327109991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北星中学校",
+"Jusho": "静岡県浜松市北区初生町1305",
+"Capacity": "－",
+"la": "34.76949699910",
+"ln": "137.71489600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.714896,
+34.7694969991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜北北部中学校",
+"Jusho": "静岡県浜松市浜北区於呂2961",
+"Capacity": "－",
+"la": "34.82810500000",
+"ln": "137.80066400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.800664,
+34.828105
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜名中学校",
+"Jusho": "静岡県浜松市浜北区小松467",
+"Capacity": "－",
+"la": "34.79074699910",
+"ln": "137.77741700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.777417,
+34.7907469991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北浜中学校",
+"Jusho": "静岡県浜松市浜北区西美薗279-2",
+"Capacity": "－",
+"la": "34.79694199910",
+"ln": "137.79072100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.790721,
+34.7969419991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北浜東部中学校",
+"Jusho": "静岡県浜松市浜北区上善地317",
+"Capacity": "－",
+"la": "34.79916499910",
+"ln": "137.80858000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.80858,
+34.7991649991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "麁玉中学校",
+"Jusho": "静岡県浜松市浜北区宮口4847",
+"Capacity": "－",
+"la": "34.83454600000",
+"ln": "137.76913900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.769139,
+34.834546
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）下阿多古中学校",
+"Jusho": "静岡県浜松市天竜区上野948",
+"Capacity": "－",
+"la": "34.88995604320",
+"ln": "137.78067592800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.780675928,
+34.8899560432
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）佐久間中学校",
+"Jusho": "静岡県浜松市天竜区佐久間町佐久間2410",
+"Capacity": "－",
+"la": "35.09128699910",
+"ln": "137.81004900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.810049,
+35.0912869991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "光が丘中学校",
+"Jusho": "静岡県浜松市天竜区山東2701",
+"Capacity": "－",
+"la": "34.87540299910",
+"ln": "137.82327200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.823272,
+34.8754029991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "春野中学校",
+"Jusho": "静岡県浜松市天竜区春野町気田380-2",
+"Capacity": "－",
+"la": "35.00202999910",
+"ln": "137.90642800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.906428,
+35.0020299991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水窪中学校",
+"Jusho": "静岡県浜松市天竜区水窪町地頭方366",
+"Capacity": "－",
+"la": "35.15421499910",
+"ln": "137.87049100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.870491,
+35.1542149991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清竜中学校",
+"Jusho": "静岡県浜松市天竜区二俣町鹿島525",
+"Capacity": "－",
+"la": "34.84996299910",
+"ln": "137.80924600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.809246,
+34.8499629991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金岡中学校",
+"Jusho": "静岡県沼津市神田町4-1",
+"Capacity": "－",
+"la": "35.11612100000",
+"ln": "138.86625200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.866252,
+35.116121
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "原中学校",
+"Jusho": "静岡県沼津市原576",
+"Capacity": "－",
+"la": "35.12600700000",
+"ln": "138.78787100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.787871,
+35.126007
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼津市立戸田中学校",
+"Jusho": "静岡県沼津市戸田875",
+"Capacity": "－",
+"la": "34.97191300000",
+"ln": "138.77998400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.779984,
+34.971913
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼津市立静浦中学校",
+"Jusho": "静岡県沼津市獅子浜400",
+"Capacity": "－",
+"la": "35.05493300000",
+"ln": "138.88841900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.888419,
+35.054933
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼津市立第二中学校",
+"Jusho": "静岡県沼津市本字千本1910-19",
+"Capacity": "－",
+"la": "35.09740000000",
+"ln": "138.84628200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.846282,
+35.0974
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大岡中学校",
+"Jusho": "静岡県沼津市大岡2110",
+"Capacity": "－",
+"la": "35.11473300000",
+"ln": "138.87469600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.874696,
+35.114733
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大平中学校",
+"Jusho": "静岡県沼津市大平1144",
+"Capacity": "－",
+"la": "35.07126500000",
+"ln": "138.90336200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.903362,
+35.071265
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第一中学校",
+"Jusho": "静岡県沼津市本丸子町692-1",
+"Capacity": "6500",
+"la": "35.10340000000",
+"ln": "138.84917000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.84917,
+35.1034
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第五中学校",
+"Jusho": "静岡県沼津市五月町15-1",
+"Capacity": "－",
+"la": "35.11356600000",
+"ln": "138.86458600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.864586,
+35.113566
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長井崎中学校",
+"Jusho": "静岡県沼津市内浦重須字洞畑453",
+"Capacity": "－",
+"la": "35.02138100000",
+"ln": "138.88330800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.883308,
+35.021381
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "片浜中学校",
+"Jusho": "静岡県沼津市小諏訪180",
+"Capacity": "－",
+"la": "35.10614900000",
+"ln": "138.83983800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.839838,
+35.106149
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "門池中学校",
+"Jusho": "静岡県沼津市岡一色657-1",
+"Capacity": "－",
+"la": "35.13201900000",
+"ln": "138.87801500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.878015,
+35.132019
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "初島小・中学校",
+"Jusho": "静岡県熱海市初島219番地",
+"Capacity": "－",
+"la": "35.04229200000",
+"ln": "139.17071900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.170719,
+35.042292
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小嵐中学校",
+"Jusho": "静岡県熱海市熱海1886番地の7",
+"Capacity": "－",
+"la": "35.08788800000",
+"ln": "139.04597000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.04597,
+35.087888
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "泉小・中学校",
+"Jusho": "静岡県熱海市泉280番地",
+"Capacity": "－",
+"la": "35.13614762270",
+"ln": "139.08090015700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.080900157,
+35.1361476227
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "多賀中学校",
+"Jusho": "静岡県熱海市下多賀1549番地の1",
+"Capacity": "－",
+"la": "35.04652400000",
+"ln": "139.06462400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.064624,
+35.046524
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "熱海中学校",
+"Jusho": "静岡県熱海市桃山町7番7号",
+"Capacity": "－",
+"la": "35.10657200000",
+"ln": "139.07529000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.07529,
+35.106572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "錦田中学校",
+"Jusho": "静岡県三島市谷田1505",
+"Capacity": "－",
+"la": "35.1218",
+"ln": "138.938352"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.938352,
+35.1218
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南中学校",
+"Jusho": "静岡県三島市富田町6-18",
+"Capacity": "－",
+"la": "35.108833",
+"ln": "138.917956"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.917956,
+35.108833
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北中学校",
+"Jusho": "静岡県三島市文教町2-32-60",
+"Capacity": "－",
+"la": "35.130658",
+"ln": "138.915306"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.915306,
+35.130658
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北上中学校",
+"Jusho": "静岡県三島市徳倉767-2",
+"Capacity": "－",
+"la": "35.152898",
+"ln": "138.917393"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.917393,
+35.152898
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中郷中学校",
+"Jusho": "静岡県三島市大場250-1",
+"Capacity": "－",
+"la": "35.093867",
+"ln": "138.93597"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.93597,
+35.093867
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中郷西中学校",
+"Jusho": "静岡県三島市梅名854-1",
+"Capacity": "－",
+"la": "35.089759",
+"ln": "138.922677"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.922677,
+35.089759
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山田中学校",
+"Jusho": "静岡県三島市川原ヶ谷842-4",
+"Capacity": "－",
+"la": "35.13476",
+"ln": "138.936034"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.936034,
+35.13476
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "井之頭中学校",
+"Jusho": "静岡県富士宮市猪之頭999",
+"Capacity": "－",
+"la": "35.37472300000",
+"ln": "138.56680300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.566803,
+35.374723
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "芝川中学校",
+"Jusho": "静岡県富士宮市長貫1267",
+"Capacity": "－",
+"la": "35.20360499910",
+"ln": "138.56600000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.566,
+35.2036049991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上野中学校",
+"Jusho": "静岡県富士宮市精進川410",
+"Capacity": "－",
+"la": "35.27737300000",
+"ln": "138.57341500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.573415,
+35.277373
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西富士中学校",
+"Jusho": "静岡県富士宮市上井出918-1",
+"Capacity": "－",
+"la": "35.32086900000",
+"ln": "138.58788500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.587885,
+35.320869
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大富士中学校",
+"Jusho": "静岡県富士宮市万野原新田4115-1",
+"Capacity": "－",
+"la": "35.25362700000",
+"ln": "138.61896700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.618967,
+35.253627
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第三中学校",
+"Jusho": "静岡県沼津市下香貫木ﾉ宮888",
+"Capacity": "－",
+"la": "35.08375900000",
+"ln": "138.88065300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.880653,
+35.083759
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第四中学校",
+"Jusho": "静岡県沼津市本郷町24-1",
+"Capacity": "－",
+"la": "35.09234500000",
+"ln": "138.87178100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.871781,
+35.092345
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士宮第一中学校",
+"Jusho": "静岡県富士宮市矢立町814",
+"Capacity": "－",
+"la": "35.22524200000",
+"ln": "138.62382900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.623829,
+35.225242
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士宮第三中学校",
+"Jusho": "静岡県富士宮市野中658",
+"Capacity": "－",
+"la": "35.21911200000",
+"ln": "138.60313700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.603137,
+35.219112
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士宮第四中学校",
+"Jusho": "静岡県富士宮市穂波町13-1",
+"Capacity": "－",
+"la": "35.23474000000",
+"ln": "138.59724800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.597248,
+35.23474
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士宮第二中学校・城山公園一帯",
+"Jusho": "静岡県富士宮市豊町17-1",
+"Capacity": "－",
+"la": "35.23079700000",
+"ln": "138.61319100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.613191,
+35.230797
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士宮第二中学校城山運動公園一帯",
+"Jusho": "静岡県富士宮市",
+"Capacity": "－",
+"la": "35.23018430020",
+"ln": "138.61421552300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.614215523,
+35.2301843002
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士根南中学校",
+"Jusho": "静岡県富士宮市小泉1996",
+"Capacity": "－",
+"la": "35.22402000000",
+"ln": "138.63896700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.638967,
+35.22402
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士根北中学校",
+"Jusho": "静岡県富士宮市村山935-1",
+"Capacity": "－",
+"la": "35.25085100000",
+"ln": "138.65585300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.655853,
+35.250851
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北山中学校",
+"Jusho": "静岡県富士宮市北山1092",
+"Capacity": "－",
+"la": "35.27829000000",
+"ln": "138.60716200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.607162,
+35.27829
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "柚野小・中学校",
+"Jusho": "静岡県富士宮市",
+"Capacity": "－",
+"la": "35.25715714270",
+"ln": "138.55224065800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.552240658,
+35.2571571427
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "柚野中学校",
+"Jusho": "静岡県富士宮市下柚野371",
+"Capacity": "－",
+"la": "35.25654199910",
+"ln": "138.55194500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.551945,
+35.2565419991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧笹問中学校",
+"Jusho": "静岡県島田市川根町笹間上668-2",
+"Capacity": "－",
+"la": "35.00881299910",
+"ln": "138.14688100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.146881,
+35.0088129991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金谷中学校",
+"Jusho": "静岡県島田市金谷栄町211-1",
+"Capacity": "8000",
+"la": "34.83236200000",
+"ln": "138.12427400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.124274,
+34.832362
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "初倉中学校",
+"Jusho": "静岡県島田市大柳南132",
+"Capacity": "7500",
+"la": "34.80472900000",
+"ln": "138.22801400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.228014,
+34.804729
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "静岡大学附属島田中学校",
+"Jusho": "静岡県島田市中河町169",
+"Capacity": "6000",
+"la": "34.84341799910",
+"ln": "138.17646300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.176463,
+34.8434179991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "川根中学校",
+"Jusho": "静岡県島田市川根町身成3340",
+"Capacity": "1100",
+"la": "34.94387399910",
+"ln": "138.08600600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.086006,
+34.9438739991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "島田第一中学校",
+"Jusho": "静岡県島田市稲荷三丁目18-1",
+"Capacity": "6500",
+"la": "34.83868000000",
+"ln": "138.15592200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.155922,
+34.83868
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "島田第二中学校",
+"Jusho": "静岡県島田市旗指77-1",
+"Capacity": "7000",
+"la": "34.84349800000",
+"ln": "138.17437700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.174377,
+34.843498
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北中学校",
+"Jusho": "静岡県島田市相賀2510",
+"Capacity": "－",
+"la": "34.85369400000",
+"ln": "138.13882900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.138829,
+34.853694
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "六合中学校",
+"Jusho": "静岡県島田市道悦二丁目25-1",
+"Capacity": "8000",
+"la": "34.83414100000",
+"ln": "138.20326600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.203266,
+34.834141
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "因子浦中学校",
+"Jusho": "静岡県富士市中丸411",
+"Capacity": "1211",
+"la": "35.13556000000",
+"ln": "138.66888100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.668881,
+35.13556
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岳陽中学校",
+"Jusho": "静岡県富士市伝法630",
+"Capacity": "1637",
+"la": "35.18666400000",
+"ln": "138.67215900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.672159,
+35.186664
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩松中学校",
+"Jusho": "静岡県富士市松岡2353-1",
+"Capacity": "1223",
+"la": "35.16841500000",
+"ln": "138.63080100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.630801,
+35.168415
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉原第一中学校",
+"Jusho": "静岡県富士市永田北町7-1",
+"Capacity": "1865",
+"la": "35.16475000000",
+"ln": "138.67660200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.676602,
+35.16475
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉原第三中学校",
+"Jusho": "静岡県富士市比奈2126",
+"Capacity": "2813",
+"la": "35.17083300000",
+"ln": "138.71565400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.715654,
+35.170833
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉原東中学校",
+"Jusho": "静岡県富士市比奈75",
+"Capacity": "608",
+"la": "35.16305700000",
+"ln": "138.72368100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.723681,
+35.163057
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉原北中学校",
+"Jusho": "静岡県富士市原田2259",
+"Capacity": "1472",
+"la": "35.18547100000",
+"ln": "138.71948700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.719487,
+35.185471
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元吉原中学校",
+"Jusho": "静岡県富士市鈴川中町28-1",
+"Capacity": "1198",
+"la": "35.13919800000",
+"ln": "138.70462700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.704627,
+35.139198
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須津中学校",
+"Jusho": "静岡県富士市中里1156",
+"Capacity": "1516",
+"la": "35.16536200000",
+"ln": "138.73859700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.738597,
+35.165362
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大淵中学校",
+"Jusho": "静岡県富士市大淵2920",
+"Capacity": "1528",
+"la": "35.21310600000",
+"ln": "138.68746200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.687462,
+35.213106
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鷹岡中学校",
+"Jusho": "静岡県富士市久沢713",
+"Capacity": "1761",
+"la": "35.19535800000",
+"ln": "138.65279900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.652799,
+35.195358
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士川第一中学校",
+"Jusho": "静岡県富士市岩淵855番地の3",
+"Capacity": "2197",
+"la": "35.14958800000",
+"ln": "138.62177100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.621771,
+35.149588
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士中学校",
+"Jusho": "静岡県富士市中島320",
+"Capacity": "1906",
+"la": "35.16302800000",
+"ln": "138.64718900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.647189,
+35.163028
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士南中学校",
+"Jusho": "静岡県富士市森島550",
+"Capacity": "1970",
+"la": "35.13775300000",
+"ln": "138.64627200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.646272,
+35.137753
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "向陽中学校",
+"Jusho": "静岡県磐田市向笠竹之内1162-2",
+"Capacity": "－",
+"la": "34.76780800000",
+"ln": "137.86593800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.865938,
+34.767808
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城山中学校",
+"Jusho": "静岡県磐田市見付263-3",
+"Capacity": "－",
+"la": "34.72434100000",
+"ln": "137.86568900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.865689,
+34.724341
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "神明中学校",
+"Jusho": "静岡県磐田市鎌田2262-74",
+"Capacity": "－",
+"la": "34.71795400000",
+"ln": "137.88735300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.887353,
+34.717954
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南部中学校",
+"Jusho": "静岡県磐田市野箱32",
+"Capacity": "－",
+"la": "34.69051200000",
+"ln": "137.83416600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.834166,
+34.690512
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "磐田第一中学校",
+"Jusho": "静岡県磐田市国府台39-1",
+"Capacity": "－",
+"la": "34.71823000000",
+"ln": "137.84896900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.848969,
+34.71823
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "福田中学校",
+"Jusho": "静岡県磐田市福田中島3753-1",
+"Capacity": "－",
+"la": "34.66543100000",
+"ln": "137.87480100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.874801,
+34.665431
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊岡中学校",
+"Jusho": "静岡県磐田市合代島943",
+"Capacity": "－",
+"la": "34.83307700000",
+"ln": "137.83791000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.83791,
+34.833077
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊田中学校",
+"Jusho": "静岡県磐田市加茂243",
+"Capacity": "－",
+"la": "34.73453300000",
+"ln": "137.82891400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.828914,
+34.734533
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊田南中学校",
+"Jusho": "静岡県磐田市立野200",
+"Capacity": "－",
+"la": "34.71778500000",
+"ln": "137.82236000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.82236,
+34.717785
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "竜洋中学校",
+"Jusho": "静岡県磐田市豊岡4473-8",
+"Capacity": "－",
+"la": "34.67915100000",
+"ln": "137.81569600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.815696,
+34.679151
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "港中学校",
+"Jusho": "静岡県焼津市田尻北584",
+"Capacity": "－",
+"la": "34.83830900000",
+"ln": "138.33003000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.33003,
+34.838309
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小川中学校",
+"Jusho": "静岡県焼津市東小川4-7-1",
+"Capacity": "－",
+"la": "34.85300100000",
+"ln": "138.31367000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.31367,
+34.853001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "焼津中学校",
+"Jusho": "静岡県焼津市焼津2-10-28",
+"Capacity": "－",
+"la": "34.86475000000",
+"ln": "138.31203200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.312032,
+34.86475
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大村中学校",
+"Jusho": "静岡県焼津市大村3-25-1",
+"Capacity": "－",
+"la": "34.87155600000",
+"ln": "138.30442200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.304422,
+34.871556
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大富中学校",
+"Jusho": "静岡県焼津市中根1-1",
+"Capacity": "－",
+"la": "34.83931000000",
+"ln": "138.29809000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.29809,
+34.83931
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東益津中学校",
+"Jusho": "静岡県焼津市中里416",
+"Capacity": "－",
+"la": "34.88519300000",
+"ln": "138.31897600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.318976,
+34.885193
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊田中学校",
+"Jusho": "静岡県焼津市小土301-2",
+"Capacity": "－",
+"la": "34.86808400000",
+"ln": "138.29297900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.292979,
+34.868084
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "和田中学校",
+"Jusho": "静岡県焼津市田尻1984",
+"Capacity": "－",
+"la": "34.82658900000",
+"ln": "138.32094800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.320948,
+34.826589
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "栄川中学校",
+"Jusho": "静岡県掛川市本所538番地",
+"Capacity": "－",
+"la": "34.78292200000",
+"ln": "138.05980900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.059809,
+34.782922
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "原野谷中学校",
+"Jusho": "静岡県掛川市寺島15",
+"Capacity": "－",
+"la": "34.82208200000",
+"ln": "137.95553900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.955539,
+34.822082
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "桜が丘中学校",
+"Jusho": "静岡県掛川市富部716番地",
+"Capacity": "－",
+"la": "34.78253100000",
+"ln": "137.97523300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.975233,
+34.782531
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城東中学校",
+"Jusho": "静岡県掛川市下土方680番地",
+"Capacity": "－",
+"la": "34.71012500000",
+"ln": "138.04597900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.045979,
+34.710125
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西中学校",
+"Jusho": "静岡県掛川市下俣1007番地の1",
+"Capacity": "－",
+"la": "34.77342100000",
+"ln": "138.00025900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.000259,
+34.773421
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大須賀中学校",
+"Jusho": "静岡県掛川市横須賀1007番地",
+"Capacity": "－",
+"la": "34.68579300000",
+"ln": "137.98734400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.987344,
+34.685793
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大浜中学校",
+"Jusho": "静岡県掛川市大坂1147番地",
+"Capacity": "－",
+"la": "34.66699100000",
+"ln": "138.04600800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.046008,
+34.666991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東中学校",
+"Jusho": "静岡県掛川市葛川1039番地",
+"Capacity": "－",
+"la": "34.78036600000",
+"ln": "138.02353500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.023535,
+34.780366
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北中学校",
+"Jusho": "静岡県掛川市上西郷220番地の2",
+"Capacity": "－",
+"la": "34.79189200000",
+"ln": "138.01611800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.016118,
+34.791892
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岡部中学校",
+"Jusho": "静岡県藤枝市子持坂102",
+"Capacity": "10279",
+"la": "34.91252199910",
+"ln": "138.26770300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.267703,
+34.9125219991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "広幡中学校",
+"Jusho": "静岡県藤枝市上当間602",
+"Capacity": "6676",
+"la": "34.88613700000",
+"ln": "138.28628500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.286285,
+34.886137
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高洲中学校",
+"Jusho": "静岡県藤枝市与左衛門33-1",
+"Capacity": "9412",
+"la": "34.83825400000",
+"ln": "138.27267700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.272677,
+34.838254
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "瀬戸谷中学校",
+"Jusho": "静岡県藤枝市本郷4653",
+"Capacity": "4279",
+"la": "34.92185300000",
+"ln": "138.20690400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.206904,
+34.921853
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西益津中学校",
+"Jusho": "静岡県藤枝市田中1-7-1",
+"Capacity": "9521",
+"la": "34.87122200000",
+"ln": "138.27364800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.273648,
+34.871222
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "青島中学校",
+"Jusho": "静岡県藤枝市青葉町1-7一l",
+"Capacity": "10096",
+"la": "34.84502900000",
+"ln": "138.24220700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.242207,
+34.845029
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "青島北中学校",
+"Jusho": "静岡県藤枝市南駿河台1-11一l",
+"Capacity": "6379",
+"la": "34.86080600000",
+"ln": "138.24265100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.242651,
+34.860806
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大洲中学校",
+"Jusho": "静岡県藤枝市弥左衛門500",
+"Capacity": "5079",
+"la": "34.82686600000",
+"ln": "138.25898400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.258984,
+34.826866
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "藤枝中学校",
+"Jusho": "静岡県藤枝市音羽町1-1-51",
+"Capacity": "7993",
+"la": "34.87027700000",
+"ln": "138.24079000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.24079,
+34.870277
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "葉梨中学校",
+"Jusho": "静岡県藤枝市中ﾉ合336",
+"Capacity": "6676",
+"la": "34.90102300000",
+"ln": "138.24762300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.247623,
+34.901023
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "原里中学校",
+"Jusho": "静岡県御殿場市川島田1363-1",
+"Capacity": "－",
+"la": "35.29754200000",
+"ln": "138.91138400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.911384,
+35.297542
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南中学校",
+"Jusho": "静岡県御殿場市萩原1327",
+"Capacity": "－",
+"la": "35.29176500000",
+"ln": "138.93108200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.931082,
+35.291765
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富士岡中学校",
+"Jusho": "静岡県御殿場市中山825-1",
+"Capacity": "－",
+"la": "35.24941100000",
+"ln": "138.92443900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.924439,
+35.249411
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "周南中学校（下山梨支部）",
+"Jusho": "静岡県袋井市下山梨1-1-1",
+"Capacity": "1216",
+"la": "34.77683299910",
+"ln": "137.90946100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.909461,
+34.7768329991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浅羽中学校",
+"Jusho": "静岡県袋井市浅名822",
+"Capacity": "1292",
+"la": "34.70331800000",
+"ln": "137.93379300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.933793,
+34.703318
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "袋井中学校（袋井支部）",
+"Jusho": "静岡県袋井市川井701",
+"Capacity": "1485",
+"la": "34.74572899910",
+"ln": "137.91907100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.919071,
+34.7457289991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "袋井南中学校（豊愛支部）",
+"Jusho": "静岡県袋井市愛野3110",
+"Capacity": "1299",
+"la": "34.74203599910",
+"ln": "137.94284700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.942847,
+34.7420359991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "稲梓中学校",
+"Jusho": "静岡県下田市箕作350",
+"Capacity": "－",
+"la": "34.72410400000",
+"ln": "138.93156000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.93156,
+34.724104
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "稲生沢中学校",
+"Jusho": "静岡県下田市河内101-1",
+"Capacity": "－",
+"la": "34.69863400000",
+"ln": "138.93883800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.938838,
+34.698634
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "下田中学校",
+"Jusho": "静岡県下田市敷根765-1",
+"Capacity": "－",
+"la": "34.68160800000",
+"ln": "138.92931100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.929311,
+34.681608
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "下田東中学校",
+"Jusho": "静岡県下田市柿崎1106",
+"Capacity": "－",
+"la": "34.67524800000",
+"ln": "138.96517000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.96517,
+34.675248
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岡崎中学校",
+"Jusho": "静岡県湖西市岡崎587-2",
+"Capacity": "6400",
+"la": "34.72706600000",
+"ln": "137.50280500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.502805,
+34.727066
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "湖西中学校",
+"Jusho": "静岡県湖西市太田135",
+"Capacity": "6416",
+"la": "34.74254700000",
+"ln": "137.51614000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.51614,
+34.742547
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新居中学校",
+"Jusho": "静岡県湖西市新居町中之郷1181",
+"Capacity": "7089",
+"la": "34.69494399910",
+"ln": "137.55586000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.55586,
+34.6949439991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白須賀中学校",
+"Jusho": "静岡県湖西市白須賀986",
+"Capacity": "7025",
+"la": "34.68411000000",
+"ln": "137.50786500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.507865,
+34.68411
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鷲津中学校",
+"Jusho": "静岡県湖西市鷲津629",
+"Capacity": "4797",
+"la": "34.71405200000",
+"ln": "137.54194400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.541944,
+34.714052
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "修善寺中学校",
+"Jusho": "静岡県伊豆市柏久保395",
+"Capacity": "－",
+"la": "34.97588900000",
+"ln": "138.95174700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.951747,
+34.975889
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中伊豆中学校グラウンド",
+"Jusho": "静岡県伊豆市八幡407",
+"Capacity": "－",
+"la": "34.95392100000",
+"ln": "138.99891000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.99891,
+34.953921
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "土肥中学校",
+"Jusho": "静岡県伊豆市土肥2701-1",
+"Capacity": "－",
+"la": "34.90831000000",
+"ln": "138.79548300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.795483,
+34.90831
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岳洋中学校",
+"Jusho": "静岡県菊川市下平川5430",
+"Capacity": "3874",
+"la": "34.69773800000",
+"ln": "138.09425300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.094253,
+34.697738
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "菊川西中学校",
+"Jusho": "静岡県菊川市加茂38",
+"Capacity": "4079",
+"la": "34.75195100000",
+"ln": "138.08342100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.083421,
+34.751951
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "菊川東中学校",
+"Jusho": "静岡県菊川市本所670",
+"Capacity": "4149",
+"la": "34.76211900000",
+"ln": "138.09752800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.097528,
+34.762119
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大仁中学校",
+"Jusho": "静岡県伊豆の国市三福1276-3",
+"Capacity": "－",
+"la": "35.00005300000",
+"ln": "138.94841400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.948414,
+35.000053
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長岡中学校",
+"Jusho": "静岡県伊豆の国市長岡1407-1",
+"Capacity": "－",
+"la": "35.04335300000",
+"ln": "138.92280400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.922804,
+35.043353
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "韮山中学校",
+"Jusho": "静岡県伊豆の国市韮山韮山393",
+"Capacity": "－",
+"la": "35.05203800000",
+"ln": "138.95491400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.954914,
+35.052038
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御前崎中学校グラウンド",
+"Jusho": "静岡県牧之原市新庄800-1",
+"Capacity": "－",
+"la": "34.62589440580",
+"ln": "138.19072766100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.190727661,
+34.6258944058
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "榛原中学校（体育館・校舎）",
+"Jusho": "静岡県牧之原市仁田100-1",
+"Capacity": "－",
+"la": "34.75217100000",
+"ln": "138.21715300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.217153,
+34.752171
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "榛原中学校グラウンド",
+"Jusho": "静岡県牧之原市仁田100-1",
+"Capacity": "－",
+"la": "34.75128245560",
+"ln": "138.21756893900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.217568939,
+34.7512824556
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "相良中学校",
+"Jusho": "静岡県牧之原市相良283",
+"Capacity": "－",
+"la": "34.68724500000",
+"ln": "138.19782400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.197824,
+34.687245
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "牧之原中学校",
+"Jusho": "静岡県牧之原市東萩間2079-9",
+"Capacity": "－",
+"la": "34.75813399910",
+"ln": "138.13673600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.136736,
+34.7581339991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "稲取中学校",
+"Jusho": "静岡県賀茂郡東伊豆町稲取1873",
+"Capacity": "－",
+"la": "34.76988000000",
+"ln": "139.03566400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.035664,
+34.76988
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "熱川中学校",
+"Jusho": "静岡県賀茂郡東伊豆町奈良本1296-3",
+"Capacity": "－",
+"la": "34.81565300000",
+"ln": "139.05363300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.053633,
+34.815653
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南伊豆中学校",
+"Jusho": "静岡県賀茂郡南伊豆町上賀茂744-1",
+"Capacity": "－",
+"la": "34.65694900000",
+"ln": "138.86187300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.861873,
+34.656949
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南伊豆東中学校",
+"Jusho": "静岡県賀茂郡南伊豆町湊1721",
+"Capacity": "－",
+"la": "34.64875100000",
+"ln": "138.88620600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.886206,
+34.648751
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "賀茂中学校",
+"Jusho": "静岡県賀茂郡西伊豆町宇久須862-6",
+"Capacity": "836",
+"la": "34.84837300000",
+"ln": "138.78428900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.784289,
+34.848373
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧田子中学校",
+"Jusho": "静岡県賀茂郡西伊豆町田子965-1",
+"Capacity": "1238",
+"la": "34.80983431430",
+"ln": "138.76705781200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.767057812,
+34.8098343143
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西伊豆中学校",
+"Jusho": "静岡県賀茂郡西伊豆町中753-1",
+"Capacity": "1562",
+"la": "34.77334800000",
+"ln": "138.78101400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.781014,
+34.773348
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東中学校、同第２グラウンド",
+"Jusho": "静岡県田方郡函南町柏谷540",
+"Capacity": "－",
+"la": "35.07868905520",
+"ln": "138.95335037900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.953350379,
+35.0786890552
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "函南中学校",
+"Jusho": "静岡県田方郡函南町仁田56",
+"Capacity": "－",
+"la": "35.08801300000",
+"ln": "138.94346900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.943469,
+35.088013
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清水中学校",
+"Jusho": "静岡県駿東郡清水町堂庭267",
+"Capacity": "6700",
+"la": "35.09648500000",
+"ln": "138.90388900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.903889,
+35.096485
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南中学校",
+"Jusho": "静岡県駿東郡清水町徳倉2222-4",
+"Capacity": "4078",
+"la": "35.09231800000",
+"ln": "138.88636300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.886363,
+35.092318
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長泉中学校",
+"Jusho": "静岡県駿東郡長泉町下土狩777",
+"Capacity": "－",
+"la": "35.13273100000",
+"ln": "138.89905500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.899055,
+35.132731
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北中学校",
+"Jusho": "静岡県駿東郡長泉町納米里333-3",
+"Capacity": "－",
+"la": "35.14734000000",
+"ln": "138.89336100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.893361,
+35.14734
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小山中学校",
+"Jusho": "静岡県駿東郡小山町藤曲142",
+"Capacity": "300",
+"la": "35.36106500000",
+"ln": "138.98651100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.986511,
+35.361065
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須走中学校",
+"Jusho": "静岡県駿東郡小山町須走99-7",
+"Capacity": "300",
+"la": "35.36553600000",
+"ln": "138.86885800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.868858,
+35.365536
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北郷中学校",
+"Jusho": "静岡県駿東郡小山町用沢355",
+"Capacity": "300",
+"la": "35.34776100000",
+"ln": "138.94540600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.945406,
+35.347761
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉田中学校",
+"Jusho": "静岡県榛原郡吉田町住吉230",
+"Capacity": "－",
+"la": "34.76934400000",
+"ln": "138.25273400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.252734,
+34.769344
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旭が丘中学校",
+"Jusho": "静岡県周智郡森町谷中556",
+"Capacity": "－",
+"la": "34.81530300000",
+"ln": "137.90123800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.901238,
+34.815303
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "森中学校",
+"Jusho": "静岡県周智郡森町天宮888-1",
+"Capacity": "－",
+"la": "34.84530000000",
+"ln": "137.93242900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.932429,
+34.8453
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "泉陽中学校",
+"Jusho": "静岡県周智郡森町問詰259",
+"Capacity": "－",
+"la": "34.86907500000",
+"ln": "137.93845600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+137.938456,
+34.869075
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "河津中学校",
+"Jusho": "静岡県賀茂郡河津町田中72-1",
+"Capacity": "－",
+"la": "34.75171800000",
+"ln": "138.98929400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.989294,
+34.751718
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中川根中学校",
+"Jusho": "静岡県榛原郡川根本町上長尾744",
+"Capacity": "－",
+"la": "35.04472500000",
+"ln": "138.08213600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.082136,
+35.044725
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "本川根中学校",
+"Jusho": "静岡県榛原郡川根本町田代530",
+"Capacity": "－",
+"la": "35.10169100000",
+"ln": "138.12760300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.127603,
+35.101691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西中学校",
+"Jusho": "静岡県裾野市佐野450",
+"Capacity": "－",
+"la": "35.181656",
+"ln": "138.904541"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.904541,
+35.181656
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東中学校",
+"Jusho": "静岡県裾野市公文名685-1",
+"Capacity": "－",
+"la": "35.178291",
+"ln": "138.925735"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.925735,
+35.178291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "深良中学校",
+"Jusho": "静岡県裾野市深良3806",
+"Capacity": "－",
+"la": "35.204117",
+"ln": "138.927383"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.927383,
+35.204117
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "富岡中学校",
+"Jusho": "静岡県裾野市御宿579",
+"Capacity": "－",
+"la": "35.200417",
+"ln": "138.903763"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.903763,
+35.200417
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須山中学校",
+"Jusho": "静岡県裾野市須山1502-1",
+"Capacity": "－",
+"la": "35.248959",
+"ln": "138.853424"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.853424,
+35.248959
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜岡中学校（体育館）",
+"Jusho": "静岡県御前崎市池新田3923-1",
+"Capacity": "－",
+"la": "34.64339",
+"ln": "138.128797"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.128797,
+34.64339
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御前崎中学校（体育館）",
+"Jusho": "静岡県牧之原市新庄800-1",
+"Capacity": "－",
+"la": "34.625267",
+"ln": "138.190831"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.190831,
+34.625267
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浜岡中学校グラウンド",
+"Jusho": "静岡県御前崎市池新田3923-1",
+"Capacity": "－",
+"la": "34.643408",
+"ln": "138.129725"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.129725,
+34.643408
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御前崎中学校グラウンド",
+"Jusho": "静岡県牧之原市新庄800-1",
+"Capacity": "－",
+"la": "34.625984",
+"ln": "138.190791"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.190791,
+34.625984
+]
+}
+}
+]
+};

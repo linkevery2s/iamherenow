@@ -1,0 +1,5377 @@
+var k={
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"Name": "あかしあ公園",
+"Jusho": "新潟県新潟市北区松浜3丁目19番地8",
+"Capacity": "1700",
+"la": "37.95314429910",
+"ln": "139.14128375000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.14128375,
+37.9531442991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "おやま公園",
+"Jusho": "新潟県新潟市北区木崎837番地30",
+"Capacity": "2146",
+"la": "37.93412803910",
+"ln": "139.18262866000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.18262866,
+37.9341280391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "さくら公園",
+"Jusho": "新潟県新潟市北区白新町4丁目54番1号",
+"Capacity": "2120",
+"la": "37.91479253910",
+"ln": "139.21185556000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.21185556,
+37.9147925391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "しらかば公園",
+"Jusho": "新潟県新潟市北区朝日町2丁目14番1号",
+"Capacity": "5037",
+"la": "37.91981999910",
+"ln": "139.22597000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.22597,
+37.9198199991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "すみれ公園",
+"Jusho": "新潟県新潟市北区石動1丁目10番3号",
+"Capacity": "2109",
+"la": "37.92191443910",
+"ln": "139.21524719000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.21524719,
+37.9219144391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "すみれ野公園",
+"Jusho": "新潟県新潟市北区すみれ野1丁目12番2号",
+"Capacity": "2523",
+"la": "37.92003951910",
+"ln": "139.15900101000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.15900101,
+37.9200395191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "ちとせ公園",
+"Jusho": "新潟県新潟市北区松浜5丁目12番地1",
+"Capacity": "3020",
+"la": "37.95736667910",
+"ln": "139.14309462000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.14309462,
+37.9573666791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "つくし野西公園",
+"Jusho": "新潟県新潟市北区つくし野1丁目13番1号",
+"Capacity": "1616",
+"la": "37.92731999910",
+"ln": "139.15347000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.15347,
+37.9273199991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "つくし野東公園",
+"Jusho": "新潟県新潟市北区つくし野2丁目18番",
+"Capacity": "1516",
+"la": "37.92927999910",
+"ln": "139.15717000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.15717,
+37.9292799991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "まえわり公園",
+"Jusho": "新潟県新潟市北区早通北3丁目311番地75",
+"Capacity": "2017",
+"la": "37.92062354910",
+"ln": "139.18462923000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.18462923,
+37.9206235491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "みなと公園",
+"Jusho": "新潟県新潟市北区松浜7丁目9番地1",
+"Capacity": "1500",
+"la": "37.95714999910",
+"ln": "139.13725000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.13725,
+37.9571499991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "やまどおり公園",
+"Jusho": "新潟県新潟市北区木崎字樋ノ入山2741番地1",
+"Capacity": "1432",
+"la": "37.94355664460",
+"ln": "139.19262005200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.192620052,
+37.9435566446
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "下大口公園",
+"Jusho": "新潟県新潟市北区葛塚字下大口4539番地",
+"Capacity": "1649",
+"la": "37.92434093910",
+"ln": "139.21780476000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.21780476,
+37.9243409391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "月見公園",
+"Jusho": "新潟県新潟市北区太田字法花鳥屋甲5271番地",
+"Capacity": "1334",
+"la": "37.92427124910",
+"ln": "139.22172580000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.2217258,
+37.9242712491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "見国山公園",
+"Jusho": "新潟県新潟市北区木崎字見国山2878番地5",
+"Capacity": "1362",
+"la": "37.94220844910",
+"ln": "139.19033680000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.1903368,
+37.9422084491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "彩野公園",
+"Jusho": "新潟県新潟市北区彩野1丁目6番1号",
+"Capacity": "1714",
+"la": "37.92100181910",
+"ln": "139.18687345000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.18687345,
+37.9210018191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山の上公園",
+"Jusho": "新潟県新潟市北区松浜1丁目17番地",
+"Capacity": "1700",
+"la": "37.95144999910",
+"ln": "139.14539000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.14539,
+37.9514499991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "住良公園",
+"Jusho": "新潟県新潟市北区川西3丁目1834番地",
+"Capacity": "2263",
+"la": "37.90887809910",
+"ln": "139.21429357000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.21429357,
+37.9088780991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水の公園福島潟",
+"Jusho": "新潟県新潟市北区前新田乙493番地",
+"Capacity": "112855",
+"la": "37.91315849810",
+"ln": "139.24161585900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.241615859,
+37.9131584981
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "石動公園",
+"Jusho": "新潟県新潟市北区白新町1丁目3994番地",
+"Capacity": "1624",
+"la": "37.92070698910",
+"ln": "139.21712818000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.21712818,
+37.9207069891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "川岸公園",
+"Jusho": "新潟県新潟市北区嘉山2丁目1646番地",
+"Capacity": "1444",
+"la": "37.91152012910",
+"ln": "139.21960119000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.21960119,
+37.9115201291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "前新田公園",
+"Jusho": "新潟県新潟市北区東栄町2丁目7番1号",
+"Capacity": "1414",
+"la": "37.91462567910",
+"ln": "139.22565537000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.22565537,
+37.9146256791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "太田農村公園",
+"Jusho": "新潟県新潟市北区太田字下黒山2005番地",
+"Capacity": "2127",
+"la": "37.94211730940",
+"ln": "139.25276681200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.252766812,
+37.9421173094
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "濁川公園",
+"Jusho": "新潟県新潟市北区濁川686番地1",
+"Capacity": "28000",
+"la": "37.93805167910",
+"ln": "139.15974758000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.15974758,
+37.9380516791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中嘉山公園",
+"Jusho": "新潟県新潟市北区嘉山4丁目6番1号",
+"Capacity": "3117",
+"la": "37.90756867910",
+"ln": "139.22259620000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.2225962,
+37.9075686791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長浦農村公園",
+"Jusho": "新潟県新潟市北区浦木字長場村下1963番地1",
+"Capacity": "5938",
+"la": "37.88868046910",
+"ln": "139.21056657000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.21056657,
+37.8886804691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "島見公園",
+"Jusho": "新潟県新潟市北区島見町1876番地1",
+"Capacity": "6822",
+"la": "37.96947793910",
+"ln": "139.19498783000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.19498783,
+37.9694779391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "美里第一公園",
+"Jusho": "新潟県新潟市北区美里1丁目5番5号",
+"Capacity": "1364",
+"la": "37.90739485910",
+"ln": "139.21432856000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.21432856,
+37.9073948591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "仏伝公園",
+"Jusho": "新潟県新潟市北区早通南3丁目977番地",
+"Capacity": "1944",
+"la": "37.91800932910",
+"ln": "139.17866836000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.17866836,
+37.9180093291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊栄ひまわり公園",
+"Jusho": "新潟県新潟市北区柳原2丁目7番1号",
+"Capacity": "1300",
+"la": "37.92040999910",
+"ln": "139.21161000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.21161,
+37.9204099991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊栄大空公園",
+"Jusho": "新潟県新潟市北区早通北5丁目1682番地1",
+"Capacity": "3373",
+"la": "37.92383893910",
+"ln": "139.18476798000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.18476798,
+37.9238389391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊栄南運動公園",
+"Jusho": "新潟県新潟市北区嘉山字嘉山493番地",
+"Capacity": "10177",
+"la": "37.90712639910",
+"ln": "139.22462284000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.22462284,
+37.9071263991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "夕やけ公園",
+"Jusho": "新潟県新潟市北区柳原3丁目10番2号",
+"Capacity": "2798",
+"la": "37.91632908910",
+"ln": "139.20855434000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.20855434,
+37.9163290891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "陽光南公園",
+"Jusho": "新潟県新潟市北区太夫浜新町1丁目5番1号",
+"Capacity": "2303",
+"la": "37.95778815910",
+"ln": "139.15715156000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.15715156,
+37.9577881591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "かれすわ公園",
+"Jusho": "新潟県新潟市東区海老ケ瀬78番地9",
+"Capacity": "1275",
+"la": "37.93420171910",
+"ln": "139.12782551000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.12782551,
+37.9342017191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "じゅんさい池公園",
+"Jusho": "新潟県新潟市東区松園2丁目2番1号",
+"Capacity": "36500",
+"la": "37.94167636910",
+"ln": "139.10122379000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10122379,
+37.9416763691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "河渡公園",
+"Jusho": "新潟県新潟市東区河渡本町20番1号",
+"Capacity": "1250",
+"la": "37.93537999910",
+"ln": "139.10535000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10535,
+37.9353799991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "河渡中央公園",
+"Jusho": "新潟県新潟市東区有楽3丁目3番地1",
+"Capacity": "10500",
+"la": "37.93937999910",
+"ln": "139.11147000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11147,
+37.9393799991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宮浦公園",
+"Jusho": "新潟県新潟市東区太平1丁目1番地3",
+"Capacity": "1650",
+"la": "37.94740999910",
+"ln": "139.11989000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11989,
+37.9474099991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "牛海道中央公園",
+"Jusho": "新潟県新潟市東区空港西1丁目14番1号",
+"Capacity": "6976",
+"la": "37.94874999910",
+"ln": "139.09457000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.09457,
+37.9487499991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "協和公園",
+"Jusho": "新潟県新潟市東区石山団地9番16号",
+"Capacity": "1660",
+"la": "37.90555703910",
+"ln": "139.10931638000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10931638,
+37.9055570391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山の下海浜公園",
+"Jusho": "新潟県新潟市東区船江町1丁目52番1号",
+"Capacity": "18000",
+"la": "37.95390371910",
+"ln": "139.09326223000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.09326223,
+37.9539037191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "秋葉自然公園",
+"Jusho": "新潟県新潟市東区秋葉1丁目5番5号",
+"Capacity": "1500",
+"la": "37.94084203910",
+"ln": "139.08327121000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.08327121,
+37.9408420391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小金公園",
+"Jusho": "新潟県新潟市東区松和町1番1号",
+"Capacity": "5500",
+"la": "37.93922900910",
+"ln": "139.09679106000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.09679106,
+37.9392290091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "松崎公園",
+"Jusho": "新潟県新潟市東区白銀2丁目7番地1",
+"Capacity": "1466",
+"la": "37.93731932910",
+"ln": "139.11376377000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11376377,
+37.9373193291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新松崎第２公園",
+"Jusho": "新潟県新潟市東区新松崎3丁目6番8号",
+"Capacity": "1345",
+"la": "37.92888168910",
+"ln": "139.11842392000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11842392,
+37.9288816891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "青葉公園",
+"Jusho": "新潟県新潟市東区臨港1丁目8番10号",
+"Capacity": "3820",
+"la": "37.94218622910",
+"ln": "139.07315757000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.07315757,
+37.9421862291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "石山居村公園",
+"Jusho": "新潟県新潟市東区新石山4丁目9番地1",
+"Capacity": "1459",
+"la": "37.90100762910",
+"ln": "139.09413142000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.09413142,
+37.9010076291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "石山第一公園",
+"Jusho": "新潟県新潟市東区東中島1丁目2番18号",
+"Capacity": "1740",
+"la": "37.90542028910",
+"ln": "139.11094082000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11094082,
+37.9054202891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "石山中央公園",
+"Jusho": "新潟県新潟市東区新石山2丁目5番地",
+"Capacity": "1751",
+"la": "37.90250014910",
+"ln": "139.09835418000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.09835418,
+37.9025001491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "赤トンボ公園",
+"Jusho": "新潟県新潟市東区幸栄1丁目9番30号",
+"Capacity": "1329",
+"la": "37.94408663910",
+"ln": "139.10178372000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10178372,
+37.9440866391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "太平公園",
+"Jusho": "新潟県新潟市東区太平3丁目24番地",
+"Capacity": "3300",
+"la": "37.94376217910",
+"ln": "139.11126744000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11126744,
+37.9437621791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大空公園",
+"Jusho": "新潟県新潟市東区太平2丁目11番地",
+"Capacity": "1700",
+"la": "37.94559768910",
+"ln": "139.11536189000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11536189,
+37.9455976891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大山台公園",
+"Jusho": "新潟県新潟市東区大山2丁目13番2号",
+"Capacity": "7656",
+"la": "37.93578046910",
+"ln": "139.07852352000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.07852352,
+37.9357804691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中野山家浦公園",
+"Jusho": "新潟県新潟市東区中野山1丁目2番地2",
+"Capacity": "1367",
+"la": "37.90393703910",
+"ln": "139.10121213000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10121213,
+37.9039370391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "津島屋公園",
+"Jusho": "新潟県新潟市東区津島屋6丁目5番地1",
+"Capacity": "16500",
+"la": "37.94330793910",
+"ln": "139.12506725000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.12506725,
+37.9433079391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東山公園",
+"Jusho": "新潟県新潟市東区東明1丁目4番地",
+"Capacity": "7369",
+"la": "37.90007999910",
+"ln": "139.08165000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.08165,
+37.9000799991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "藤見中央公園",
+"Jusho": "新潟県新潟市東区藤見町2丁目29番1号",
+"Capacity": "4772",
+"la": "37.93304999910",
+"ln": "139.09407000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.09407,
+37.9330499991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "萌木野公園",
+"Jusho": "新潟県新潟市東区もえぎ野2丁目14番30号",
+"Capacity": "2151",
+"la": "37.89332999910",
+"ln": "139.10361000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10361,
+37.8933299991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "愛宕公園",
+"Jusho": "新潟県新潟市中央区愛宕1丁目5番地",
+"Capacity": "2372",
+"la": "37.88668567910",
+"ln": "139.02728098000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.02728098,
+37.8866856791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "下川原公園",
+"Jusho": "新潟県新潟市中央区関屋下川原1丁目3番地3",
+"Capacity": "1946",
+"la": "37.91719066910",
+"ln": "139.02447265000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.02447265,
+37.9171906691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "関分記念公園",
+"Jusho": "新潟県新潟市中央区関屋2番地44",
+"Capacity": "4500",
+"la": "37.91076437910",
+"ln": "139.00491227000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.00491227,
+37.9107643791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金鉢山公園",
+"Jusho": "新潟県新潟市中央区関屋金鉢山町90番地1",
+"Capacity": "1485",
+"la": "37.90863076910",
+"ln": "139.01841063000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.01841063,
+37.9086307691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "桜が丘公園",
+"Jusho": "新潟県新潟市中央区京王2丁目15番7号",
+"Capacity": "2085",
+"la": "37.89442435910",
+"ln": "139.07932099000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.07932099,
+37.8944243591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "笹口公園",
+"Jusho": "新潟県新潟市中央区笹口3丁目6番地1",
+"Capacity": "1500",
+"la": "37.91335597910",
+"ln": "139.06938020000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.0693802,
+37.9133559791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上山公園",
+"Jusho": "新潟県新潟市中央区愛宕3丁目5番地",
+"Capacity": "1348",
+"la": "37.88963226910",
+"ln": "139.02751978000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.02751978,
+37.8896322691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上所島公園",
+"Jusho": "新潟県新潟市中央区上所2丁目2番32号",
+"Capacity": "1400",
+"la": "37.90726772910",
+"ln": "139.03835443000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.03835443,
+37.9072677291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "信濃公園",
+"Jusho": "新潟県新潟市中央区信濃町19番1号",
+"Capacity": "1300",
+"la": "37.90993322910",
+"ln": "139.01257114000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.01257114,
+37.9099332291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水戸教公園",
+"Jusho": "新潟県新潟市中央区雲雀町18番地",
+"Capacity": "2076",
+"la": "37.94049563910",
+"ln": "139.05674975000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.05674975,
+37.9404956391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西海岸公園",
+"Jusho": "新潟県新潟市中央区西船見町5932番地626",
+"Capacity": "269580",
+"la": "37.92510674250",
+"ln": "139.02968304800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.029683048,
+37.9251067425
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西大畑公園",
+"Jusho": "新潟県新潟市中央区西大畑町5191番地",
+"Capacity": "8061",
+"la": "37.92752311910",
+"ln": "139.04115067000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.04115067,
+37.9275231191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "太陽公園",
+"Jusho": "新潟県新潟市中央区笹口1丁目16番地",
+"Capacity": "1600",
+"la": "37.91182633910",
+"ln": "139.06626457000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.06626457,
+37.9118263391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鳥屋野運動公園",
+"Jusho": "新潟県新潟市中央区女池南3丁目6番4号",
+"Capacity": "40450",
+"la": "37.88880608910",
+"ln": "139.04518271000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.04518271,
+37.8888060891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鳥屋野潟公園",
+"Jusho": "新潟県新潟市中央区鐘木清五郎女池",
+"Capacity": "310500",
+"la": "37.87879974090",
+"ln": "139.04074683400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.040746834,
+37.8787997409
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鳥屋野交通公園",
+"Jusho": "新潟県新潟市中央区女池南3丁目6番3号",
+"Capacity": "7000",
+"la": "37.88867283230",
+"ln": "139.04424365200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.044243652,
+37.8886728323
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東公園",
+"Jusho": "新潟県新潟市中央区明石1丁目4番1号",
+"Capacity": "3000",
+"la": "37.91583973910",
+"ln": "139.06684292000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.06684292,
+37.9158397391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "日の出公園",
+"Jusho": "新潟県新潟市中央区日の出1丁目7番1号",
+"Capacity": "1700",
+"la": "37.91882328910",
+"ln": "139.07387642000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.07387642,
+37.9188232891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白山公園",
+"Jusho": "新潟県新潟市中央区一番堀通町1番地2",
+"Capacity": "9000",
+"la": "37.91492679910",
+"ln": "139.03875725000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.03875725,
+37.9149267991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "万代公園",
+"Jusho": "新潟県新潟市中央区東万代町9番3号",
+"Capacity": "1900",
+"la": "37.91668784910",
+"ln": "139.06247730000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.0624773,
+37.9166878491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "ありの実公園",
+"Jusho": "新潟県新潟市江南区両川1丁目1201-2",
+"Capacity": "2335",
+"la": "37.84529693910",
+"ln": "139.08254751000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.08254751,
+37.8452969391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "いなほ公園",
+"Jusho": "新潟県新潟市江南区横越東町1丁目3687番地19",
+"Capacity": "321",
+"la": "37.85550583570",
+"ln": "139.15441810600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.154418106,
+37.8555058357
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "いぶき野公園",
+"Jusho": "新潟県新潟市江南区いぶき野1丁目101番地4",
+"Capacity": "1338",
+"la": "37.85721856910",
+"ln": "139.14401773000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.14401773,
+37.8572185691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "うぐいす公園",
+"Jusho": "新潟県新潟市江南区うぐいす2丁目313番地8",
+"Capacity": "1606",
+"la": "37.87589551910",
+"ln": "139.13720588000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.13720588,
+37.8758955191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "かわね公園",
+"Jusho": "新潟県新潟市江南区亀田工業団地1丁目2528番地17",
+"Capacity": "7646",
+"la": "37.87152545910",
+"ln": "139.08233250000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.0823325,
+37.8715254591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "さつき公園",
+"Jusho": "新潟県新潟市江南区五月町2丁目570番地36",
+"Capacity": "850",
+"la": "37.87443024910",
+"ln": "139.09586625000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.09586625,
+37.8744302491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "しゅもく公園",
+"Jusho": "新潟県新潟市江南区曽野木1丁目18番1号",
+"Capacity": "145",
+"la": "37.86654175910",
+"ln": "139.04102649000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.04102649,
+37.8665417591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "茜ヶ丘公園",
+"Jusho": "新潟県新潟市江南区茜ケ丘2943番地1",
+"Capacity": "1307",
+"la": "37.85851626910",
+"ln": "139.14059285000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.14059285,
+37.8585162691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "稲葉公園",
+"Jusho": "新潟県新潟市江南区稲葉2丁目846番地1",
+"Capacity": "1561",
+"la": "37.87199060910",
+"ln": "139.11334187000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11334187,
+37.8719906091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "横越さつき公園",
+"Jusho": "新潟県新潟市江南区横越上町1丁目543番地10",
+"Capacity": "351",
+"la": "37.84986526910",
+"ln": "139.14513502000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.14513502,
+37.8498652691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "横越川根町第２公園",
+"Jusho": "新潟県新潟市江南区横越川根町5丁目3215番地42",
+"Capacity": "561",
+"la": "37.86149674910",
+"ln": "139.13409696000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.13409696,
+37.8614967491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "横越第１みどり公園",
+"Jusho": "新潟県新潟市江南区横越川根町3丁目2733番地16",
+"Capacity": "423",
+"la": "37.85745792910",
+"ln": "139.13485108000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.13485108,
+37.8574579291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "横越中央西公園",
+"Jusho": "新潟県新潟市江南区横越中央1丁目4606番地6",
+"Capacity": "841",
+"la": "37.85641320910",
+"ln": "139.14474704000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.14474704,
+37.8564132091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "横越中央東公園",
+"Jusho": "新潟県新潟市江南区横越中央2丁目4611番地21",
+"Capacity": "727",
+"la": "37.85628691910",
+"ln": "139.14663955000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.14663955,
+37.8562869191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "横越農村公園",
+"Jusho": "新潟県新潟市江南区横越川根町2丁目1236番地",
+"Capacity": "1531",
+"la": "37.85468528910",
+"ln": "139.14001518000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.14001518,
+37.8546852891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "亀田公園",
+"Jusho": "新潟県新潟市江南区亀田向陽4丁目1779番地1",
+"Capacity": "16994",
+"la": "37.88024931910",
+"ln": "139.11042727000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11042727,
+37.8802493191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "亀田曙公園",
+"Jusho": "新潟県新潟市江南区曙町4丁目230番地54",
+"Capacity": "572",
+"la": "37.85760257910",
+"ln": "139.12793691000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.12793691,
+37.8576025791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "亀田総合運動公園",
+"Jusho": "新潟県新潟市江南区茅野山3丁目13",
+"Capacity": "13100",
+"la": "37.85662092650",
+"ln": "139.09598023800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.095980238,
+37.8566209265
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "亀田東公園",
+"Jusho": "新潟県新潟市江南区亀田東町2丁目2895番地3",
+"Capacity": "1017",
+"la": "37.86736554910",
+"ln": "139.11407043000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11407043,
+37.8673655491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "砂岡公園",
+"Jusho": "新潟県新潟市江南区砂岡3丁目1105番地1",
+"Capacity": "1203",
+"la": "37.86424450910",
+"ln": "139.12269485000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.12269485,
+37.8642445091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小杉農村公園",
+"Jusho": "新潟県新潟市江南区小杉3丁目2929番地1",
+"Capacity": "1395",
+"la": "37.87548394910",
+"ln": "139.16089514000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.16089514,
+37.8754839491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城所公園",
+"Jusho": "新潟県新潟市江南区城所1丁目甲611番地2",
+"Capacity": "927",
+"la": "37.86211209910",
+"ln": "139.10783872000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10783872,
+37.8621120991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西山公園",
+"Jusho": "新潟県新潟市江南区西山338番地",
+"Capacity": "5992",
+"la": "37.88273641910",
+"ln": "139.13810397000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.13810397,
+37.8827364191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西町公園",
+"Jusho": "新潟県新潟市江南区西町5丁目1233番地1",
+"Capacity": "1197",
+"la": "37.87290191910",
+"ln": "139.10423973000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10423973,
+37.8729019191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大月公園",
+"Jusho": "新潟県新潟市江南区亀田ノ内高山字浦方520番地1",
+"Capacity": "1045",
+"la": "37.87804699910",
+"ln": "139.10211351000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10211351,
+37.8780469991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大江山公園",
+"Jusho": "新潟県新潟市江南区笹山423番地",
+"Capacity": "495",
+"la": "37.88153083910",
+"ln": "139.15222303000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.15222303,
+37.8815308391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第１やすらぎ公園",
+"Jusho": "新潟県新潟市江南区木津工業団地2428番地12",
+"Capacity": "3706",
+"la": "37.83973900910",
+"ln": "139.13123074000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.13123074,
+37.8397390091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中島公園",
+"Jusho": "新潟県新潟市江南区亀田中島3丁目2455番地",
+"Capacity": "1095",
+"la": "37.88527098910",
+"ln": "139.10237631000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10237631,
+37.8852709891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "堤公園",
+"Jusho": "新潟県新潟市江南区城山4丁目甲466番地1",
+"Capacity": "1171",
+"la": "37.86023113910",
+"ln": "139.11569770000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.1156977,
+37.8602311391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "藤駒農村公園",
+"Jusho": "新潟県新潟市江南区駒込字前郷227番地",
+"Capacity": "1025",
+"la": "37.87420299470",
+"ln": "139.13813943100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.138139431,
+37.8742029947
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "二本木ことぶき公園",
+"Jusho": "新潟県新潟市江南区二本木4丁目1257番地8",
+"Capacity": "621",
+"la": "37.84745845910",
+"ln": "139.11303663000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11303663,
+37.8474584591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "舞平公園",
+"Jusho": "新潟県新潟市江南区平賀234－",
+"Capacity": "13300",
+"la": "37.84654998910",
+"ln": "139.04133706000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.04133706,
+37.8465499891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北山池公園",
+"Jusho": "新潟県新潟市江南区北山183番地1",
+"Capacity": "17800",
+"la": "37.87275002910",
+"ln": "139.12036556000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.12036556,
+37.8727500291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "木津農村公園",
+"Jusho": "新潟県新潟市江南区木津3丁目518番地6",
+"Capacity": "2029",
+"la": "37.83740617910",
+"ln": "139.12769420000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.1276942,
+37.8374061791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "あおば公園",
+"Jusho": "新潟県新潟市秋葉区あおば通1丁目109番1",
+"Capacity": "2488",
+"la": "37.83381494910",
+"ln": "139.10189849000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10189849,
+37.8338149491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "みそら野公園",
+"Jusho": "新潟県新潟市秋葉区みそら野3丁目14番地6",
+"Capacity": "2438",
+"la": "37.82534894910",
+"ln": "139.11409985000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11409985,
+37.8253489491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "横川浜農村公園",
+"Jusho": "新潟県新潟市秋葉区横川浜460番地",
+"Capacity": "1500",
+"la": "37.74551877910",
+"ln": "139.07274018000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.07274018,
+37.7455187791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "荻野公園",
+"Jusho": "新潟県新潟市秋葉区荻野町109番地3",
+"Capacity": "1625",
+"la": "37.83014212910",
+"ln": "139.10692665000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10692665,
+37.8301421291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鎌倉農村公園",
+"Jusho": "新潟県新潟市秋葉区鎌倉273番地2",
+"Capacity": "1542",
+"la": "37.73168154910",
+"ln": "139.08439352000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.08439352,
+37.7316815491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "工業団地１号公園",
+"Jusho": "新潟県新潟市秋葉区川口578番地1",
+"Capacity": "1499",
+"la": "37.81553812910",
+"ln": "139.10619183000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10619183,
+37.8155381291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "工業団地２号公園",
+"Jusho": "新潟県新潟市秋葉区川口578番地30",
+"Capacity": "1883",
+"la": "37.81700872910",
+"ln": "139.10633565000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.10633565,
+37.8170087291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "工業団地３号公園",
+"Jusho": "新潟県新潟市秋葉区川口578番地28",
+"Capacity": "1699",
+"la": "37.81808654910",
+"ln": "139.11227804000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.11227804,
+37.8180865491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山ノ手公園",
+"Jusho": "新潟県新潟市秋葉区矢代田5012番地",
+"Capacity": "1000",
+"la": "37.74386396910",
+"ln": "139.09654673000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.09654673,
+37.7438639691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "舟戸公園",
+"Jusho": "新潟県新潟市秋葉区矢代田1238番地5",
+"Capacity": "1718",
+"la": "37.74992732910",
+"ln": "139.09531275000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.09531275,
+37.7499273291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新保農村公園",
+"Jusho": "新潟県新潟市秋葉区新保1744番地1",
+"Capacity": "335",
+"la": "37.75929579910",
+"ln": "139.08399257000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.08399257,
+37.7592957991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水田農村公園",
+"Jusho": "新潟県新潟市秋葉区水田39番地1",
+"Capacity": "1310",
+"la": "37.72840641910",
+"ln": "139.06535040000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.0653504,
+37.7284064191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "石油の里公園観光物産館",
+"Jusho": "新潟県新潟市秋葉区金津1193番地",
+"Capacity": "179",
+"la": "37.74895895670",
+"ln": "139.11197674100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.111976741,
+37.7489589567
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中間木公園",
+"Jusho": "新潟県新潟市秋葉区小須戸320番地",
+"Capacity": "1750",
+"la": "37.75840847910",
+"ln": "139.07374583000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.07374583,
+37.7584084791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "日宝町公園",
+"Jusho": "新潟県新潟市秋葉区日宝町294番地1",
+"Capacity": "1809",
+"la": "37.79766757910",
+"ln": "139.12898252000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.12898252,
+37.7976675791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "満願寺公園",
+"Jusho": "新潟県新潟市秋葉区満願寺3423番地2",
+"Capacity": "4266",
+"la": "37.82224042650",
+"ln": "139.15257493500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.152574935,
+37.8222404265
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "六郷公園",
+"Jusho": "新潟県新潟市秋葉区六郷1033番地1",
+"Capacity": "1589",
+"la": "37.79744501910",
+"ln": "139.16789799000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.16789799,
+37.7974450191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "茨曽根公園",
+"Jusho": "新潟県新潟市南区茨曽根32番地3432",
+"Capacity": "2060",
+"la": "37.71784462600",
+"ln": "138.99709651500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.997096515,
+37.717844626
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "下八枚公園",
+"Jusho": "新潟県新潟市南区下八枚590番地",
+"Capacity": "1301",
+"la": "37.76187059910",
+"ln": "139.06046877000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.06046877,
+37.7618705991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "居宿農村公園",
+"Jusho": "新潟県新潟市南区居宿7番地",
+"Capacity": "440",
+"la": "37.81059050310",
+"ln": "139.00191147800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.001911478,
+37.8105905031
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "月潟農村公園",
+"Jusho": "新潟県新潟市南区月潟233番地",
+"Capacity": "166",
+"la": "37.72205300140",
+"ln": "138.99310459400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.993104594,
+37.7220530014
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "根岸公園",
+"Jusho": "新潟県新潟市南区高井東1丁目392番地1",
+"Capacity": "1343",
+"la": "37.79556679910",
+"ln": "139.01567052000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.01567052,
+37.7955667991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "七穂農村公園",
+"Jusho": "新潟県新潟市南区山王新田1番地1",
+"Capacity": "868",
+"la": "37.80062450960",
+"ln": "139.00809313300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.008093133,
+37.8006245096
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "庄瀬公園",
+"Jusho": "新潟県新潟市南区菱潟新田1番地",
+"Capacity": "1500",
+"la": "37.72108770910",
+"ln": "139.04142586000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.04142586,
+37.7210877091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新飯田公園",
+"Jusho": "新潟県新潟市南区新飯田1004番地3",
+"Capacity": "2928",
+"la": "37.68554159720",
+"ln": "138.98301906000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.98301906,
+37.6855415972
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "諏訪木公園",
+"Jusho": "新潟県新潟市南区白根水道町1181番地5",
+"Capacity": "1050",
+"la": "37.75413286910",
+"ln": "139.01300993000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.01300993,
+37.7541328691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水道公園",
+"Jusho": "新潟県新潟市南区上下諏訪木35番地1",
+"Capacity": "3320",
+"la": "37.75598831910",
+"ln": "139.00955998000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.00955998,
+37.7559883191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西萱場農村公園",
+"Jusho": "新潟県新潟市南区西萱場95番地5",
+"Capacity": "1201",
+"la": "37.73110248530",
+"ln": "138.99982071100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.999820711,
+37.7311024853
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大倉児童公園",
+"Jusho": "新潟県新潟市南区大倉535番地1",
+"Capacity": "602",
+"la": "37.80629705280",
+"ln": "139.00414720900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.004147209,
+37.8062970528
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大通さつき公園",
+"Jusho": "新潟県新潟市南区大通黄金1丁目3番地1",
+"Capacity": "1000",
+"la": "37.82631568910",
+"ln": "139.02030915000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.02030915,
+37.8263156891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大通はあと公園",
+"Jusho": "新潟県新潟市南区鷲ノ木新田無番地",
+"Capacity": "2057",
+"la": "37.83963739910",
+"ln": "139.01984555000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.01984555,
+37.8396373991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大通ふれあい公園",
+"Jusho": "新潟県新潟市南区大通黄金2丁目7番地11",
+"Capacity": "7164",
+"la": "37.82446150910",
+"ln": "139.02262498000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.02262498,
+37.8244615091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大通公園",
+"Jusho": "新潟県新潟市南区大通1丁目850番地3",
+"Capacity": "1511",
+"la": "37.84109695910",
+"ln": "139.01859959000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.01859959,
+37.8410969591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大通南１号公園",
+"Jusho": "新潟県新潟市南区大通南2丁目169番地",
+"Capacity": "1168",
+"la": "37.82821137910",
+"ln": "139.02393090000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.0239309,
+37.8282113791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大通南２号公園",
+"Jusho": "新潟県新潟市南区大通南1丁目119番地",
+"Capacity": "1137",
+"la": "37.82906927910",
+"ln": "139.02055292000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.02055292,
+37.8290692791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大通南３号公園",
+"Jusho": "新潟県新潟市南区大通南3丁目5番地",
+"Capacity": "1094",
+"la": "37.83145479910",
+"ln": "139.01982161000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.01982161,
+37.8314547991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大鷲公園",
+"Jusho": "新潟県新潟市南区東笠巻1277番地",
+"Capacity": "3240",
+"la": "37.81690989910",
+"ln": "139.04991433000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.04991433,
+37.8169098991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白根公園",
+"Jusho": "新潟県新潟市南区白根1145番地1",
+"Capacity": "2597",
+"la": "37.76534648910",
+"ln": "139.01906940000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.0190694,
+37.7653464891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白根総合公園",
+"Jusho": "新潟県新潟市南区上下諏訪木1775番地1",
+"Capacity": "30528",
+"la": "37.75916268910",
+"ln": "139.02551503000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.02551503,
+37.7591626891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白根第１農村公園",
+"Jusho": "新潟県新潟市南区西白根1563番地1",
+"Capacity": "967",
+"la": "37.76539479370",
+"ln": "139.01012448200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.010124482,
+37.7653947937
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白根第２農村公園",
+"Jusho": "新潟県新潟市南区西白根262番地",
+"Capacity": "549",
+"la": "37.75597220040",
+"ln": "139.00477083500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.004770835,
+37.7559722004
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "味方第１農村公園",
+"Jusho": "新潟県新潟市南区味方624番地1",
+"Capacity": "928",
+"la": "37.77778387790",
+"ln": "139.00735464900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.007354649,
+37.7777838779
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "味方第２農村公園",
+"Jusho": "新潟県新潟市南区味方952番地4",
+"Capacity": "1000",
+"la": "37.78353858910",
+"ln": "139.01007225300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.010072253,
+37.7835385891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "木滑農村公園",
+"Jusho": "新潟県新潟市南区木滑2104番地1",
+"Capacity": "974",
+"la": "37.74050647370",
+"ln": "138.98211127500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.982111275,
+37.7405064737
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "かただ公園",
+"Jusho": "新潟県新潟市西区みずき野6丁目6番25号",
+"Capacity": "1500",
+"la": "37.81775867910",
+"ln": "138.89816482000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.89816482,
+37.8177586791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "ときめきけやき公園",
+"Jusho": "新潟県新潟市西区ときめき東1丁目3番地2",
+"Capacity": "1818",
+"la": "37.87487487910",
+"ln": "139.01197551000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.01197551,
+37.8748748791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "みずき野中央公園",
+"Jusho": "新潟県新潟市西区みずき野4丁目14番1号",
+"Capacity": "5477",
+"la": "37.81888303910",
+"ln": "138.90412535000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.90412535,
+37.8188830391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宮のもり・木場城公園",
+"Jusho": "新潟県新潟市西区木場126番地6",
+"Capacity": "4476",
+"la": "37.83469061910",
+"ln": "138.99870054000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.99870054,
+37.8346906191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "黒鳥公園",
+"Jusho": "新潟県新潟市西区黒鳥5920番地",
+"Capacity": "2491",
+"la": "37.85149303620",
+"ln": "138.97651011800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.976510118,
+37.8514930362
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "佐潟公園",
+"Jusho": "新潟県新潟市西区赤塚5404番地14",
+"Capacity": "293500",
+"la": "37.81620008910",
+"ln": "138.87881220000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.8788122,
+37.8162000891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山田公園",
+"Jusho": "新潟県新潟市西区山田3358番",
+"Capacity": "1699",
+"la": "37.87156520910",
+"ln": "139.01464234000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.01464234,
+37.8715652091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "寺尾あけぼの公園",
+"Jusho": "新潟県新潟市西区寺尾前通2丁目9番地",
+"Capacity": "2071",
+"la": "37.88007135910",
+"ln": "138.98156448000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.98156448,
+37.8800713591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "寺尾中央公園",
+"Jusho": "新潟県新潟市西区寺尾中央公園1番地1",
+"Capacity": "32032",
+"la": "37.88366154910",
+"ln": "138.97223204000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.97223204,
+37.8836615491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小丸山公園",
+"Jusho": "新潟県新潟市西区新中浜5丁目5番地",
+"Capacity": "2277",
+"la": "37.84429999910",
+"ln": "138.90775000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.90775,
+37.8442999991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新町公園",
+"Jusho": "新潟県新潟市西区青山新町14番地",
+"Capacity": "1300",
+"la": "37.89554999910",
+"ln": "138.99879000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.99879,
+37.8955499991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "青山海浜公園",
+"Jusho": "新潟県新潟市西区関屋1829番地1",
+"Capacity": "11062",
+"la": "37.90762974910",
+"ln": "139.00156664000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.00156664,
+37.9076297491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大学南第一公園",
+"Jusho": "新潟県新潟市西区大学南2丁目27番1号",
+"Capacity": "2545",
+"la": "37.86230650910",
+"ln": "138.93970704000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.93970704,
+37.8623065091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中浜公園",
+"Jusho": "新潟県新潟市西区新中浜1丁目10番地1",
+"Capacity": "1783",
+"la": "37.84700748910",
+"ln": "138.91383031000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.91383031,
+37.8470074891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "的場史跡公園",
+"Jusho": "新潟県新潟市西区的場流通1丁目2番地1",
+"Capacity": "2980",
+"la": "37.86202735910",
+"ln": "138.99462224000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.99462224,
+37.8620273591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "平島記念公園",
+"Jusho": "新潟県新潟市西区平島3丁目2番地",
+"Capacity": "1254",
+"la": "37.89500592910",
+"ln": "139.00822447000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.00822447,
+37.8950059291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "平島公園",
+"Jusho": "新潟県新潟市西区平島1丁目21番地",
+"Capacity": "3300",
+"la": "37.88936087910",
+"ln": "139.00607524000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.00607524,
+37.8893608791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "流通公園",
+"Jusho": "新潟県新潟市西区流通センタ-5丁目1番地",
+"Capacity": "9179",
+"la": "37.86324475910",
+"ln": "138.99137451000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.99137451,
+37.8632447591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "わなみ農村公園",
+"Jusho": "新潟県新潟市西蒲区和納4185番地",
+"Capacity": "1750",
+"la": "37.72777588910",
+"ln": "138.87471484000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.87471484,
+37.7277758891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "押付地区公園",
+"Jusho": "新潟県新潟市西蒲区押付269番地1",
+"Capacity": "1406",
+"la": "37.78676032010",
+"ln": "138.91865859000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.91865859,
+37.7867603201
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "潟東西公園",
+"Jusho": "新潟県新潟市西蒲区横戸1960番地",
+"Capacity": "12991",
+"la": "37.77869539980",
+"ln": "138.95241538000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.95241538,
+37.7786953998
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "潟東東公園",
+"Jusho": "新潟県新潟市西蒲区井随436番地",
+"Capacity": "1386",
+"la": "37.76590003420",
+"ln": "138.97590866200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.975908662,
+37.7659000342
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "潟東南公園",
+"Jusho": "新潟県新潟市西蒲区今井455番地1",
+"Capacity": "1386",
+"la": "37.75343225650",
+"ln": "138.95160638400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.951606384,
+37.7534322565
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "潟東北公園",
+"Jusho": "新潟県新潟市西蒲区五之上253番地3",
+"Capacity": "12991",
+"la": "37.78539778120",
+"ln": "138.97445176100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.974451761,
+37.7853977812
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "丸小山公園",
+"Jusho": "新潟県新潟市西蒲区岩室温泉1661番地1",
+"Capacity": "3904",
+"la": "37.73214903940",
+"ln": "138.83646706800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.836467068,
+37.7321490394
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "升岡農村公園",
+"Jusho": "新潟県新潟市西蒲区升岡新田143番地",
+"Capacity": "990",
+"la": "37.81254544910",
+"ln": "138.95638147000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.95638147,
+37.8125454491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上堰潟公園",
+"Jusho": "新潟県新潟市西蒲区松野尾1番地",
+"Capacity": "130384",
+"la": "37.78925291910",
+"ln": "138.86512678000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.86512678,
+37.7892529191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城山運動公園",
+"Jusho": "新潟県新潟市西蒲区峰岡580番地",
+"Capacity": "72777",
+"la": "37.76349716910",
+"ln": "138.85387890000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.8538789,
+37.7634971691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西川ふれあい公園",
+"Jusho": "新潟県新潟市西蒲区松崎73番地",
+"Capacity": "12991",
+"la": "37.78784013910",
+"ln": "138.91367650000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.9136765,
+37.7878401391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "魲地区公園",
+"Jusho": "新潟県新潟市西蒲区魲340番地1",
+"Capacity": "1386",
+"la": "37.79983970910",
+"ln": "138.91406654000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.91406654,
+37.7998397091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "駅前公園",
+"Jusho": "新潟県柏崎市錦町404－付近",
+"Capacity": "－",
+"la": "37.36618276000",
+"ln": "138.56008743000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.56008743,
+37.36618276
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "駅前公園テニスコート",
+"Jusho": "新潟県柏崎市錦町526－付近",
+"Capacity": "－",
+"la": "37.36604235610",
+"ln": "138.56317910500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.563179105,
+37.3660423561
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鴨池公園",
+"Jusho": "新潟県柏崎市北園町400-2付近",
+"Capacity": "－",
+"la": "37.38100053000",
+"ln": "138.56005757000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.56005757,
+37.38100053
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御殿山公園",
+"Jusho": "新潟県柏崎市米山台一丁目725－付近",
+"Capacity": "－",
+"la": "37.35334628000",
+"ln": "138.54591469000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.54591469,
+37.35334628
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御野立公園",
+"Jusho": "新潟県柏崎市鯨波二丁目1346－付近",
+"Capacity": "－",
+"la": "37.35846442910",
+"ln": "138.51943692000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.51943692,
+37.3584644291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "幸町公園",
+"Jusho": "新潟県柏崎市幸町857－付近",
+"Capacity": "－",
+"la": "37.36288703000",
+"ln": "138.55838595000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.55838595,
+37.36288703
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "港公園",
+"Jusho": "新潟県柏崎市中浜一丁目803-97付近",
+"Capacity": "－",
+"la": "37.36707824920",
+"ln": "138.54166286100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.541662861,
+37.3670782492
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "春日公園",
+"Jusho": "新潟県柏崎市春日二丁目2087-2付近",
+"Capacity": "－",
+"la": "37.38175172000",
+"ln": "138.57005746000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.57005746,
+37.38175172
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "松波第一公園",
+"Jusho": "新潟県柏崎市松波二丁目2268付近",
+"Capacity": "－",
+"la": "37.38948999910",
+"ln": "138.57253000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.57253,
+37.3894899991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "常盤台公園",
+"Jusho": "新潟県柏崎市常盤台2116－付近",
+"Capacity": "－",
+"la": "37.35885262000",
+"ln": "138.54975918000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.54975918,
+37.35885262
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "雀森公園",
+"Jusho": "新潟県柏崎市日吉町1638－付近",
+"Capacity": "－",
+"la": "37.36806399440",
+"ln": "138.57504576500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.575045765,
+37.3680639944
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "赤坂山公園",
+"Jusho": "新潟県柏崎市赤坂町1814-2付近",
+"Capacity": "－",
+"la": "37.35926456910",
+"ln": "138.54034138000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.54034138,
+37.3592645691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中部公園",
+"Jusho": "新潟県柏崎市諏訪町1853-2付近",
+"Capacity": "－",
+"la": "37.37336750000",
+"ln": "138.56025160000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.5602516,
+37.3733675
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "潮風公園",
+"Jusho": "新潟県柏崎市学校町2137－5付近",
+"Capacity": "－",
+"la": "37.37420868360",
+"ln": "138.55123062700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.551230627,
+37.3742086836
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東部公園",
+"Jusho": "新潟県柏崎市比角二丁目2402-24付近",
+"Capacity": "－",
+"la": "37.37364616000",
+"ln": "138.57263952000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.57263952,
+37.37364616
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "柏崎フロンティアパーク北公園広場",
+"Jusho": "新潟県柏崎市軽井川931-20付近",
+"Capacity": "－",
+"la": "37.33855500000",
+"ln": "138.59115100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.591151,
+37.338555
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白竜公園",
+"Jusho": "新潟県柏崎市四谷一丁目610-3付近",
+"Capacity": "－",
+"la": "37.36957521000",
+"ln": "138.56671422000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.56671422,
+37.36957521
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白竜公園テニスコート",
+"Jusho": "新潟県柏崎市四谷一丁目610-3付近",
+"Capacity": "－",
+"la": "37.36935614650",
+"ln": "138.56541809900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.565418099,
+37.3693561465
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "八坂公園",
+"Jusho": "新潟県柏崎市西本町三丁目1085付近",
+"Capacity": "－",
+"la": "37.36701226000",
+"ln": "138.54456211000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.54456211,
+37.36701226
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北園公園",
+"Jusho": "新潟県柏崎市北園町450-6付近",
+"Capacity": "－",
+"la": "37.37929218000",
+"ln": "138.55865461000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.55865461,
+37.37929218
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "あやめ公園",
+"Jusho": "新潟県新発田市",
+"Capacity": "－",
+"la": "37.95189161020",
+"ln": "139.30458555100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.304585551,
+37.9518916102
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "外ヶ輪公園",
+"Jusho": "新潟県新発田市",
+"Capacity": "－",
+"la": "37.95536793000",
+"ln": "139.32928773000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.32928773,
+37.95536793
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "舟入公園",
+"Jusho": "新潟県新発田市",
+"Capacity": "－",
+"la": "37.95258389000",
+"ln": "139.30612679000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.30612679,
+37.95258389
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新発田駅前公園",
+"Jusho": "新潟県新発田市本町1丁目14番・15番",
+"Capacity": "－",
+"la": "37.94527459910",
+"ln": "139.33502386000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.33502386,
+37.9452745991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新発田公園",
+"Jusho": "新潟県新発田市",
+"Capacity": "－",
+"la": "37.95524676910",
+"ln": "139.31995947000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.31995947,
+37.9552467691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新発田城址公園",
+"Jusho": "新潟県新発田市大手町6丁目3番",
+"Capacity": "－",
+"la": "37.95443500910",
+"ln": "139.32355645000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.32355645,
+37.9544350091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新発田中央公園",
+"Jusho": "新潟県新発田市本町4丁目16番",
+"Capacity": "－",
+"la": "37.95090200000",
+"ln": "139.33940403000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.33940403,
+37.950902
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大天城公園野球場",
+"Jusho": "新潟県新発田市箱岩2041",
+"Capacity": "－",
+"la": "37.98789728910",
+"ln": "139.37876222000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.37876222,
+37.9878972891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南公園",
+"Jusho": "新潟県新発田市",
+"Capacity": "－",
+"la": "37.94234332000",
+"ln": "139.32249676000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.32249676,
+37.94234332
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "米子運動公園",
+"Jusho": "新潟県新発田市米子99",
+"Capacity": "－",
+"la": "38.00067836970",
+"ln": "139.30703533500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.307035335,
+38.0006783697
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "栄町公園",
+"Jusho": "新潟県燕市小牧290番地",
+"Capacity": "－",
+"la": "37.67047971000",
+"ln": "138.95427802000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.95427802,
+37.67047971
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "燕市交通公園",
+"Jusho": "新潟県燕市大曲3375番地",
+"Capacity": "－",
+"la": "37.64800519910",
+"ln": "138.92228463000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.92228463,
+37.6480051991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "燕中央公園",
+"Jusho": "新潟県燕市白山町3丁目2526番地7",
+"Capacity": "－",
+"la": "37.67254049000",
+"ln": "138.91793753000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.91793753,
+37.67254049
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "花園町第１公園",
+"Jusho": "新潟県燕市花園町12番3号",
+"Capacity": "－",
+"la": "37.68338988910",
+"ln": "138.95553835000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.95553835,
+37.6833898891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "国上健康の森公園",
+"Jusho": "新潟県燕市国上5866番地1",
+"Capacity": "－",
+"la": "37.66294058910",
+"ln": "138.82540334000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.82540334,
+37.6629405891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "秋葉町公園",
+"Jusho": "新潟県燕市秋葉町3丁目895番地",
+"Capacity": "－",
+"la": "37.66152138910",
+"ln": "138.91899239000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.91899239,
+37.6615213891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小池新町西公園",
+"Jusho": "新潟県燕市小池新町214番地",
+"Capacity": "－",
+"la": "37.62962151910",
+"ln": "138.89940760000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.8994076,
+37.6296215191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新生町第１公園",
+"Jusho": "新潟県燕市新生町169番地",
+"Capacity": "－",
+"la": "37.68865552910",
+"ln": "138.95684218000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.95684218,
+37.6886555291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須頃郷第１０号公園",
+"Jusho": "新潟県燕市佐渡5251",
+"Capacity": "－",
+"la": "37.65357669400",
+"ln": "138.94433452600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.944334526,
+37.653576694
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須頃郷第１号公園",
+"Jusho": "新潟県燕市井土巻5丁目230",
+"Capacity": "－",
+"la": "37.65077700000",
+"ln": "138.93788000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.93788,
+37.650777
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須頃郷第２号公園",
+"Jusho": "新潟県燕市井土巻3丁目104",
+"Capacity": "－",
+"la": "37.64988227080",
+"ln": "138.93267672900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.932676729,
+37.6498822708
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須頃郷第３号公園",
+"Jusho": "新潟県燕市井土巻2丁目59",
+"Capacity": "－",
+"la": "37.65442698180",
+"ln": "138.93038396200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.930383962,
+37.6544269818
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須頃郷第４号公園",
+"Jusho": "新潟県燕市井土巻4丁目36",
+"Capacity": "－",
+"la": "37.65516630910",
+"ln": "138.93587080300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.935870803,
+37.6551663091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須頃郷第５号公園",
+"Jusho": "新潟県燕市井土巻5丁目94",
+"Capacity": "－",
+"la": "37.65170822310",
+"ln": "138.93674922400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.936749224,
+37.6517082231
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須頃郷第６号公園",
+"Jusho": "新潟県燕市井土巻5丁目211",
+"Capacity": "－",
+"la": "37.65473806000",
+"ln": "138.94005476500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.940054765,
+37.65473806
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須頃郷第７号公園",
+"Jusho": "新潟県燕市佐渡5246",
+"Capacity": "－",
+"la": "37.65379222390",
+"ln": "138.94464092700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.944640927,
+37.6537922239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須頃郷第８号公園",
+"Jusho": "新潟県燕市佐渡5225",
+"Capacity": "－",
+"la": "37.65397537500",
+"ln": "138.94424593600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.944245936,
+37.653975375
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "須頃郷第９号公園",
+"Jusho": "新潟県燕市小高7011",
+"Capacity": "－",
+"la": "37.65495392900",
+"ln": "138.94643536200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.946435362,
+37.654953929
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水道町公園",
+"Jusho": "新潟県燕市水道町4丁目51番地",
+"Capacity": "－",
+"la": "37.65759742000",
+"ln": "138.91187499000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.91187499,
+37.65759742
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南公園",
+"Jusho": "新潟県燕市南3丁目6244番地1",
+"Capacity": "－",
+"la": "37.66120218960",
+"ln": "138.92659213100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.926592131,
+37.6612021896
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "日之出町第１号公園",
+"Jusho": "新潟県燕市日之出町183番地",
+"Capacity": "－",
+"la": "37.66010845230",
+"ln": "138.94956092200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.949560922,
+37.6601084523
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "粟島公園",
+"Jusho": "新潟県五泉市粟島4866－",
+"Capacity": "－",
+"la": "37.74779222000",
+"ln": "139.17880083000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.17880083,
+37.74779222
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "蒲原農村公園",
+"Jusho": "新潟県五泉市下大蒲原963",
+"Capacity": "－",
+"la": "37.65642034030",
+"ln": "139.14875298600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.148752986,
+37.6564203403
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "五箇農村公園",
+"Jusho": "新潟県五泉市笹野町甲2117－",
+"Capacity": "－",
+"la": "37.69894140230",
+"ln": "139.15090612100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.150906121,
+37.6989414023
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "五泉市村松工業団地公園",
+"Jusho": "新潟県五泉市村松工業団地1-甲1164－",
+"Capacity": "－",
+"la": "37.67777898790",
+"ln": "139.15772062100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.157720621,
+37.6777789879
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十全農村公園",
+"Jusho": "新潟県五泉市大原875",
+"Capacity": "－",
+"la": "37.66456092740",
+"ln": "139.18188617000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.18188617,
+37.6645609274
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城跡公園",
+"Jusho": "新潟県五泉市村松乙19",
+"Capacity": "－",
+"la": "37.69347772910",
+"ln": "139.17011853000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.17011853,
+37.6934777291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "森林公園",
+"Jusho": "新潟県五泉市丸田字舘ノ内戊235",
+"Capacity": "－",
+"la": "37.74515584790",
+"ln": "139.13830074300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.138300743,
+37.7451558479
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西公園",
+"Jusho": "新潟県五泉市土深64",
+"Capacity": "－",
+"la": "37.74102643000",
+"ln": "139.15837597000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.15837597,
+37.74102643
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "千原農村公園",
+"Jusho": "新潟県五泉市千原甲414－",
+"Capacity": "－",
+"la": "37.70618871830",
+"ln": "139.15678374900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.156783749,
+37.7061887183
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "村松公園",
+"Jusho": "新潟県五泉市愛宕甲2631－",
+"Capacity": "－",
+"la": "37.69364000580",
+"ln": "139.18854636200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.188546362,
+37.6936400058
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "村松西公園",
+"Jusho": "新潟県五泉市村松乙33－",
+"Capacity": "－",
+"la": "37.69159000000",
+"ln": "139.16929460000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.1692946,
+37.69159
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "太田児童公園",
+"Jusho": "新潟県五泉市太田1-355－",
+"Capacity": "－",
+"la": "37.74004779000",
+"ln": "139.18554729000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.18554729,
+37.74004779
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "町屋公園",
+"Jusho": "新潟県五泉市町屋甲866-3",
+"Capacity": "－",
+"la": "37.72538586110",
+"ln": "139.15610318900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.156103189,
+37.7253858611
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南公園",
+"Jusho": "新潟県五泉市五泉2438",
+"Capacity": "－",
+"la": "37.72865949000",
+"ln": "139.17972265000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.17972265,
+37.72865949
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南田中農村公園",
+"Jusho": "新潟県五泉市南田中甲257",
+"Capacity": "－",
+"la": "37.67646643140",
+"ln": "139.14898051200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.148980512,
+37.6764664314
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "日枝公園",
+"Jusho": "新潟県五泉市村松甲5976",
+"Capacity": "－",
+"la": "37.68617823000",
+"ln": "139.17700350000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.1770035,
+37.68617823
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "蛭野農村公園",
+"Jusho": "新潟県五泉市蛭野387",
+"Capacity": "－",
+"la": "37.65198858170",
+"ln": "139.18414240200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.184142402,
+37.6519885817
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "矢津農村公園",
+"Jusho": "新潟県五泉市矢津701",
+"Capacity": "－",
+"la": "37.69211433960",
+"ln": "139.20399072700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.203990727,
+37.6921143396
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "安塚和田スポーツ公園グラウンド",
+"Jusho": "新潟県上越市安塚区和田541",
+"Capacity": "－",
+"la": "37.10752512940",
+"ln": "138.45676138600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.456761386,
+37.1075251294
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "柿崎総合運動公園グラウンド",
+"Jusho": "新潟県上越市柿崎区法音寺685－",
+"Capacity": "－",
+"la": "37.28549123910",
+"ln": "138.40154868000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.40154868,
+37.2854912391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "柿崎総合運動公園野球場",
+"Jusho": "新潟県上越市柿崎区法音寺685-2",
+"Capacity": "－",
+"la": "37.28477555690",
+"ln": "138.40032463300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.400324633,
+37.2847755569
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高田公園",
+"Jusho": "新潟県上越市本城町46－",
+"Capacity": "－",
+"la": "37.10887244910",
+"ln": "138.25488310000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.2548831,
+37.1088724491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三和スポーツ公園",
+"Jusho": "新潟県上越市三和区島倉2434－",
+"Capacity": "－",
+"la": "37.13610147660",
+"ln": "138.34934586000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.34934586,
+37.1361014766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上小船津浜北公園",
+"Jusho": "新潟県上越市大潟区上小船津浜781",
+"Capacity": "－",
+"la": "37.21785754330",
+"ln": "138.31386704400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.313867044,
+37.2178575433
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清里スポーツ公園グラウンド",
+"Jusho": "新潟県上越市清里区武士490",
+"Capacity": "－",
+"la": "37.07912656980",
+"ln": "138.32532903700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.325329037,
+37.0791265698
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "雪国文化村公園駐車場",
+"Jusho": "新潟県上越市安塚区須川1881",
+"Capacity": "－",
+"la": "37.05556793980",
+"ln": "138.48261548000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.48261548,
+37.0555679398
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中郷総合運動公園",
+"Jusho": "新潟県上越市中郷区藤沢964-5",
+"Capacity": "－",
+"la": "36.98423413600",
+"ln": "138.22912787500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.229127875,
+36.984234136
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "つつじヶ丘公園（交通公園）",
+"Jusho": "新潟県佐渡市窪田地内",
+"Capacity": "－",
+"la": "38.01004596910",
+"ln": "138.31103737000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.31103737,
+38.0100459691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "みなと公園",
+"Jusho": "新潟県佐渡市両津湊地内",
+"Capacity": "－",
+"la": "38.07966662380",
+"ln": "138.43849415800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.438494158,
+38.0796666238
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "みなと第２公園",
+"Jusho": "新潟県佐渡市両津湊地内",
+"Capacity": "－",
+"la": "38.07623374170",
+"ln": "138.44376288900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.443762889,
+38.0762337417
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "河原田公園",
+"Jusho": "新潟県佐渡市河原田本町地内",
+"Capacity": "－",
+"la": "37.99972150000",
+"ln": "138.31877684000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.31877684,
+37.9997215
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "京町公園",
+"Jusho": "新潟県佐渡市中原地内",
+"Capacity": "－",
+"la": "38.00274221960",
+"ln": "138.32468605600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.324686056,
+38.0027422196
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金井運動公園",
+"Jusho": "新潟県佐渡市金井新保地内",
+"Capacity": "－",
+"la": "38.03237542910",
+"ln": "138.37056817000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.37056817,
+38.0323754291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金丸農村公園",
+"Jusho": "新潟県佐渡市金丸173－",
+"Capacity": "－",
+"la": "37.99280032160",
+"ln": "138.35722256600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.357222566,
+37.9928003216
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城ヶ丘公園",
+"Jusho": "新潟県佐渡市沢根五十里地内",
+"Capacity": "－",
+"la": "38.00897162910",
+"ln": "138.28769390000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.2876939,
+38.0089716291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城山公園",
+"Jusho": "新潟県佐渡市小木町133",
+"Capacity": "－",
+"la": "37.81244385540",
+"ln": "138.27823777900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.278237779,
+37.8124438554
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城之上公園",
+"Jusho": "新潟県佐渡市両津福浦1丁目地内",
+"Capacity": "－",
+"la": "38.08754759000",
+"ln": "138.42641718000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.42641718,
+38.08754759
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城址公園",
+"Jusho": "新潟県佐渡市相川下戸村地内",
+"Capacity": "－",
+"la": "38.03001535910",
+"ln": "138.24543224000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.24543224,
+38.0300153591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "真野公園",
+"Jusho": "新潟県佐渡市真野地内",
+"Capacity": "－",
+"la": "37.95595142000",
+"ln": "138.34413779000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.34413779,
+37.95595142
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "赤泊臨海運動公園",
+"Jusho": "新潟県佐渡市赤泊2458",
+"Capacity": "－",
+"la": "37.86536011910",
+"ln": "138.41051747000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.41051747,
+37.8653601191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "船場町公園",
+"Jusho": "新潟県佐渡市梅津地内",
+"Capacity": "－",
+"la": "38.09287360910",
+"ln": "138.43233048000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.43233048,
+38.0928736091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "相川公園",
+"Jusho": "新潟県佐渡市相川栄町20",
+"Capacity": "－",
+"la": "38.03016142000",
+"ln": "138.23883875000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.23883875,
+38.03016142
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鍛冶町公園",
+"Jusho": "新潟県佐渡市東大通地内",
+"Capacity": "－",
+"la": "38.00464849000",
+"ln": "138.32847779000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.32847779,
+38.00464849
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長石農村公園",
+"Jusho": "新潟県佐渡市長石299－",
+"Capacity": "－",
+"la": "37.97647314140",
+"ln": "138.34861014500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.348610145,
+37.9764731414
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "椿尾農村公園",
+"Jusho": "新潟県佐渡市椿尾836－",
+"Capacity": "－",
+"la": "37.89341700870",
+"ln": "138.29266825100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.292668251,
+37.8934170087
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "梅津公園",
+"Jusho": "新潟県佐渡市梅津地内",
+"Capacity": "－",
+"la": "38.09309077000",
+"ln": "138.43369617000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.43369617,
+38.09309077
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "番所公園",
+"Jusho": "新潟県佐渡市羽茂村山455",
+"Capacity": "－",
+"la": "37.86009721210",
+"ln": "138.30452798400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.304527984,
+37.8600972121
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "福浦公園",
+"Jusho": "新潟県佐渡市両津福浦2丁目地内",
+"Capacity": "－",
+"la": "38.08600464000",
+"ln": "138.42695219000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.42695219,
+38.08600464
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "湊湖岸公園",
+"Jusho": "新潟県佐渡市両津湊地内",
+"Capacity": "－",
+"la": "38.07498686000",
+"ln": "138.44053871000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.44053871,
+38.07498686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "蓮池公園",
+"Jusho": "新潟県佐渡市中原地内",
+"Capacity": "－",
+"la": "38.00379111910",
+"ln": "138.32362822000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.32362822,
+38.0037911191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "塩沢中央公園",
+"Jusho": "新潟県南魚沼市塩沢1112-36",
+"Capacity": "－",
+"la": "37.04186008000",
+"ln": "138.85291208000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.85291208,
+37.04186008
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大原運動公園",
+"Jusho": "新潟県南魚沼市万条新田417",
+"Capacity": "－",
+"la": "36.99271870000",
+"ln": "138.82833875000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.82833875,
+36.9927187
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "あかね公園",
+"Jusho": "新潟県北蒲原郡聖籠町",
+"Capacity": "－",
+"la": "38.00512076840",
+"ln": "139.26178526000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.26178526,
+38.0051207684
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "荻野農村公園",
+"Jusho": "新潟県西蒲原郡弥彦村荻野",
+"Capacity": "－",
+"la": "37.69845921400",
+"ln": "138.86278816400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.862788164,
+37.698459214
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "村山農村公園",
+"Jusho": "新潟県西蒲原郡弥彦村",
+"Capacity": "－",
+"la": "37.68002105540",
+"ln": "138.83933381900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.839333819,
+37.6800210554
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大戸農村公園",
+"Jusho": "新潟県西蒲原郡弥彦村大戸",
+"Capacity": "－",
+"la": "37.67777219460",
+"ln": "138.86887176800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.868871768,
+37.6777721946
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "弥彦公園（神苑テニスコート）",
+"Jusho": "新潟県西蒲原郡弥彦村",
+"Capacity": "－",
+"la": "37.69915945910",
+"ln": "138.83021130000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.8302113,
+37.6991594591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "総合公園ＹＯＵ遊ランド",
+"Jusho": "新潟県南蒲原郡田上町大字羽生田乙851-6",
+"Capacity": "163",
+"la": "37.68681735830",
+"ln": "139.07081025100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+139.070810251,
+37.6868173583
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "駅前公園",
+"Jusho": "新潟県南魚沼郡湯沢町駅通",
+"Capacity": "－",
+"la": "36.93648127000",
+"ln": "138.81150962000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.81150962,
+36.93648127
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "原新田公園",
+"Jusho": "新潟県南魚沼郡湯沢町",
+"Capacity": "－",
+"la": "36.92879361000",
+"ln": "138.82636749000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.82636749,
+36.92879361
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大石田公園",
+"Jusho": "新潟県南魚沼郡湯沢町",
+"Capacity": "－",
+"la": "36.94485307000",
+"ln": "138.80357328000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.80357328,
+36.94485307
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "地蔵堂公園",
+"Jusho": "新潟県南魚沼郡湯沢町湯沢3丁目101番地",
+"Capacity": "－",
+"la": "36.93773958000",
+"ln": "138.81109879000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.81109879,
+36.93773958
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中央公園",
+"Jusho": "新潟県南魚沼郡湯沢町神立628－",
+"Capacity": "－",
+"la": "36.93264666000",
+"ln": "138.83477299000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.83477299,
+36.93264666
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "土樽自然公園",
+"Jusho": "新潟県南魚沼郡湯沢町土樽",
+"Capacity": "－",
+"la": "36.89339711350",
+"ln": "138.85054596200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.850545962,
+36.8933971135
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "奈良山公園",
+"Jusho": "新潟県南魚沼郡湯沢町湯沢4丁目101番地",
+"Capacity": "－",
+"la": "36.93618606000",
+"ln": "138.81391142000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.81391142,
+36.93618606
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中津川運動公園",
+"Jusho": "新潟県中魚沼郡津南町",
+"Capacity": "－",
+"la": "37.00740363690",
+"ln": "138.65884785500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.658847855,
+37.0074036369
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十日町市四ツ宮公園",
+"Jusho": "新潟県十日町市卯379-1",
+"Capacity": "－",
+"la": "37.13726431",
+"ln": "138.762671"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.762671,
+37.13726431
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十日町市寿北公園",
+"Jusho": "新潟県十日町市寿町4-2-9",
+"Capacity": "－",
+"la": "37.12925197",
+"ln": "138.7550522"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.7550522,
+37.12925197
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十日町市住吉公園",
+"Jusho": "新潟県十日町市住吉町47",
+"Capacity": "－",
+"la": "37.13409295",
+"ln": "138.7502413"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.7502413,
+37.13409295
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十日町市下川原公園",
+"Jusho": "新潟県十日町市下川原町2",
+"Capacity": "－",
+"la": "37.14094579",
+"ln": "138.7602927"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.7602927,
+37.14094579
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "錦公園",
+"Jusho": "新潟県十日町市錦町2-58",
+"Capacity": "－",
+"la": "37.12919245",
+"ln": "138.7493361"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.7493361,
+37.12919245
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十日町市美雪公園",
+"Jusho": "新潟県十日町市美雪町2-4",
+"Capacity": "－",
+"la": "37.12817508",
+"ln": "138.7511651"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.7511651,
+37.12817508
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十日町市春日公園",
+"Jusho": "新潟県十日町市春日94",
+"Capacity": "－",
+"la": "37.1315839",
+"ln": "138.7507187"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.7507187,
+37.1315839
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十日町市河内公園",
+"Jusho": "新潟県十日町市河内町2",
+"Capacity": "－",
+"la": "37.12347742",
+"ln": "138.7529897"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.7529897,
+37.12347742
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十日町市千歳公園",
+"Jusho": "新潟県十日町市千歳町3-2",
+"Capacity": "－",
+"la": "37.12704601",
+"ln": "138.7556264"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.7556264,
+37.12704601
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十日町市寿南公園",
+"Jusho": "新潟県十日町市寿町2-3",
+"Capacity": "－",
+"la": "37.12699526",
+"ln": "138.7526194"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.7526194,
+37.12699526
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十日町市おおたじま公園",
+"Jusho": "新潟県十日町市馬場丙1997",
+"Capacity": "－",
+"la": "37.08846592",
+"ln": "138.7228623"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.7228623,
+37.08846592
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "十日町市伊達公園及び駐車場",
+"Jusho": "新潟県十日町市伊達甲3147",
+"Capacity": "－",
+"la": "37.10355833",
+"ln": "138.7399152"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+138.7399152,
+37.10355833
+]
+}
+}
+]
+};
