@@ -139,7 +139,7 @@ function fb(){
 
 function hok(){
 	
-			geok = L.geoJson(k, {
+			var hok = L.geoJson(hokk, {
 
 			style: function (feature) {
 				return feature.properties && feature.properties.style;
@@ -159,7 +159,7 @@ function hok(){
 			}
 		});
 		
-		map.addLayer(geok);
+		map.addLayer(hok);
 
 }
 
