@@ -1,6 +1,6 @@
 //version 5.
 var map;var p;var zoom;var hash1;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
-var todou; var todou = new Array(47);
+var todou; var todou = new Array(47);var markers = new Array(47);
 
     function map_ini() {
 		map = L.map('map_canvas');
@@ -220,9 +220,14 @@ function geo_k(feature, layer) {
 
 
 function hok(){
-for (  var i = 0;  i < 10;  i++  ) {
-map.addLayer(todou[i]);
+
+for (  var i = 0;  i < 47;  i++  ) {
+markers[i] = L.markerClusterGroup();
+markers[i].addLayer(todou[i]);
+map.addLayer(markers[i]);
 }
+
+
 
 }
 
