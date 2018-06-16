@@ -1,5 +1,6 @@
 //version 5.
-var map;var p;var zoom;var hash;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
+var map;var p;var zoom;var hash1;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
+var todou; var todou = new Array(47);
 
     function map_ini() {
 		map = L.map('map_canvas');
@@ -7,8 +8,8 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
 		map.setView([35.619, 138.466], 5);
-		hash = L.hash(map);
-
+		hash1 = L.hash(map);
+		
 			gps_button = L.easyButton('fa-location-arrow', function(){
     			GPS();
 			}).addTo( map );
@@ -22,6 +23,8 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 			}).addTo( map );
 
 		ini();
+		todou_ini();
+		
 
 	}
 
@@ -137,17 +140,61 @@ function fb(){
 	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
 }
 
-function hok(){
-	
-			var hok = L.geoJson(hokk, {
+function todou_ini(){
+		todou[0] = L.geoJson(hokkaido, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[1] = L.geoJson(aomori, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[2] = L.geoJson(iwate, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[3] = L.geoJson(miyagi, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[4] = L.geoJson(akita, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[5] = L.geoJson(yamagata, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[6] = L.geoJson(fukushima, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[7] = L.geoJson(ibaragi, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[8] = L.geoJson(tochigi, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[9] = L.geoJson(gunma, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[10] = L.geoJson(saitama, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[11] = L.geoJson(tiba, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[12] = L.geoJson(tokyo, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[13] = L.geoJson(kanagawa, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[14] = L.geoJson(nigata, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[15] = L.geoJson(toyama, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[16] = L.geoJson(ishikawa, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[17] = L.geoJson(fukui, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[18] = L.geoJson(yamanashi, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[19] = L.geoJson(nagano, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[20] = L.geoJson(gifu, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[21] = L.geoJson(shizuoka, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[22] = L.geoJson(aichi, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[23] = L.geoJson(mie, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[24] = L.geoJson(shiga, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[25] = L.geoJson(kyoto, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[26] = L.geoJson(osaka, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[27] = L.geoJson(hyogo, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[28] = L.geoJson(nara, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[29] = L.geoJson(wakayama, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[30] = L.geoJson(tottori, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[31] = L.geoJson(shimane, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[32] = L.geoJson(hiroshima, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[33] = L.geoJson(okayama, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[34] = L.geoJson(yamaguchi, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[35] = L.geoJson(tokushima, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[36] = L.geoJson(kagawa, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[37] = L.geoJson(ehime, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[38] = L.geoJson(kochi, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[39] = L.geoJson(fukuoka, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[40] = L.geoJson(saga, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[41] = L.geoJson(nagasaki, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[42] = L.geoJson(kumamoto, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[43] = L.geoJson(oita, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[44] = L.geoJson(miyazaki, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[45] = L.geoJson(kagoshima, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+		todou[46] = L.geoJson(okinawa, {style: sty,onEachFeature: geo_k,pointToLayer: iro});
+}
 
-			style: function (feature) {
+function sty(feature) {
 				return feature.properties && feature.properties.style;
-			},
+			}
 
-			onEachFeature: geo_k,
-
-			pointToLayer: function (feature, latlng) {
+function iro(feature, latlng) {
 				return L.circleMarker(latlng, {
 					radius: 10,
 					fillColor: "#2EFE2E",
@@ -157,11 +204,6 @@ function hok(){
 					fillOpacity: 0.8
 				});
 			}
-		});
-		
-		map.addLayer(hok);
-
-}
 
 function geo_k(feature, layer) {
     var popup;
@@ -173,9 +215,14 @@ function geo_k(feature, layer) {
     	popup += '<br>住所：' + feature.properties.Jusho;
     }
     
-    if (feature.properties && feature.properties.Capacity){
-    	popup += '<br>収容人数：' + feature.properties.Capacity;
-    }
-    
     layer.bindPopup(popup);
 }
+
+
+function hok(){
+for (  var i = 0;  i < 10;  i++  ) {
+map.addLayer(todou[i]);
+}
+
+}
+

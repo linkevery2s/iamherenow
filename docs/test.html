@@ -1,0 +1,102 @@
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+<title>test</title>
+
+<link href="assets/css/leaflet.css" rel="stylesheet">
+<script type ="text/javascript" src="assets/js/leaflet.js"></script>
+<script type ="text/javascript">
+var map;
+function ini(){
+		map = L.map('map_canvas');
+		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+  		}).addTo(map);
+  		
+var marker = L.marker([33.679702,130.468397]).addTo(map);
+// ポイントに初期表示でポップアップを表示させる
+marker.bindPopup("<b>popupを</b><br>初期表示").openPopup();
+
+		map.setView([35.619, 138.466], 5);
+		hok();
+}
+
+var hok1;
+
+function hok(){
+
+
+			hok1 = L.geoJson(k, {
+
+			style: function (feature) {
+				return feature.properties && feature.properties.style;
+			},
+
+			onEachFeature: geo_k,
+
+			pointToLayer: function (feature, latlng) {
+				return L.circleMarker(latlng, {
+					radius: 10,
+					fillColor: "#2EFE2E",
+					color: "#000",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
+				});
+			}
+		});
+		
+		map.addLayer(hok1);
+
+}
+
+
+function geo_k(feature, layer) {
+    var popup;
+    if (feature.properties && feature.properties.Name) {
+        popup = "名称：" + feature.properties.Name;
+    }
+    
+    if (feature.properties && feature.properties.Jusho){
+    	popup += '<br>住所：' + feature.properties.Jusho;
+    }
+    
+    layer.bindPopup(popup);
+
+}
+
+</script>
+</head>
+
+<body onload="ini()">
+
+<div id="map_canvas" style="width:100%;height:100%"></div>
+
+
+
+	<script src='assets/data/hokkaido.geojson'></script>
+	<script src='assets/data/k.geojson'></script>
+	<script src='assets/data/aomori.geojson'></script>
+	<script src='assets/data/iwate.geojson'></script>
+	<script src='assets/data/miyagi.geojson'></script>
+	<script src='assets/data/akita.geojson'></script>
+	<script src='assets/data/yamagata.geojson'></script>
+	<script src='assets/data/fukushima.geojson'></script>
+	<script src='assets/data/ibaragi.geojson'></script>
+	<script src='assets/data/tochigi.geojson'></script>
+	<script src='assets/data/gunma.geojson'></script>
+	<script src='assets/data/saitama.geojson'></script>
+	<script src='assets/data/tiba.geojson'></script>
+	<script src='assets/data/tokyo.geojson'></script>
+	<script src='assets/data/kanagawa.geojson'></script>
+	<script src='assets/data/nigata.geojson'></script>
+	<script src='assets/data/toyama.geojson'></script>
+	<script src='assets/data/ishikawa.geojson'></script>
+	<script src='assets/data/fukui.geojson'></script>
+	<script src='assets/data/yamanashi.geojson'></script>
+	<script src='assets/data/nagano.geojson'></script>
+	<script src='assets/data/hiroshima.geojson'></script>
+
+  </body>
+</html>
