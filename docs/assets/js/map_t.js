@@ -15,7 +15,7 @@ var todou; var todou = new Array(47);var markers = new Array(47);
 			}).addTo( map );
 
 			hinanj = L.easyButton('fa-book fa-2x', function(){
-    			hi();
+    			hinan_m();
 			}).addTo( map );
 
 			cloud = L.easyButton('fa-cloud fa-1x', function(){
@@ -219,7 +219,7 @@ function geo_k(feature, layer) {
 }
 
 
-function hok(){
+function hinan_m(){
 
 for (  var i = 0;  i < 47;  i++  ) {
 markers[i] = L.markerClusterGroup();
