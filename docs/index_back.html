@@ -24,55 +24,13 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/dist/MarkerCluster.css" rel="stylesheet">
-    <link href="assets/dist/MarkerCluster.Default.css" rel="stylesheet">
     
 <!--（ここから）=================================================!-->
 <script type ="text/javascript" src="assets/js/leaflet.js"></script>
 <script type ="text/javascript" src="assets/js/leaflet-hash.js"></script>
-<script type ="text/javascript" src="assets/js/map_t.js"></script>
-<script type ="text/javascript" src="assets/dist/leaflet.markercluster.js"></script>
-
-<script src="assets/js/modernizr.custom.js"></script>
+<script type ="text/javascript" src="assets/js/map.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
 <script type='text/javascript'  src='assets/src/easy-button.js'></script>
-
-<script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPVZuc0hvVVhPQUtlaSZzPWNvbnN1bWVyc2VjcmV0Jng9Y2U-"></script>
-<script type="text/javascript">
-var ymap;
-
-    function yyy() {
-
-    ymap = new Y.Map("ymap", {
-    configure : {
-        doubleClickZoom : true,
-        scrollWheelZoom : true,
-        weatherOverlay: true
-    }
-	});
-	
-    //天気レイヤ作成
-    var weather = new Y.WeatherMapLayer({
-        "opacity": 0.6,
-    });
-
-	var para = location.hash;
-	var par = para.split("/");
-	zoom = map.getZoom();
-
-
-    //天気レイヤを重ねる地図レイヤを作成
-    var maplayer = new Y.NormalLayer();
-    //地図 + 天気レイヤを追加
-    ymap.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
-
-    ymap.addControl(new Y.SliderZoomControlVertical());
-    //地図を描画
-    ymap.drawMap(new Y.LatLng(par[1], par[2]), zoom, "weather");
-    //天気データを更新
-    weather.UpdateWeather();
-    
-	}
-</script>
 
   </head>
 
@@ -93,13 +51,14 @@ var ymap;
 		<div id="menuToggle"><i class="fa fa-bars" style="line-height:40px;"></i></div>
 	</nav>
 
-<!--<div class = "map" style="width:100%; height:100%">-->
+<div class = "map" style="width:100%; height:100%">
 
 	<div id ="map_canvas" style="width:100%; height:100%;"></div>
 
 	<center>
 	<!--tools-->
 	<div id="link_text">
+		<!--<span style="width:50px; height: 50px;" id = "mln" onclick= "GPS()"><i class="fa fa-bullseye fa-2x" aria-hidden="true"></i></span>-->
 		<img src="assets/img/mail.png" style="width:50px; height: 50px;" id = "mln" onclick= "mail()">
 		<img src="assets/img/linebutton.png" style="width:50px; height: 50px;" id = "mln" onclick= "line()">
 		<img src="assets/img/tw.png" style="width:50px; height: 50px;" id = "mln" onclick= "tw()">
@@ -112,25 +71,14 @@ var ymap;
 	<span onclick= "tel_ok()" class="oc">OK</span>  <span onclick= "cancel()" class="oc">Cancel</span>
 	</div>
 
-</center>
-	<div id ="cloud"><span style="text-align: center;">雨雲レーダー</span> <span onclick= "cancel_c()" class = "ot">閉じる</span>
-	<div id = "ymap" style="width:100%; height:400px; margin:0; padding:0;"></div>
-	
-						<!-- Begin Yahoo! JAPAN Web Services Attribution Snippet -->
-					<span id="y_li">
-					<a href="https://developer.yahoo.co.jp/about">
-					<img src="https://s.yimg.jp/images/yjdn/yjdn_attbtn2_105_17.gif" width="105" height="17" title="Webサービス by Yahoo! JAPAN" alt="Webサービス by Yahoo! JAPAN" border="0" style="margin:15px 15px 15px 15px"></a></span>
-					<!-- End Yahoo! JAPAN Web Services Attribution Snippet -->
-					
-	</div>
-
+	</center>
 
 	<!--cross_key-->
 	<div id ="cross">
 		<img id ="img_cross" src="assets/img/cross.png" border="0">
 	</div>
 
-<!--</div>-->
+</div>
 
 
     <!-- Bootstrap core JavaScript
@@ -150,55 +98,6 @@ var ymap;
 			viewportFactor : 0.2
 		} );
 	</script>
-
-	<script src='assets/data/hokkaido.geojson'></script>
-	<script src='assets/data/aomori.geojson'></script>
-	<script src='assets/data/iwate.geojson'></script>
-	<script src='assets/data/miyagi.geojson'></script>
-	<script src='assets/data/akita.geojson'></script>
-	<script src='assets/data/yamagata.geojson'></script>
-	<script src='assets/data/fukushima.geojson'></script>
-	<script src='assets/data/ibaragi.geojson'></script>
-	<script src='assets/data/tochigi.geojson'></script>
-	<script src='assets/data/gunma.geojson'></script>
-	<script src='assets/data/saitama.geojson'></script>
-	<script src='assets/data/tiba.geojson'></script>
-	<script src='assets/data/tokyo.geojson'></script>
-	<script src='assets/data/kanagawa.geojson'></script>
-	<script src='assets/data/nigata.geojson'></script>
-	<script src='assets/data/toyama.geojson'></script>
-	<script src='assets/data/ishikawa.geojson'></script>
-	<script src='assets/data/fukui.geojson'></script>
-	<script src='assets/data/yamanashi.geojson'></script>
-	<script src='assets/data/nagano.geojson'></script>
-	<script src='assets/data/gifu.geojson'></script>
-	<script src='assets/data/shizuoka.geojson'></script>
-	<script src='assets/data/aichi.geojson'></script>
-	<script src='assets/data/mie.geojson'></script>
-	<script src='assets/data/shiga.geojson'></script>
-	<script src='assets/data/kyoto.geojson'></script>
-	<script src='assets/data/osaka.geojson'></script>
-	<script src='assets/data/hyogo.geojson'></script>
-	<script src='assets/data/nara.geojson'></script>
-	<script src='assets/data/wakayama.geojson'></script>
-	<script src='assets/data/tottori.geojson'></script>
-	<script src='assets/data/shimane.geojson'></script>
-	<script src='assets/data/hiroshima.geojson'></script>
-	<script src='assets/data/okayama.geojson'></script>
-	<script src='assets/data/yamaguchi.geojson'></script>
-	<script src='assets/data/tokushima.geojson'></script>
-	<script src='assets/data/kagawa.geojson'></script>
-	<script src='assets/data/ehime.geojson'></script>
-	<script src='assets/data/kochi.geojson'></script>
-	<script src='assets/data/fukuoka.geojson'></script>
-	<script src='assets/data/saga.geojson'></script>
-	<script src='assets/data/nagasaki.geojson'></script>
-	<script src='assets/data/kumamoto.geojson'></script>
-	<script src='assets/data/oita.geojson'></script>
-	<script src='assets/data/miyazaki.geojson'></script>
-	<script src='assets/data/kagoshima.geojson'></script>
-	<script src='assets/data/okinawa.geojson'></script>
-
 
   </body>
 </html>
