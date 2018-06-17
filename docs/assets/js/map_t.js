@@ -14,15 +14,14 @@ var todou; var todou = new Array(47);var markers = new Array(47);
     			GPS();
 			}).addTo( map );
 
-			hinanj = L.easyButton('fa-book fa-2x', function(){
+			hinanj = L.easyButton('fa-map-marker fa-2x', function(){
     			hinan_m();
 			}).addTo( map );
 
 			cloud = L.easyButton('fa-cloud fa-1x', function(){
     			cl();
 			}).addTo( map );
-
-		ini();
+			
 		todou_ini();
 		
 
@@ -105,6 +104,9 @@ $("#hinan").show();
 
 function cl(){
 $("#cloud").show();
+
+			yyy();
+
 }
 
 function cancel(){

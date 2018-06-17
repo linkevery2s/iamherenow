@@ -166,11 +166,11 @@ height: 100%;
 }
 
 #hinan{
-position: absolute;
+position: fixed;
 cursor: pointer;
          top: 5%;
          right: 5%;
-         left: 5%;
+         left: 50%;
          bottom: 5%;
          height: 90%;
          background-color: #fff;
@@ -186,17 +186,17 @@ cursor: pointer;
 }
 
 #cloud{
-position: absolute;
+position: fixed;
 cursor: pointer;
          top: 5%;
          right: 5%;
-         left: 5%;
+         left: calc(50% - 400px);
          bottom: 5%;
          height: 90%;
          background-color: #fff;
 	display: none;
-	width: 90%;
-    z-index: 1200;
+	width: 800px;
+    z-index: 2001;
     padding: 7px 10px 0 10px;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -205,315 +205,18 @@ cursor: pointer;
 	border: 3px solid #0000FF;
 }
 
- ul.jp_map {
-      position: relative;
-      list-style-type: none;
-      padding: 500px 0 0;
-      margin: 0;
+@media (max-width: 767px) {
 
-      box-sizing: border-box;
-    }
-    
-    .jp_map a{
-    	border-bottom: none !important;
-    	color: #fff;
-    }
-    
-    .jp_map li {
-      width: 7%;
-      height: 10%;
-      background-color: #088A29;
-      color: #fff;
-      font-size: 0.5rem;
-      border: solid rgba(27, 31, 34, 0.85) 1px;
-      box-sizing: border-box;
-    }
-    
-    .jp_map li:nth-child(1) {
-      position: absolute;
-      top: 0;
-      left: 85%;
-      width: 15%;
-    }
-    
-    .jp_map li:nth-child(2) {
-      position: absolute;
-      top: 11%;
-      left: 85%;
-      width: 14%;
-      height: 5.5％;
-    }
-    
-    .jp_map li:nth-child(3) {
-      position: absolute;
-      top: 16.5%;
-      left: 92%;
-    }
-    
-    .jp_map li:nth-child(4) {
-      position: absolute;
-      top: 26.5%;
-      left: 92%;
-    }
-    
-    .jp_map li:nth-child(5) {
-      position: absolute;
-      top: 16.5%;
-      left: 85%;
-    }
-    
-    .jp_map li:nth-child(6) {
-      position: absolute;
-      top: 26.5%;
-      left: 85%;
-    }
-    
-    .jp_map li:nth-child(7) {
-      position: absolute;
-      top: 36.5%;
-      left: 92%;
-    }
-    
-    .jp_map li:nth-child(8) {
-      position: absolute;
-      top: 46.5%;
-      left: 92%;
-    }
-    
-    .jp_map li:nth-child(9) {
-      position: absolute;
-      top: 46.5%;
-      left: 85%;
-    }
-    
-    .jp_map li:nth-child(10) {
-      position: absolute;
-      top: 46.5%;
-      left: 78%;
-    }
-    
-    .jp_map li:nth-child(11) {
-      position: absolute;
-      top: 56.5%;
-      left: 85%;
-    }
-    
-    .jp_map li:nth-child(12) {
-      position: absolute;
-      top: 56.5%;
-      left: 92%;
-    }
-    
-    .jp_map li:nth-child(13) {
-      left: 85%;
-      position: absolute;
-      top: 66.5%;
-    }
-    
-    .jp_map li:nth-child(14) {
-      left: 78%;
-      position: absolute;
-      top: 66.5%;
-    }
-    
-    .jp_map li:nth-child(15) {
-      position: absolute;
-      top: 36.5%;
-      left: 78%;
-      width: 14%;
-    }
-    
-    .jp_map li:nth-child(16) {
-      position: absolute;
-      top: 36.5%;
-      left: 71%;
-    }
-    
-    .jp_map li:nth-child(17) {
-      position: absolute;
-      top: 36.5%;
-      left: 64%;
-    }
-    
-    .jp_map li:nth-child(18) {
-      left: 64%;
-      position: absolute;
-      top: 46.5%;
-    }
-    
-    .jp_map li:nth-child(19) {
-      position: absolute;
-      top: 56.5%;
-      left: 78%;
-    }
-    
-    .jp_map li:nth-child(20) {
-      left: 71%;
-      position: absolute;
-      top: 46.5%;
-      height: 20%;
-    }
-    
-    .jp_map li:nth-child(21) {
-      left: 64%;
-      position: absolute;
-      top: 56.5%;
-    }
-    
-    .jp_map li:nth-child(22) {
-      left: 71%;
-      position: absolute;
-      top: 66.5%;
-    }
-    
-    .jp_map li:nth-child(23) {
-      left: 64%;
-      position: absolute;
-      top: 66.5%;
-    }
-    
-    .jp_map li:nth-child(24) {
-      left: 57%;
-      position: absolute;
-      top: 66.5%;
-    }
-    
-    .jp_map li:nth-child(25) {
-      left: 57%;
-      position: absolute;
-      top: 46.5%;
-    }
-    
-    .jp_map li:nth-child(26) {
-      left: 50%;
-      position: absolute;
-      top: 46.5%;
-    }
-    
-    .jp_map li:nth-child(27) {
-      left: 50%;
-      position: absolute;
-      top: 56.5%;
-    }
-    
-    .jp_map li:nth-child(28) {
-      left: 43%;
-      position: absolute;
-      top: 46.5%;
-      height: 20%;
-    }
-    
-    .jp_map li:nth-child(29) {
-      left: 57%;
-      position: absolute;
-      top: 56.5%;
-    }
-    
-    .jp_map li:nth-child(30) {
-      left: 50%;
-      position: absolute;
-      top: 66.5%;
-    }
-    
-    .jp_map li:nth-child(31) {
-      left: 36%;
-      position: absolute;
-      top: 46.5%;
-    }
-    
-    .jp_map li:nth-child(32) {
-      left: 29%;
-      position: absolute;
-      top: 46.5%;
-    }
-    
-    .jp_map li:nth-child(33) {
-      left: 36%;
-      position: absolute;
-      top: 56.5%;
-    }
-    
-    .jp_map li:nth-child(34) {
-      left: 29%;
-      position: absolute;
-      top: 56.5%;
-    }
-    
-    .jp_map li:nth-child(35) {
-      left: 22%;
-      position: absolute;
-      top: 51.5%;
-    }
-    
-    .jp_map li:nth-child(36) {
-      left: 36%;
-      position: absolute;
-      top: 78.5%;
-    }
-    
-    .jp_map li:nth-child(37) {
-      left: 36%;
-      position: absolute;
-      top: 68.5%;
-    }
-    
-    .jp_map li:nth-child(38) {
-      left: 29%;
-      position: absolute;
-      top: 68.5%;
-    }
-    
-    .jp_map li:nth-child(39) {
-      left: 29%;
-      position: absolute;
-      top: 78.5%;
-    }
-    
-    .jp_map li:nth-child(40) {
-      left: 14%;
-      position: absolute;
-      top: 46.5%;
-    }
-    
-    .jp_map li:nth-child(41) {
-      left: 7%;
-      position: absolute;
-      top: 46.5%;
-    }
-    
-    .jp_map li:nth-child(42) {
-      left: 0;
-      position: absolute;
-      top: 46.5%;
-    }
-    
-    .jp_map li:nth-child(43) {
-      left: 7%;
-      position: absolute;
-      top: 56.5%;
-    }
-    
-    .jp_map li:nth-child(44) {
-      left: 14%;
-      position: absolute;
-      top: 56.5%;
-    }
-    
-    .jp_map li:nth-child(45) {
-      left: 14%;
-      position: absolute;
-      top: 66.5%;
-    }
-    
-    .jp_map li:nth-child(46) {
-      left: 7%;
-      position: absolute;
-      top: 66.5%;
-    }
-    
-    .jp_map li:nth-child(47) {
-      left: 0;
-      position: absolute;
-      top: 76.5%;
-    }
-    
+#cloud{
+width: 90% !important;
+left: 5% !important;
+}
+
+}
+
+.ot{
+	border: 1px solid #000000;
+	padding: 0 3px 0 3px;
+	margin-bottom: 3px;
+	float: right;
+}
