@@ -39,9 +39,9 @@ var todou; var todou = new Array(47);var markers = new Array(47);var ido; var ke
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
 		var marker = L.marker([par[1] ,par[2]] ,{icon: pulsingIcon}).addTo(map);
 
-			gps_button = L.easyButton('fa-location-arrow', function(){
+			/*gps_button = L.easyButton('fa-location-arrow', function(){
     			GPS();
-			}).addTo( map );
+			}).addTo( map );*/
 
 	}
 
