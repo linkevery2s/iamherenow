@@ -54,7 +54,7 @@ function gps_get(position) {
     keido = position.coords.longitude;
     
     //位置情報取得後、地図へ飛ぶ
-    location.href = "https://linkevery2s.github.io/iamherenow/index.html#" + "17/" +ido + "/" + keido;
+    location.href = "https://linkevery2s.github.io/iamherenow/map.html#" + "17/" +ido + "/" + keido;
    		//map.setView([ido, keido], 17);
 
 }
