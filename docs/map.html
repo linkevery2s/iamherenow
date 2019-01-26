@@ -3,26 +3,28 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-	<meta property="og:title" content="今ここ。" />
+    <meta name="description" content="このサービスは、自分の居場所を地図上で把握し、「今、ここにいるよ。」と伝えるためのWEBアプリです。災害が発生し、避難している全ての方々にお使いいただければと思います。" />
+	<meta property="og:title" content="今、ここにいるよ。" />
 	<meta property="og:type" content="website" />
     <meta property="og:image" content="assets/img/apple-touch-icon.png" />
-    <meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="今ここ。" />
-	<meta name="twitter:description" content="このサービスは、自分の居場所を地図上で把握し、「今ここ。」と伝えるためのWEBアプリです。災害が発生し、避難している全ての方々にお使いいただければと思います。" />
+    <meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="今、ここにいるよ。" />
+	<meta name="twitter:description" content="このサービスは、自分の居場所を地図上で把握し、「今、ここにいるよ。」と伝えるためのWEBアプリです。災害が発生し、避難している全ての方々にお使いいただければと思います。" />
 	<meta name="twitter:image" content="https://linkevery2s.github.io/iamherenow/assets/img/apple-touch-icon.png" />
-    <meta name="author" content="仁志">
-	<meta name="keywords" content="今ここ。, 避難, 居場所, 安否確認">
+    <meta name="author" content="仁志" />
+	<meta name="keywords" content="今、ここにいるよ。, 避難, 居場所, 安否確認" />
+	<link rel='stylesheet' href='assets/src/easy-button.css' />
     <link href="assets/css/mapstyle.css" rel="stylesheet">
     <link href="assets/css/leaflet.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/img/apple-touch-icon.png">
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 
-    <title>今、ここにいるよ。（地図）</title>
+    <title>今、ここにいるよ。</title>
 
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link rel='stylesheet' href='assets/src/easy-button.css' />
+    
 <!--（ここから）=================================================!-->
 <script type ="text/javascript" src="assets/js/leaflet.js"></script>
 <script type ="text/javascript" src="assets/js/leaflet-hash.js"></script>
@@ -30,13 +32,9 @@
 <script src="assets/js/modernizr.custom.js"></script>
 <script type='text/javascript'  src='assets/src/easy-button.js'></script>
 
-<!--緊急モード用-->
-<link href="icon/L.Icon.Pulse.css" rel="stylesheet">
-<script type ="text/javascript" src="icon/L.Icon.Pulse.js"></script>
-
   </head>
 
-  <body onload="em_ini()">
+  <body onload="map_ini()">
 
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
@@ -54,13 +52,13 @@
 		<div id="menuToggle"><i class="fa fa-bars" style="line-height:40px;"></i></div>
 	</nav>
 
-<div class = "map" style="width:100%; height:100%">
+<!--<div class = "map" style="width:100%; height:100%">-->
 
-<div id ="map_canvas" style="width:100%; height:100%;"></div>
+	<div id ="map_canvas" style="width:100%; height:100%;"></div>
 
 	<center>
 	<!--tools-->
-	<!--<div id="link_text">
+	<div id="link_text">
 		<img src="assets/img/mail.png" style="width:50px; height: 50px;" id = "mln" onclick= "mail()">
 		<img src="assets/img/linebutton.png" style="width:50px; height: 50px;" id = "mln" onclick= "line()">
 		<img src="assets/img/tw.png" style="width:50px; height: 50px;" id = "mln" onclick= "tw()">
@@ -71,11 +69,16 @@
 	<div id ="tel_mode">電話番号(-なし)を入力して下さい。<br>Please call telephone number.<br>
 	<input type="text" onKeyup="this.value=this.value.replace(/[^0-9]+/i,'')" id ="ttel"><br>
 	<span onclick= "tel_ok()" class="oc">OK</span>  <span onclick= "cancel()" class="oc">Cancel</span>
-	</div>-->
+	</div>
 
-	</center>
+</center>
 
-</div>
+	<!--cross_key-->
+	<div id ="cross">
+		<img id ="img_cross" src="assets/img/cross.png" border="0">
+	</div>
+
+<!--</div>-->
 
 
     <!-- Bootstrap core JavaScript
