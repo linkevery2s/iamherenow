@@ -8,7 +8,7 @@ var todou; var todou = new Array(47);var markers = new Array(47);var ido; var ke
   		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   		}).addTo(map);
 		hash1 = L.hash(map);
-		
+	
 			gps_button = L.easyButton('fa-location-arrow', function(){
     			GPS();
 			}).addTo( map );
