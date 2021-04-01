@@ -1,6 +1,6 @@
 //version 5.
 var map;var p;var zoom;var hash1;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
-var todou; var todou = new Array(47);var markers = new Array(47);var ido; var keido;
+var todou; var todou = new Array(47);var markers = new Array(47);var ido; var keido; var qr_url;
 
     function map_ini() {
 		map = L.map('map_canvas');
@@ -112,4 +112,18 @@ function fb(){
 	zoom = map.getZoom();
 	var url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
 	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+}
+
+function qr(){
+ 
+	$("#qrcode").empty();
+	qr_url = location.href;
+ 
+	jQuery('#qrcode').qrcode({
+		text: qr_url
+	});	
+	
+	$("#fulloverlay").slideToggle(500);
+	$("#qr_c").slideToggle(500);
+	
 }
