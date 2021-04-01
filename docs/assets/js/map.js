@@ -13,6 +13,9 @@ var todou; var todou = new Array(47);var markers = new Array(47);var ido; var ke
     			GPS();
 			}).addTo( map );
 
+var url_hash = location.hash;
+		if(url_hash === ""){map.setView([37.777, 137.587], 6);}
+
 	}
 
     function em_ini() {
