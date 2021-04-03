@@ -596,3 +596,10 @@ hr {
 	padding-top: 8px;
 
 }
+
+#word_break{
+
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+
+}
