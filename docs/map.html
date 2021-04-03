@@ -19,6 +19,13 @@
     <link rel="shortcut icon" href="assets/img/apple-touch-icon.png">
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 
+    <link rel="manifest" href="./manifest.json">
+    <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js').then(function() { console.log('Service Worker Registered'); });
+    }
+    </script>
+
     <title>今ここ。</title>
     <link rel="stylesheet" href="assets/css/Control.OSMGeocoder.css" />
     <script type ="text/javascript" src="assets/js/Control.OSMGeocoder.js"></script>
