@@ -1,6 +1,6 @@
 //version 5.
 var map;var p;var zoom;var hash1;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
-var todou; var todou = new Array(47);var markers = new Array(47);var ido; var keido; var qr_url;
+var todou; var todou = new Array(47);var markers = new Array(47);var ido; var keido; var qr_url;var qr_code;
 
     function map_ini() {
 		map = L.map('map_canvas');
@@ -8,7 +8,7 @@ var todou; var todou = new Array(47);var markers = new Array(47);var ido; var ke
   		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   		}).addTo(map);
 		hash1 = L.hash(map);
-	
+		qr_code = L.easyButton('fa-qrcode', function(){qr();}, {position: 'topleft'}).addTo(map);
 			gps_button = L.easyButton('fa-location-arrow', function(){
     			GPS();
 			}).addTo( map );
@@ -115,9 +115,14 @@ function fb(){
 }
 
 function qr(){
- 
+
 	$("#qrcode").empty();
-	qr_url = location.href;
+
+	var para = location.hash;
+	var par = para.split("/");
+	zoom = map.getZoom();
+	
+	qr_url = "https://linkevery2s.github.io/iamherenow/emap.html#" + zoom + "/" + par[1] + "/" +par[2];
  
 	jQuery('#qrcode').qrcode({
 		text: qr_url
