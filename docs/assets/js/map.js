@@ -8,10 +8,8 @@ var todou; var todou = new Array(47);var markers = new Array(47);var ido; var ke
   		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   		}).addTo(map);
 		hash1 = L.hash(map);
+		gps_button = L.easyButton('fa-location-arrow', function(){GPS();}).addTo( map );
 		qr_code = L.easyButton('fa-qrcode', function(){qr();}, {position: 'topleft'}).addTo(map);
-			gps_button = L.easyButton('fa-location-arrow', function(){
-    			GPS();
-			}).addTo( map );
 
 var url_hash = location.hash;
 		if(url_hash === ""){map.setView([37.777, 137.587], 6);}
