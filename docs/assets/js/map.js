@@ -4,8 +4,8 @@ var todou; var todou = new Array(47);var markers = new Array(47);var ido; var ke
 
     function map_ini() {
 		map = L.map('map_canvas');
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
+		L.tileLayer('https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}', {
+  		attribution: "&copy; <a href='https://developers.google.com/maps/documentation' target='_blank'>Google Map</a>"
   		}).addTo(map);
 		hash1 = L.hash(map);
 		gps_button = L.easyButton('fa-location-arrow', function(){GPS();}).addTo( map );
@@ -18,8 +18,8 @@ var url_hash = location.hash;
 
     function em_ini() {
 		map = L.map('map_canvas');
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
+		L.tileLayer('https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}', {
+  		attribution: "&copy; <a href='https://developers.google.com/maps/documentation' target='_blank'>Google Map</a>"
   		}).addTo(map);
 		hash = L.hash(map);
 		var para = location.hash;
