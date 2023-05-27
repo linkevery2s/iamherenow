@@ -1,10 +1,21 @@
 <!DOCTYPE HTML>
 <html lang="ja">
-
+<title>今ここ</title>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>今ここ。</title>
+	<meta property="og:title" content="今ここ" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="./img/top.jpg" />
+	<meta property="og:description" content="このサービスは、自分の居場所を地図上で把握し「今ここ。」と伝えるためのアプリケーションです。災害が発生した時の安否確認、犯罪目撃情報や災害発生箇所の位置情報の共有、友人などとの待ち合わせ、などなど、あらゆる場面で利用できます。" />
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="今ここ" />
+	<meta name="twitter:image" content="./img/top.jpg" />
+	<meta name="twitter:description" content="このサービスは、自分の居場所を地図上で把握し「今ここ。」と伝えるためのアプリケーションです。災害が発生した時の安否確認、犯罪目撃情報や災害発生箇所の位置情報の共有、友人などとの待ち合わせ、などなど、あらゆる場面で利用できます。" />
+	<meta name="author" content="仁志">
+	<meta name="keywords" content="今ここ,安否確認,位置情報,共有,待ち合わせ,災害対策,犯罪対策"/>
+	<link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+	<link rel="shortcut icon" href="./img/apple-touch-icon.png">
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -30,7 +41,8 @@
 		}
 
 		#cross {
-			width: 32px;
+			width: 50px;
+			height: 50px;
 			position: fixed;
 			display: block;
 			top: 50%;
@@ -39,13 +51,14 @@
 		}
 
 		#img_cross {
-			margin-top: -16px;
-			margin-left: -16px;
+			margin-top: -25px;
+			margin-left: -25px;
 		}
 
 		img{
 			cursor: pointer;
 		}
+
 	</style>
 
 	<script type="module">
@@ -67,113 +80,113 @@
 			basemap.addTo(map);
 
 			/* ハッシュ値 */
-			let hash = new L.Hash(map);
+				let hash = new L.Hash(map);
 
 			/* 検索ボックス */
-			let option = {
-				position: 'topright', 
-				text: '検索',
-				placeholder: '検索条件キーワード'
-			}
-			let osmGeocoder = new L.Control.OSMGeocoder(option);
-			map.addControl(osmGeocoder);
+				let option = {
+					position: 'topright', 
+					text: '検索',
+					placeholder: '検索条件キーワード'
+				}
+				let osmGeocoder = new L.Control.OSMGeocoder(option);
+				map.addControl(osmGeocoder);
 
 			/* コントロールボタン */
-			L.control.zoom( { position: 'topright' } ).addTo( map );
+				L.control.zoom( { position: 'topright' } ).addTo( map );
 
 			/* GPSボタン */
-			let ido;
-			let keido;
-			let gps_get = (position) => {
-				ido = position.coords.latitude;
-				keido = position.coords.longitude;
-				map.setView([ido, keido], 16);
+				let ido;
+				let keido;
+				let gps_get = (position) => {
+					ido = position.coords.latitude;
+					keido = position.coords.longitude;
+					map.setView([ido, keido], 16);
 
-			}
+				}
 
-			let gps_error = (error) => {
-				alert("エラーが発生したので、現在地を取得できませんでした。");
-			}
-
-			let GPS = () =>{
-				if (navigator.geolocation) {
-					navigator.geolocation.getCurrentPosition(gps_get,gps_error);
-				} else {
+				let gps_error = (error) => {
 					alert("エラーが発生したので、現在地を取得できませんでした。");
 				}
+
+				let GPS = () =>{
+					if (navigator.geolocation) {
+						navigator.geolocation.getCurrentPosition(gps_get,gps_error);
+					} else {
+						alert("エラーが発生したので、現在地を取得できませんでした。");
+					}
+				}
+
+				let gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}, {position: 'topright'}).addTo( map );
+
 			}
 
-			let gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}, {position: 'topright'}).addTo( map );
+			window.mail = () => {
 
-		}
+				let para = location.hash;
+				let par = para.split("/");
+				let zoom = map.getZoom();
+				let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+				location.href =  "mailto:?body= %E4%BB%8A%E3%81%93%E3%81%93%E3%80%82 " + url;
 
-		window.mail = () => {
+			}
 
-			let para = location.hash;
-			let par = para.split("/");
-			let zoom = map.getZoom();
-			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
-			location.href =  "mailto:?body= %E4%BB%8A%E3%81%93%E3%81%93%E3%80%82 " + url;
+			window.line = () =>{
 
-		}
+				let para = location.hash;
+				let par = para.split("/");
+				let zoom = map.getZoom();
+				let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+				location.href = "line://msg/text/%E4%BB%8A%E3%81%93%E3%81%93%E3%80%82 "+ url;
 
-		window.line = () =>{
+			}
 
-			let para = location.hash;
-			let par = para.split("/");
-			let zoom = map.getZoom();
-			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
-			location.href = "line://msg/text/%E4%BB%8A%E3%81%93%E3%81%93%E3%80%82 "+ url;
+			window.tw = () =>{
 
-		}
+				let para = location.hash;
+				let par = para.split("/");
+				let zoom = map.getZoom();
+				let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+				location.href = "https://twitter.com/share?url=" + url + "&text=%E4%BB%8A%E3%81%93%E3%81%93%E3%80%82";
 
-		window.tw = () =>{
+			}
 
-			let para = location.hash;
-			let par = para.split("/");
-			let zoom = map.getZoom();
-			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
-			location.href = "https://twitter.com/share?url=" + url + "&text=%E4%BB%8A%E3%81%93%E3%81%93%E3%80%82";
+			window.fb = () =>{
 
-		}
+				let para = location.hash;
+				let par = para.split("/");
+				let zoom = map.getZoom();
+				let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+				location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
 
-		window.fb = () =>{
-
-			let para = location.hash;
-			let par = para.split("/");
-			let zoom = map.getZoom();
-			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
-			location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
-
-		}
+			}
 
 
-	</script>
-	<script src="https://cdn.tailwindcss.com"></script>
+		</script>
+		<script src="https://cdn.tailwindcss.com"></script>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-	<div id='map'></div>
+		<div id='map'></div>
 
-	<a href="./commentary.html" ><div class="fixed top-0 mt-2 ml-2 p-2 bg-white rounded-md left-0 border-solid border-2 border-indigo-600">このアプリについて</div></a>
+		<a href="./commentary.html" ><div class="fixed top-0 mt-2 ml-2 p-2 bg-white rounded-md left-0 border-solid border-2 border-indigo-600">このアプリについて</div></a>
 
-	<!-- cross_key -->
-	<div id ="cross">
-		<img id ="img_cross" src="./img/cross.png">
-	</div>
+		<!-- cross_key -->
+		<div id ="cross">
+			<img id ="img_cross" src="./img/cross.png">
+		</div>
 
-	<div class="left-1/2 -translate-x-1/2 fixed bottom-0 mb-12 p-2 bg-white rounded-md right-0 border-double border-4 border-indigo-600 grid gap-1 grid-cols-6 grid-rows-1 w-4/6 md:w-80 shadow-lg">
+		<div class="left-1/2 -translate-x-1/2 fixed bottom-0 mb-12 p-2 bg-white rounded-md right-0 border-double border-4 border-indigo-600 grid gap-1 grid-cols-6 grid-rows-1 w-80 shadow-lg">
 
-		<img src="./img/line.png" width="32px" onclick="line();">
-		<img src="./img/tw.png" width="32px" onclick="tw();">
-		<img src="./img/fb.png" width="32px" onclick="fb();">
-		<img src="./img/mail.png" class="rounded" width="32px" onclick="mail();">
-		<img src="./img/link.png" class="rounded" width="32px" onclick="link();">
-		<img src="./img/qr.png" width="32px" onclick="qr();">
+			<img src="./img/line.png" width="32px" onclick="line();">
+			<img src="./img/tw.png" width="32px" onclick="tw();">
+			<img src="./img/fb.png" width="32px" onclick="fb();">
+			<img src="./img/mail.png" class="rounded" width="32px" onclick="mail();">
+			<img src="./img/link.png" class="rounded" width="32px" onclick="link();">
+			<img src="./img/qr.png" width="32px" onclick="qr();">
 
-	</div>
+		</div>
 
-</body>
-</html>
+	</body>
+	</html>
