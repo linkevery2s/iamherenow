@@ -17,6 +17,7 @@
 	<link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
 	<link rel="shortcut icon" href="./img/apple-touch-icon.png">
 
+	<!-- leaflet -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -27,8 +28,10 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.4.0/easy-button.css" integrity="sha512-aiVWmB2G8oV+XfHo1CR6hEAxzCl48Lrl3UBzQ6P+BEMkT8qY1tGecdQx6x/X8i9cCVrwQU9ipsOsZlNkRh9n7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+	<!-- font awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+	<!-- OSM Geocoder -->
 	<link rel="stylesheet" href="./lib/Control.OSMGeocoder.css" />
 	<script src="./lib/Control.OSMGeocoder.js"></script>
 
@@ -36,10 +39,19 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/linkevery2s/sourcecode/modal_window/main.css">
 	<script src="https://cdn.jsdelivr.net/gh/linkevery2s/sourcecode/modal_window/main.js"></script>
 
+	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js" integrity="sha512-NFUcDlm4V+a2sjPX7gREIXgCSFja9cHtKPOL1zj6QhnE0vcY695MODehqkaGYTLyL2wxe/wtr4Z49SvqXq12UQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+	<link rel="manifest" href="./manifest.json">
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('./service-worker.js').then(function() {
+				console.log('Service Worker Registered');
+			});
+		}
+	</script>
 
 	<style>
 		html, body, #map{
@@ -274,6 +286,8 @@
 
 
 	</script>
+
+	<!-- tailwind -->
 	<script src="https://cdn.tailwindcss.com"></script>
 
 </head>
@@ -314,8 +328,8 @@
 			<div id="link_c">
 				
 				
-<label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">URL</label>
-<textarea id="link_url" onfocus="this.select();" rows="3" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
+				<label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">URL</label>
+				<textarea id="link_url" onfocus="this.select();" rows="3" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
 
 				↑のURLをコピーし、送信するアプリ（SNSやメールなど）に貼り付けて、送信してください。
 
