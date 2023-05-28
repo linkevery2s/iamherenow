@@ -98,9 +98,23 @@
 			background: #fff;
 			display: none;
 			position: fixed;
-			top: 50%;left: 50%;
+			top: 50%;
+			left: 50%;
 			-webkit-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
+		}
+
+		#link_c{
+			z-index: 1001;
+			padding: 15px;
+			background: #fff;
+			display: none;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			width: 95%;
 		}
 
 	</style>
@@ -220,17 +234,40 @@
 
 			display();
 			$("#exp").hide();
+			$("#link_c").hide();
 			$("#qr_c").show();
 
 		}
 
 		window.display2 = () =>{
 
-			document.querySelector('#exp').innerHTML = '<iframe width="100%" src="kaisetu.html"></iframe>';
 			$("#qr_c").hide();
+			$("#link_c").hide();
+
+			document.querySelector('#exp').innerHTML = '<iframe width="100%" src="kaisetu.html"></iframe>';
+
 			$("#exp").show();
 
 			display();
+
+		}
+
+		window.link = () =>{
+
+			$("#qr_c").hide();
+			$("#exp").hide();
+
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+			let url = "https://linkevery2s.github.io/iamherenow/emap.html#" + zoom + "/" + par[1] + "/" +par[2];
+
+			document.querySelector('#link_url').innerHTML = url;
+
+			$("#link_c").show();
+
+			display();
+
 
 		}
 
@@ -272,6 +309,16 @@
 			<span id="exp"></span>
 
 			<div id ="qr_c"><span id ="qrcode"></span></div>
+
+			<div id="link_c">
+				
+				
+<label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">URL</label>
+<textarea id="link_url" onfocus="this.select();" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
+
+				↑のURLをコピーし、送信するアプリ（SNSやメールなど）に貼り付けて、送信してください。
+
+			</div>
 
 		</div>
 
