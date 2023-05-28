@@ -1,340 +1,331 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="ja">
-
+<title>今ここ。</title>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-  <meta name="description" content="このサービスは、自分の居場所を地図上で把握し、「今、ここにいるよ。」と伝えるためのWEBアプリです。災害が発生した時の安否確認のために利用できます。" />
-  <meta property="og:title" content="今ここ。" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://linkevery2s.github.io/iamherenow/assets/img/top.jpg" />
-  <meta property="og:url" content="https://linkevery2s.github.io/iamherenow/index.html" />
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:title" content="今ここ。" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="./img/ogp.jpg" />
+	<meta property="og:description" content="このサービスは、自分の居場所を地図上で把握し「今ここ。」と伝えるためのアプリケーションです。災害が発生した時の安否確認、犯罪目撃情報や災害発生箇所の位置情報の共有、友人などとの待ち合わせ、などなど、あらゆる場面で利用できます。" />
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="今ここ。" />
+	<meta name="twitter:image" content="./img/ogp.jpg" />
+	<meta name="twitter:description" content="このサービスは、自分の居場所を地図上で把握し「今ここ。」と伝えるためのアプリケーションです。災害が発生した時の安否確認、犯罪目撃情報や災害発生箇所の位置情報の共有、友人などとの待ち合わせ、などなど、あらゆる場面で利用できます。" />
+	<meta name="author" content="仁志">
+	<meta name="keywords" content="今ここ。,安否確認,位置情報,共有,待ち合わせ,災害対策,犯罪対策"/>
+	<link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+	<link rel="shortcut icon" href="./img/apple-touch-icon.png">
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="今ここ。" />
-  <meta name="twitter:description" content="このサービスは、自分の居場所を地図上で把握し、「今、ここにいるよ。」と伝えるためのWEBアプリです。災害が発生した時の安否確認のために利用できます。" />
-  <meta name="twitter:image" content="https://linkevery2s.github.io/iamherenow/assets/img/top.jpg" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <meta name="author" content="仁志" />
-  <meta name="keywords" content="今ここ。,避難,居場所,安否確認" />
-  <link rel="shortcut icon" href="assets/img/apple-touch-icon.png">
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-  <link rel="manifest" href="./manifest.json">
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./service-worker.js').then(function() {
-        console.log('Service Worker Registered');
-      });
-    }
-  </script>
-  <title>今ここ。</title>
-  <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-  <!--CSSMAP-->
-  <link rel="stylesheet" type="text/css" href="cssmap-continents/cssmap-continents.css" media="screen" />
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  <script src="assets/js/modernizr.custom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.min.js" integrity="sha512-0A4MbfuZq5Au9EdpI1S5rUTXlibNBi8CuZ/X3ycwXyZiCjNzpiO9YH6EMqPgzZm6vfNCuZStBQHjnO17nIC0IQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.4.0/easy-button.min.js" integrity="sha512-Tndo4y/YJooD/mGXS9D6F1YyBcSyrWnnSWQ5Z9IcKt6bljicjyka9qcP99qMFbQ5+omfOtwwIapv1DjBCZcTJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.4.0/easy-button.css" integrity="sha512-aiVWmB2G8oV+XfHo1CR6hEAxzCl48Lrl3UBzQ6P+BEMkT8qY1tGecdQx6x/X8i9cCVrwQU9ipsOsZlNkRh9n7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="./lib/Control.OSMGeocoder.css" />
+	<script src="./lib/Control.OSMGeocoder.js"></script>
+
+	<!-- modal window -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/linkevery2s/sourcecode/modal_window/main.css">
+	<script src="https://cdn.jsdelivr.net/gh/linkevery2s/sourcecode/modal_window/main.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js" integrity="sha512-NFUcDlm4V+a2sjPX7gREIXgCSFja9cHtKPOL1zj6QhnE0vcY695MODehqkaGYTLyL2wxe/wtr4Z49SvqXq12UQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+	<style>
+		html, body, #map{
+			height: 100%;
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			z-index: 0;
+		}
+
+		#cross {
+			width: 50px;
+			height: 50px;
+			position: fixed;
+			display: block;
+			top: 50%;
+			left: 50%;
+			z-index: 10;
+		}
+
+		#img_cross {
+			margin-top: -25px;
+			margin-left: -25px;
+		}
+
+		img{
+			cursor: pointer;
+		}
+
+		#app{
+			cursor: pointer;
+			z-index: 1;
+		}
+
+		.modal_content{
+			background: #ffffff;
+			padding: 10px;
+			height: 450px !important;
+		}
+
+		iframe {
+			margin: 0;
+			padding: 0;
+			border: none;
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%, -50%);
+			z-index: 1;
+			height: 100%;
+			width: 100%;
+		}
+
+		#qr_c{
+			z-index: 1001;
+			padding: 15px;
+			background: #fff;
+			display: none;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+		}
+
+		#link_c{
+			z-index: 1001;
+			padding: 15px;
+			background: #fff;
+			display: none;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			width: 95%;
+		}
+
+	</style>
+
+	<script type="module">
+		let map;
+
+		onload = async () => {
+
+			/* ベースマップ */
+			let basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors | &copy; 仁志, <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank">CC BY 4.0</a>',
+			});
+
+			map = L.map('map', {
+				center: [37.300, 137.800],
+				zoomControl: false,
+				zoom: 5
+			});
+
+			basemap.addTo(map);
+
+			/* ハッシュ値 */
+			let hash = new L.Hash(map);
+
+			/* 検索ボックス */
+			let option = {
+				position: 'topright', 
+				text: '検索',
+				placeholder: '検索条件キーワード'
+			}
+			let osmGeocoder = new L.Control.OSMGeocoder(option);
+			map.addControl(osmGeocoder);
+
+			/* コントロールボタン */
+			L.control.zoom( { position: 'topright' } ).addTo( map );
+
+			/* GPSボタン */
+			let ido;
+			let keido;
+			let gps_get = (position) => {
+				ido = position.coords.latitude;
+				keido = position.coords.longitude;
+				map.setView([ido, keido], 16);
+
+			}
+
+			let gps_error = (error) => {
+				alert("エラーが発生したので、現在地を取得できませんでした。");
+			}
+
+			let GPS = () =>{
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition(gps_get,gps_error);
+				} else {
+					alert("エラーが発生したので、現在地を取得できませんでした。");
+				}
+			}
+
+			let gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}, {position: 'topright'}).addTo( map );
+
+		}
+
+		window.mail = () => {
+
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+			location.href =  "mailto:?body= %E4%BB%8A%E3%81%93%E3%81%93%E3%80%82 " + url;
+
+		}
+
+		window.line = () =>{
+
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+			location.href = "line://msg/text/%E4%BB%8A%E3%81%93%E3%81%93%E3%80%82 "+ url;
+
+		}
+
+		window.tw = () =>{
+
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+			location.href = "https://twitter.com/share?url=" + url + "&text=%E4%BB%8A%E3%81%93%E3%81%93%E3%80%82";
+
+		}
+
+		window.fb = () =>{
+
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+			location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+
+		}
+
+		window.qr = () =>{
+
+			$("#qrcode").empty();
+
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+
+			let qr_url = "https://linkevery2s.github.io/iamherenow/emap.html#" + zoom + "/" + par[1] + "/" +par[2];
+
+			jQuery('#qrcode').qrcode({
+				text: qr_url
+			});	
+
+			display();
+			$("#exp").hide();
+			$("#link_c").hide();
+			$("#qr_c").show();
+
+		}
+
+		window.display2 = () =>{
+
+			$("#qr_c").hide();
+			$("#link_c").hide();
+
+			document.querySelector('#exp').innerHTML = '<iframe width="100%" src="kaisetu.html"></iframe>';
+
+			$("#exp").show();
+
+			display();
+
+		}
+
+		window.link = () =>{
+
+			$("#qr_c").hide();
+			$("#exp").hide();
+
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+			let url = "https://linkevery2s.github.io/iamherenow/emap.html#" + zoom + "/" + par[1] + "/" +par[2];
+
+			document.querySelector('#link_url').innerHTML = url;
+
+			$("#link_c").show();
+
+			display();
+
+
+		}
+
+
+	</script>
+	<script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
 <body>
 
-  <!-- Menu -->
-  <nav class="menu" id="theMenu">
-    <div class="menu-wrap">
-      <h1 class="logo"><a href="index.html">今、ここにいるよ。</a></h1>
-      <i class="fa fa-arrow-right menu-close"></i>
-      <a href="index.html#smap">地図選択</a>
-      <a href="greet.html">アプリ紹介</a>
-      <a href="rule.html">利用規約</a>
-      <a href="bibliography.html">参考文献</a>
-      <a href="update.html">更新情報</a>
-    </div>
+	<!-- map -->
+	<div id='map'></div>	
 
-    <!-- Menu button -->
-    <div id="menuToggle"><i class="fa fa-bars" style="line-height:40px;"></i></div>
-  </nav>
+	<div id="app" class="fixed top-0 mt-2 ml-2 p-2 bg-white rounded-md left-0 border-solid border-2 border-indigo-600" onclick="display2();">このアプリについて</div>
 
+	<!-- cross_key -->
+	<div id ="cross">
+		<img id ="img_cross" src="./img/cross.png">
+	</div>
 
-  <!-- MAIN IMAGE SECTION -->
-  <img src="assets/img/top.png" width="100%" style="margin-top:20px;">
+	<!-- share button -->
+	<div class="left-1/2 -translate-x-1/2 fixed bottom-0 mb-12 p-2 bg-white rounded-md right-0 border-double border-4 border-indigo-600 grid gap-1 grid-cols-6 grid-rows-1 w-80 shadow-lg">
 
-  <!-- WELCOME SECTION -->
-  <div class="container" id="tl">
-    <div class="row mt">
-      <div class="col-lg-8">
-        <h2>今ここ。</h2>
-        <table border="0" text-align="left" align="center">
-          <tr>
-            <td>
-              このサービスは、自分の居場所を地図上で把握し、「今、ここにいるよ。」と伝えるためのWEBアプリです。災害が発生した時の安否確認のために利用できます。
-            </td>
-          </tr>
-        </table>
-      </div>
+		<img src="./img/line.png" width="50px" onclick="line();">
+		<img src="./img/tw.png" width="50px" onclick="tw();">
+		<img src="./img/fb.png" width="50px" onclick="fb();">
+		<img src="./img/mail.png" class="rounded" width="50px" onclick="mail();">
+		<img src="./img/link.png" class="rounded" width="50px" onclick="link();">
+		<img src="./img/qr.png" width="50px" onclick="qr();">
 
-      <div class="col-lg-4">
-        <p class="pull-right"><br><button type="button" class="btn btn-red" onclick="em()">緊急モード / Emergency Mode / GPS</button></p>
-      </div>
+	</div>
 
-    </div><!-- /row -->
-  </div><!-- /.container -->
+	<!-- modal window -->
+	<div class="modal js-modal">
+		<div class="modal_bg" onClick="closed()"></div>
+		<div class="modal_content -mt-8 md:mt-0"><span class="closed" onClick="closed()">×</span>
 
+			<span id="exp"></span>
 
-  <div class="container" id="smap">
-    <div class="row mt">
-      <div class="col-lg-8">
-        <h2>世界地図 / World Map</h2>
-        スマートフォンの場合、２回タップしてください。<br>Please two taps by SmartPhone.
-      </div>
-    </div>
-  </div>
+			<div id ="qr_c"><span id ="qrcode"></span></div>
 
-  <div id="map-continents">
-    <ul class="continents">
-      <li class="c1"><a href="map.html#3/3.51/20.30">Africa</a></li>
-      <li class="c2"><a href="map.html#3/38.96/113.99">Asia</a></li>
-      <li class="c3"><a href="map.html#3/-18.31/135.62">Australia</a></li>
-      <li class="c4"><a href="map.html#3/53.12/9.23">Europe</a></li>
-      <li class="c5"><a href="map.html#3/46.07/-105.03">North America</a></li>
-      <li class="c6"><a href="map.html#3/-29.54/-66.18">South America</a></li>
-    </ul>
-  </div>
+			<div id="link_c">
+				
+				
+<label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">URL</label>
+<textarea id="link_url" onfocus="this.select();" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
 
-  <div class="container">
-    <div class="row mt">
-      <div class="col-lg-8">
-        <h2>日本地図 / Japan Map</h2>
-        今いる地域を選択してください。<br>
-        Please choose your place.
-      </div>
-    </div>
-  </div>
+				↑のURLをコピーし、送信するアプリ（SNSやメールなど）に貼り付けて、送信してください。
 
-  <!-- PORTFOLIO SECTION -->
-  <div id="portfolio">
-    <div class="container">
-      <div class="row mt">
-        <ul class="grid effect-2" id="grid">
-          <li><a href="map.html#6/37.777/137.587"><img src="assets/img/nihonz.png" alt="日本地図"></a></li>
-          <li><a href="map.html#7/43.285/142.345"><img src="assets/img/hokkaido.png" alt="北海道"></a></li>
-          <li><a href="map.html#7/39.443/140.389"><img src="assets/img/tohoku.png" alt="東北"></a></li>
-          <li><a href="map.html#9/35.701/139.728"><img src="assets/img/kanto.png" alt="関東"></a></li>
-          <li><a href="map.html#8/35.559/136.906"><img src="assets/img/tyubu.png" alt="中部"></a></li>
-          <li><a href="map.html#8/34.856/135.931"><img src="assets/img/kinki.png" alt="近畿"></a></li>
-          <li><a href="map.html#7/34.269/133.608"><img src="assets/img/tyushikoku.png" alt="中国・四国"></a></li>
-          <li><a href="map.html#7/32.568/130.477"><img src="assets/img/kyusyu.png" alt="九州"></a></li>
-          <li><a href="map.html#10/26.4632/127.8973"><img src="assets/img/okinawa.png" alt="沖縄"></a></li>
-        </ul>
-      </div><!-- row -->
-    </div><!-- container -->
-  </div><!-- portfolio -->
+			</div>
 
+		</div>
 
-  </div>
+	</div>
 
-  <!-- SERVICES SECTION -->
-  <div id="services">
-    <div class="container">
-      <div class="row mt">
-        <div class="col-lg-1 centered">
-          <i class="fa fa-globe"></i>
-        </div>
-        <div class="col-lg-3">
-          <h3>災害時の安否確認に</h3>
-          <p>Safety Confirmation.</p>
-        </div>
-
-        <div class="col-lg-1 centered">
-          <i class="fa fa-compass"></i>
-        </div>
-        <div class="col-lg-3">
-          <h3>GPSを使って現在地を</h3>
-          <p>I Am Here in GPS.</p>
-        </div>
-
-        <div class="col-lg-1 centered">
-          <i class="fa fa-desktop"></i>
-        </div>
-        <div class="col-lg-3">
-          <h3>ＳＮＳで共有</h3>
-          <p>Share by SNS.</p>
-        </div>
-
-      </div><!-- row -->
-    </div><!-- container -->
-  </div><!-- services section -->
-
-  <!-- BLOG POSTS -->
-  <div class="container">
-    <div class="row mt">
-      <center>
-        <h2>コンテンツ / CONTENTS</h2>
-      </center><br>
-      <div class="col-lg-4">
-        <img class="img-responsive" src="assets/img/post01.jpg" alt="">
-        <h3><a href="greet.html">ご挨拶</a></h3>
-        <p>アプリの紹介<br>Introduction For This Application.</p>
-        <p><a href="greet.html"><i class="fa fa-link"></i> Read More</a></p>
-      </div>
-      <div class="col-lg-4">
-        <img class="img-responsive" src="assets/img/post02.jpg" alt="">
-        <h3><a href="rule.html">利用規約</a></h3>
-        <p>守っていただくルール<br>Rule By Using This Application.</p>
-        <p><a href="rule.html"><i class="fa fa-link"></i> Read More</a></p>
-      </div>
-      <div class="col-lg-4">
-        <img class="img-responsive" src="assets/img/post03.jpg" alt="">
-        <h3><a href="bibliography.html">参考文献</a></h3>
-        <p>参考にさせていただきました。<br>Bibliography.</p>
-        <p><a href="bibliography.html"><i class="fa fa-link"></i> Read More</a></p>
-      </div>
-    </div><!-- row -->
-  </div><!-- container -->
-
-  <center><img src="assets/img/line.png" style="width: 70%;"></center>
-
-  <!-- WELCOME SECTION -->
-  <div class="container">
-    <div class="row mt">
-      <div class="col-lg-8 col-lg-offset-2">
-        <center>
-          <h2>使い方 / MANUAL</h2>
-        </center>
-
-        <iframe src="https://www.slideshare.net/slideshow/embed_code/key/sS2B2Tp7rqvTbn" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;"
-          allowfullscreen=""> </iframe><br>
-
-        <a href="https://www.slideshare.net/slideshow/embed_code/key/sS2B2Tp7rqvTbn">こちら</a>をご覧ください。
-      </div>
-    </div>
-  </div>
-  <br>
-  <center>
-    <img src="assets/img/line.png" style="width: 70%;">
-    <div class="container">
-      <div class="row mt">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h2>シェア / SHARE</h2>
-
-          <!-- Go to www.addthis.com/dashboard to customize your tools -->
-          <div class="addthis_inline_share_toolbox"></div>
-
-        </div>
-      </div>
-    </div>
-
-    <br><br><img src="assets/img/line.png" style="width: 70%;">
-
-    <div id="services">
-      <div class="container">
-        <div class="row mt">
-          <h2>インストール方法 / INSTALL</h2>
-          <div class="col-lg-6" id="word_break">
-            <h3>トップ画面をスタートに</h3>
-
-
-            <p>https://linkevery2s.github.io/iamherenow/index.htmlをブックマーク又はホーム画面に追加してください。</p>
-            <img src="assets/img/qr_code1.png">
-          </div>
-
-          <div class="col-lg-6" id="word_break">
-            <h3>地図画面をスタートに</h3>
-
-
-            <p>https://linkevery2s.github.io/iamherenow/map.htmlをブックマーク又はホーム画面に追加してください。</p>
-            <img src="assets/img/qr_code2.png">
-          </div>
-
-        </div><!-- row -->
-      </div><!-- container -->
-    </div><!-- services section -->
-
-    <br><br><img src="assets/img/line.png" style="width: 70%;">
-
-    <div class="container">
-      <div class="row mt">
-        <div class="col-lg-8 col-lg-offset-2">
-          <p><a href="update.html"><button type="button" class="btn btn-green btn-lg">更新情報 / UPDATE</button></a></p>
-
-        </div>
-      </div>
-    </div>
-    <br>
-    <!-- CONTACT FOOTER --->
-    <div id="cf">
-      <div class="container">
-        <div class="row">
-          <br><br>
-          <p>開発者プロフィール</p>
-          <h4><a href="https://hitoshi2s.netlify.app/index.html" target="_blank">仁志 / Hitoshi Official</a></h4>
-          <br>
-          <p>
-            ＩＴを用いて皆の暮らしのお役に立ちたい！自分に出来ることは何か…毎日奮闘中！ <br>
-          <div>
-            <a href="https://twitter.com/hitoshi2sl"><img src="assets/img/tw.png" style="width:50px; height: 50px;" id="mln"></a>
-            <a href="https://dpnote.netlify.app/index.html"><button type="button" class="btn btn-green btn-lg">BLOG</button></a>
-          </div>
-          </p>
-
-        </div><!-- row -->
-      </div><!-- container -->
-    </div><!-- Contact Footer -->
-
-
-    <!-- CALL TO ACTION -->
-    <div id="call">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <p>&copy; 仁志</p>
-          </div>
-        </div><!-- row -->
-      </div><!-- container -->
-    </div><!-- Call to action -->
-
-  </center>
-
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery-1.11.3.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/masonry.pkgd.min.js"></script>
-  <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/classie.js"></script>
-  <script src="assets/js/AnimOnScroll.js"></script>
-  <script>
-    new AnimOnScroll(document.getElementById('grid'), {
-      minDuration: 0.4,
-      maxDuration: 0.7,
-      viewportFactor: 0.2
-    });
-  </script>
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-
-      // CSSMap;
-      $("#map-continents").CSSMap({
-        "size": 1450
-      });
-      // END OF THE CSSMap;
-
-    });
-  </script>
-
-  <script type="text/javascript" src="assets/js/jquery.cssmap.min.js"></script>
 
 
 </body>
-
 </html>
