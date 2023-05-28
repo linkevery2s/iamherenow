@@ -1,19 +1,19 @@
 <!DOCTYPE HTML>
 <html lang="ja">
-<title>今ここ</title>
+<title>今ここ。</title>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta property="og:title" content="今ここ" />
+	<meta property="og:title" content="今ここ。" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="./img/top.jpg" />
 	<meta property="og:description" content="このサービスは、自分の居場所を地図上で把握し「今ここ。」と伝えるためのアプリケーションです。災害が発生した時の安否確認、犯罪目撃情報や災害発生箇所の位置情報の共有、友人などとの待ち合わせ、などなど、あらゆる場面で利用できます。" />
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="今ここ" />
+	<meta name="twitter:title" content="今ここ。" />
 	<meta name="twitter:image" content="./img/top.jpg" />
 	<meta name="twitter:description" content="このサービスは、自分の居場所を地図上で把握し「今ここ。」と伝えるためのアプリケーションです。災害が発生した時の安否確認、犯罪目撃情報や災害発生箇所の位置情報の共有、友人などとの待ち合わせ、などなど、あらゆる場面で利用できます。" />
 	<meta name="author" content="仁志">
-	<meta name="keywords" content="今ここ,安否確認,位置情報,共有,待ち合わせ,災害対策,犯罪対策"/>
+	<meta name="keywords" content="今ここ。,安否確認,位置情報,共有,待ち合わせ,災害対策,犯罪対策"/>
 	<link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
 	<link rel="shortcut icon" href="./img/apple-touch-icon.png">
 
@@ -31,6 +31,15 @@
 	<link rel="stylesheet" href="./lib/Control.OSMGeocoder.css" />
 	<script src="./lib/Control.OSMGeocoder.js"></script>
 
+	<!-- modal window -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/linkevery2s/sourcecode/modal_window/main.css">
+	<script src="https://cdn.jsdelivr.net/gh/linkevery2s/sourcecode/modal_window/main.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js" integrity="sha512-NFUcDlm4V+a2sjPX7gREIXgCSFja9cHtKPOL1zj6QhnE0vcY695MODehqkaGYTLyL2wxe/wtr4Z49SvqXq12UQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 	<style>
 		html, body, #map{
 			height: 100%;
@@ -47,7 +56,7 @@
 			display: block;
 			top: 50%;
 			left: 50%;
-			z-index: 10000;
+			z-index: 10;
 		}
 
 		#img_cross {
@@ -57,6 +66,41 @@
 
 		img{
 			cursor: pointer;
+		}
+
+		#app{
+			cursor: pointer;
+			z-index: 1;
+		}
+
+		.modal_content{
+			background: #ffffff;
+			padding: 10px;
+			height: 500px !important;
+		}
+
+		iframe {
+			margin: 0;
+			padding: 0;
+			border: none;
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%, -50%);
+			z-index: 1;
+			height: 100%;
+			width: 100%;
+		}
+
+		#qr_c{
+			z-index: 1001;
+			padding: 15px;
+			background: #fff;
+			display: none;
+			position: fixed;
+			top: 50%;left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
 		}
 
 	</style>
@@ -80,113 +124,160 @@
 			basemap.addTo(map);
 
 			/* ハッシュ値 */
-				let hash = new L.Hash(map);
+			let hash = new L.Hash(map);
 
 			/* 検索ボックス */
-				let option = {
-					position: 'topright', 
-					text: '検索',
-					placeholder: '検索条件キーワード'
-				}
-				let osmGeocoder = new L.Control.OSMGeocoder(option);
-				map.addControl(osmGeocoder);
+			let option = {
+				position: 'topright', 
+				text: '検索',
+				placeholder: '検索条件キーワード'
+			}
+			let osmGeocoder = new L.Control.OSMGeocoder(option);
+			map.addControl(osmGeocoder);
 
 			/* コントロールボタン */
-				L.control.zoom( { position: 'topright' } ).addTo( map );
+			L.control.zoom( { position: 'topright' } ).addTo( map );
 
 			/* GPSボタン */
-				let ido;
-				let keido;
-				let gps_get = (position) => {
-					ido = position.coords.latitude;
-					keido = position.coords.longitude;
-					map.setView([ido, keido], 16);
+			let ido;
+			let keido;
+			let gps_get = (position) => {
+				ido = position.coords.latitude;
+				keido = position.coords.longitude;
+				map.setView([ido, keido], 16);
 
-				}
+			}
 
-				let gps_error = (error) => {
+			let gps_error = (error) => {
+				alert("エラーが発生したので、現在地を取得できませんでした。");
+			}
+
+			let GPS = () =>{
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition(gps_get,gps_error);
+				} else {
 					alert("エラーが発生したので、現在地を取得できませんでした。");
 				}
-
-				let GPS = () =>{
-					if (navigator.geolocation) {
-						navigator.geolocation.getCurrentPosition(gps_get,gps_error);
-					} else {
-						alert("エラーが発生したので、現在地を取得できませんでした。");
-					}
-				}
-
-				let gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}, {position: 'topright'}).addTo( map );
-
 			}
 
-			window.mail = () => {
+			let gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}, {position: 'topright'}).addTo( map );
 
-				let para = location.hash;
-				let par = para.split("/");
-				let zoom = map.getZoom();
-				let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
-				location.href =  "mailto:?body= %E4%BB%8A%E3%81%93%E3%81%93%E3%80%82 " + url;
+		}
 
-			}
+		window.mail = () => {
 
-			window.line = () =>{
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+			location.href =  "mailto:?body= %E4%BB%8A%E3%81%93%E3%81%93%E3%80%82 " + url;
 
-				let para = location.hash;
-				let par = para.split("/");
-				let zoom = map.getZoom();
-				let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
-				location.href = "line://msg/text/%E4%BB%8A%E3%81%93%E3%81%93%E3%80%82 "+ url;
+		}
 
-			}
+		window.line = () =>{
 
-			window.tw = () =>{
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+			location.href = "line://msg/text/%E4%BB%8A%E3%81%93%E3%81%93%E3%80%82 "+ url;
 
-				let para = location.hash;
-				let par = para.split("/");
-				let zoom = map.getZoom();
-				let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
-				location.href = "https://twitter.com/share?url=" + url + "&text=%E4%BB%8A%E3%81%93%E3%81%93%E3%80%82";
+		}
 
-			}
+		window.tw = () =>{
 
-			window.fb = () =>{
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+			location.href = "https://twitter.com/share?url=" + url + "&text=%E4%BB%8A%E3%81%93%E3%81%93%E3%80%82";
 
-				let para = location.hash;
-				let par = para.split("/");
-				let zoom = map.getZoom();
-				let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
-				location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+		}
 
-			}
+		window.fb = () =>{
+
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+			let url = "https://linkevery2s.github.io/iamherenow/emap.html%23" + zoom + "/" + par[1] + "/" +par[2];
+			location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+
+		}
+
+		window.qr = () =>{
+
+			$("#qrcode").empty();
+
+			let para = location.hash;
+			let par = para.split("/");
+			let zoom = map.getZoom();
+
+			let qr_url = "https://linkevery2s.github.io/iamherenow/emap.html#" + zoom + "/" + par[1] + "/" +par[2];
+
+			jQuery('#qrcode').qrcode({
+				text: qr_url
+			});	
+
+			display();
+			$("#exp").hide();
+			$("#qr_c").show();
+
+		}
+
+		window.display2 = () =>{
+
+			document.querySelector('#exp').innerHTML = '<iframe width="100%" src="kaisetu.html"></iframe>';
+			$("#exp").show();
+			$("#qr_c").hide();
+
+			display();
+
+		}
 
 
-		</script>
-		<script src="https://cdn.tailwindcss.com"></script>
+	</script>
+	<script src="https://cdn.tailwindcss.com"></script>
 
-	</head>
+</head>
 
-	<body>
+<body>
 
-		<div id='map'></div>
+	<!-- map -->
+	<div id='map'></div>	
 
-		<a href="./commentary.html" ><div class="fixed top-0 mt-2 ml-2 p-2 bg-white rounded-md left-0 border-solid border-2 border-indigo-600">このアプリについて</div></a>
+	<div id="app" class="fixed top-0 mt-2 ml-2 p-2 bg-white rounded-md left-0 border-solid border-2 border-indigo-600" onclick="display2();">このアプリについて</div>
 
-		<!-- cross_key -->
-		<div id ="cross">
-			<img id ="img_cross" src="./img/cross.png">
+	<!-- cross_key -->
+	<div id ="cross">
+		<img id ="img_cross" src="./img/cross.png">
+	</div>
+
+	<!-- share button -->
+	<div class="left-1/2 -translate-x-1/2 fixed bottom-0 mb-12 p-2 bg-white rounded-md right-0 border-double border-4 border-indigo-600 grid gap-1 grid-cols-6 grid-rows-1 w-80 shadow-lg">
+
+		<img src="./img/line.png" width="50px" onclick="line();">
+		<img src="./img/tw.png" width="50px" onclick="tw();">
+		<img src="./img/fb.png" width="50px" onclick="fb();">
+		<img src="./img/mail.png" class="rounded" width="50px" onclick="mail();">
+		<img src="./img/link.png" class="rounded" width="50px" onclick="link();">
+		<img src="./img/qr.png" width="50px" onclick="qr();">
+
+	</div>
+
+	<!-- modal window -->
+	<div class="modal js-modal">
+		<div class="modal_bg" onClick="closed()"></div>
+		<div class="modal_content -mt-8 md:mt-0"><span class="closed" onClick="closed()">×</span>
+
+			<span id="exp"></span>
+
+			<div id ="qr_c"><span id ="qrcode"></span></div>
+
 		</div>
 
-		<div class="left-1/2 -translate-x-1/2 fixed bottom-0 mb-12 p-2 bg-white rounded-md right-0 border-double border-4 border-indigo-600 grid gap-1 grid-cols-6 grid-rows-1 w-80 shadow-lg">
+	</div>
 
-			<img src="./img/line.png" width="50px" onclick="line();">
-			<img src="./img/tw.png" width="50px" onclick="tw();">
-			<img src="./img/fb.png" width="50px" onclick="fb();">
-			<img src="./img/mail.png" class="rounded" width="50px" onclick="mail();">
-			<img src="./img/link.png" class="rounded" width="50px" onclick="link();">
-			<img src="./img/qr.png" width="50px" onclick="qr();">
 
-		</div>
 
-	</body>
-	</html>
+</body>
+</html>
