@@ -1,41 +1,65 @@
 <!DOCTYPE HTML>
 <html lang="ja">
 <title>今ここ。</title>
+
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+	<meta charset="UTF-8" name="viewport"
+		content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta property="og:title" content="今ここ。" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="./img/ogp.jpg" />
-	<meta property="og:description" content="このサービスは、自分の居場所を地図上で把握し「今ここ。」と伝えるためのアプリケーションです。災害が発生した時の安否確認、犯罪目撃情報や災害発生箇所の位置情報の共有、友人などとの待ち合わせ、などなど、あらゆる場面で利用できます。" />
+	<meta property="og:description"
+		content="このサービスは、自分の居場所を地図上で把握し「今ここ。」と伝えるためのアプリケーションです。災害が発生した時の安否確認、犯罪目撃情報や災害発生箇所の位置情報の共有、友人などとの待ち合わせ、などなど、あらゆる場面で利用できます。" />
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="今ここ。" />
 	<meta name="twitter:image" content="./img/ogp.jpg" />
-	<meta name="twitter:description" content="このサービスは、自分の居場所を地図上で把握し「今ここ。」と伝えるためのアプリケーションです。災害が発生した時の安否確認、犯罪目撃情報や災害発生箇所の位置情報の共有、友人などとの待ち合わせ、などなど、あらゆる場面で利用できます。" />
+	<meta name="twitter:description"
+		content="このサービスは、自分の居場所を地図上で把握し「今ここ。」と伝えるためのアプリケーションです。災害が発生した時の安否確認、犯罪目撃情報や災害発生箇所の位置情報の共有、友人などとの待ち合わせ、などなど、あらゆる場面で利用できます。" />
 	<meta name="author" content="仁志">
-	<meta name="keywords" content="今ここ。,安否確認,位置情報,共有,待ち合わせ,災害対策,犯罪対策"/>
+	<meta name="keywords" content="今ここ。,安否確認,位置情報,共有,待ち合わせ,災害対策,犯罪対策" />
 	<link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
 	<link rel="shortcut icon" href="./img/apple-touch-icon.png">
 
 	<!-- leaflet -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"
+		integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"
+		integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.min.js" integrity="sha512-0A4MbfuZq5Au9EdpI1S5rUTXlibNBi8CuZ/X3ycwXyZiCjNzpiO9YH6EMqPgzZm6vfNCuZStBQHjnO17nIC0IQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.min.js"
+		integrity="sha512-0A4MbfuZq5Au9EdpI1S5rUTXlibNBi8CuZ/X3ycwXyZiCjNzpiO9YH6EMqPgzZm6vfNCuZStBQHjnO17nIC0IQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 	<script src="https://cdn.jsdelivr.net/npm/leaflet-pulse-icon@0.1.0/src/L.Icon.Pulse.min.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/leaflet-pulse-icon@0.1.0/src/L.Icon.Pulse.min.css" rel="stylesheet">
 
 	<!-- font awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+		integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"
+		integrity="sha512-NFUcDlm4V+a2sjPX7gREIXgCSFja9cHtKPOL1zj6QhnE0vcY695MODehqkaGYTLyL2wxe/wtr4Z49SvqXq12UQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 	<!-- modal window -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/linkevery2s/sourcecode/modal_window/main.css">
 	<script src="https://cdn.jsdelivr.net/gh/linkevery2s/sourcecode/modal_window/main.js"></script>
 
+	<!-- tailwind -->
+	<script src="https://cdn.tailwindcss.com"></script>
+
 	<style>
-		html, body, #map{
+		html,
+		body,
+		#map {
 			height: 100%;
 			width: 100%;
 			padding: 0;
@@ -43,55 +67,49 @@
 			z-index: 0;
 		}
 
-		#app{
-			cursor: pointer;
-			z-index: 1;
+		h2 {
+			position: relative;
+			border-bottom: 3px dotted #008bf2;
 		}
 
-		.modal_content{
-			background: #ffffff;
-			padding: 10px;
-			height: 450px !important;
-		}
-
-		iframe {
-			margin: 0;
-			padding: 0;
-			border: none;
-			top: 50%;
-			left: 50%;
-			position: absolute;
-			transform: translate(-50%, -50%);
-			z-index: 1;
-			height: 100%;
-			width: 100%;
-		}
-
-		#geocode{
+		#geocode {
 			z-index: 1001;
 			background: #fff;
 			width: 100%;
 		}
 
+		.nav {
+			position: fixed;
+			z-index: 12;
+			top: 5px;
+			left: 5px;
+			width: 45px;
+			height: 45px;
+			background: #ffffff;
+			cursor: pointer;
+			border: 1px dotted #000000;
+			border-radius: 10px;
+		}
+
 	</style>
 
 	<script>
-		let map;let GSI = {};
+		let map; let GSI = {};
 
 		onload = async () => {
 
 			/* ベースマップ */
 			let basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors | &copy; 仁志, ver.8<br><p itemprop=“datePublished” content=“2023-05-28”>更新日 : 2023年05月28日</p>'
+				attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 			});
 
 			var para = location.hash;
 			var par = para.split("/");
-			var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
+			var pulsingIcon = L.icon.pulse({ iconSize: [12, 12], color: 'blue' });
 
-			map = L.map('map', {zoomControl: false});
+			map = L.map('map', { zoomControl: false });
 
-			var marker = L.marker([par[1] ,par[2]] ,{icon: pulsingIcon}).addTo(map);
+			var marker = L.marker([par[1], par[2]], { icon: pulsingIcon }).addTo(map);
 
 			basemap.addTo(map);
 
@@ -99,7 +117,7 @@
 			let hash = new L.Hash(map);
 
 			/* コントロールボタン */
-			L.control.zoom( { position: 'topright' } ).addTo( map );
+			L.control.zoom({ position: 'topright' }).addTo(map);
 
 
 			const res = await fetch("https://mreversegeocoder.gsi.go.jp/reverse-geocoder/LonLatToAddress?lat=" + par[1] + "&lon=" + par[2]);
@@ -111,49 +129,35 @@
 
 			document.querySelector('#geocode').innerHTML = "緯度：" + par[1] + "　経度：" + par[2] + "<br>住所：" + jusho_data[1] + jusho_data[3] + data.results.lv01Nm + " 付近";
 
-		}
-
-		window.display2 = () =>{
-
-			document.querySelector('#exp').innerHTML = '<iframe width="100%" src="kaisetu.html"></iframe>';
-
-			display();
 
 		}
 
 	</script>
 
-	<script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 
 <body>
 
+	<a href="./index.html">
+		<div class="nav text-center align-middle">
+		<p class="home"><i class="fa-solid fa-xl fa-home mt-5"></i></p>
+	</div>
+	</a>
+
 	<!-- map -->
-	<div id='map'></div>	
-
-	<div id="app" class="fixed top-0 mt-2 ml-2 p-2 bg-white rounded-md left-0 border-solid border-2 border-indigo-600" onclick="display2();">このアプリについて</div>
-
+	<div id='map'></div>
 
 	<!-- 住所表示 -->
-	<div class="left-1/2 -translate-x-1/2 fixed bottom-0 mb-12 p-2 bg-white rounded-md right-0 border-double border-4 border-indigo-600 w-80 shadow-lg">
+	<div
+		class="text-sm right-1 fixed bottom-0 mb-5 p-2 bg-white rounded-md right-0 border-double border-4 border-indigo-600 w-72 shadow-lg">
 
 		<span id="geocode"></span>
 
 	</div>
 
-	<!-- modal window -->
-	<div class="modal js-modal">
-		<div class="modal_bg" onClick="closed()"></div>
-		<div class="modal_content -mt-8 md:mt-0"><span class="closed" onClick="closed()">×</span>
-
-			<span id="exp"></span>
-
-		</div>
-
-	</div>
 
 	<script src="https://maps.gsi.go.jp/js/muni.js"></script>
 
 </body>
+
 </html>
