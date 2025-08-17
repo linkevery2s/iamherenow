@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<title>3Dマップ</title>
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta charset="UTF-8" name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="3Dマップ" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://dpnote.netlify.app/maptest/3dhazard/3dbuilding.jpg" />
+  <meta property="og:description" content="3Dマップのテストです。" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="3Dマップ" />
+  <meta name="twitter:image" content="https://dpnote.netlify.app/maptest/3dhazard/3dbuilding.jpg" />
+  <meta name="twitter:description" content="3Dマップのテストです。" />
+  <meta name="author" content="仁志">
+  <meta name="keywords" content="3Dマップ,3D,ハザードマップの3D化" />
+
+  <link href="https://cdn.osmbuildings.org/4.1.1/OSMBuildings.css" rel="stylesheet" />
+  <script src="https://cdn.osmbuildings.org/4.1.1/OSMBuildings.js"></script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      z-index: 0;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+  </style>
+
+  <script>
+
+    function ini() {
+
+      const map = new OSMBuildings({
+        container: 'map',
+        position: { latitude: 35.689, longitude: 139.692 },
+        tilt: 40,
+        zoom: 16,
+        minZoom: 8,
+        maxZoom: 22,
+        attribution: '© Data <a href="https://openstreetmap.org/copyright/">OpenStreetMap</a> 3D <a href="https://osmbuildings.org/copyright/">OSM Buildings</a>'
+      });
+
+      map.addMapTiles('https://tile-a.openstreetmap.fr/hot/{z}/{x}/{y}.png');
+
+      map.addGeoJSONTiles('https://{s}.data.osmbuildings.org/0.2/59fcc2e8/tile/{z}/{x}/{y}.json');
+
+      //osmb.addMapTiles('https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/{z}/{x}/{y}.png', {opacity: 0.5});
+
+    }
+
+  </script>
+</head>
+
+<body onload="ini()">
+
+  <div id="map"></div>
+
+
+</body>
+
+</html>
