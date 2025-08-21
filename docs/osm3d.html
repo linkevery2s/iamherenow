@@ -20,7 +20,17 @@
   <link href="https://cdn.osmbuildings.org/4.1.1/OSMBuildings.css" rel="stylesheet" />
   <script src="https://cdn.osmbuildings.org/4.1.1/OSMBuildings.js"></script>
 
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
   <style>
     html,
@@ -38,22 +48,18 @@
       padding: 0;
       margin: 0;
     }
+
   </style>
 
   <script type="module">
 
     onload = async () => {
 
-      //var para = location.hash.split("#")[1];
-      //var par = para.split("/");
-
-      //console.log(par);
-
       const map = new OSMBuildings({
         container: 'map',
         //position: { latitude: 35.689, longitude: 139.692 },
         tilt: 40,
-        zoom: 13,
+        zoom: 17,
         minZoom: 8,
         maxZoom: 22,
         state: true,
@@ -66,11 +72,8 @@
 
       //osmb.addMapTiles('https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/{z}/{x}/{y}.png', {opacity: 0.5});
 
-      let rotate = () => {
-        map.setRotation(rotation);
-        rotation = (rotation + 1) % 360;
-        requestAnimationFrame(rotate);
-      }
+      let rotation = 0;
+
 
     };
 
@@ -80,7 +83,6 @@
 <body>
 
   <div id="map"></div>
-
 
 </body>
 
