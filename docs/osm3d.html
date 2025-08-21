@@ -38,20 +38,25 @@
       padding: 0;
       margin: 0;
     }
-
   </style>
 
-  <script>
+  <script type="module">
 
-    function ini() {
+    onload = async () => {
+
+      //var para = location.hash.split("#")[1];
+      //var par = para.split("/");
+
+      //console.log(par);
 
       const map = new OSMBuildings({
         container: 'map',
-        position: { latitude: 35.689, longitude: 139.692 },
+        //position: { latitude: 35.689, longitude: 139.692 },
         tilt: 40,
-        zoom: 16,
+        zoom: 13,
         minZoom: 8,
         maxZoom: 22,
+        state: true,
         attribution: '© Data <a href="https://openstreetmap.org/copyright/">OpenStreetMap</a> 3D <a href="https://osmbuildings.org/copyright/">OSM Buildings</a>'
       });
 
@@ -61,12 +66,18 @@
 
       //osmb.addMapTiles('https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/{z}/{x}/{y}.png', {opacity: 0.5});
 
-    }
+      let rotate = () => {
+        map.setRotation(rotation);
+        rotation = (rotation + 1) % 360;
+        requestAnimationFrame(rotate);
+      }
+
+    };
 
   </script>
 </head>
 
-<body onload="ini()">
+<body>
 
   <div id="map"></div>
 

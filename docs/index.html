@@ -376,9 +376,13 @@
 
 			let osm3d = () => {
 
+				let cent = map.getCenter();
+
+				console.log(cent);
+
 				const gl = document.querySelector("#gl");
 
-				gl.innerHTML = "<iframe src='./osm3d.html' width='100%' height='100%'></iframe>"
+				gl.innerHTML = "<iframe src='./osm3d.html?lat=" + cent.lat + "&lon=" + cent.lng + "' width='100%' height='100%'></iframe>"
 
 				$('#overlay').fadeIn();
 				$('#fpv').fadeIn();
@@ -825,6 +829,14 @@
 		<h2 class="text-lg mt-3 mb-3 mx-3 pb-1">二次元バーコード</h2>
 
 		<img src="./img/qr.png" class="px-3" alt="二次元バーコード">
+
+
+		<div class="fb-share-button" data-href="https://linkevery2s.github.io/iamherenow/" data-layout="button_count"
+		data-size="small"></div>
+	
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v19.0"
+		  nonce="Pm3nh7PB"></script>
 
 	</div><!-- share -->
 
