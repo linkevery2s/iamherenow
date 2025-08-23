@@ -7,7 +7,7 @@
 		content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<meta name="author" content="仁志">
+	<meta name="author" content="Saito Hitoshi">
 	<meta name="keywords" content="今ここ,安否確認,位置情報,共有,災害対策" />
 	<meta name="description"
 		content="このサービスは、自分の居場所を地図上で把握し「今ここ。」と伝えるためのアプリケーションです。災害が発生した時の安否確認、犯罪目撃情報や災害発生箇所の位置情報の共有、友人などとの待ち合わせ、などなど、あらゆる場面で利用できます。" />
@@ -286,7 +286,7 @@
 			left: 0;
 			background: rgba(0, 0, 0, .8);
 			display: none;
-			z-index: 11;
+			z-index: 13;
 		}
 
 		#fpv {
@@ -299,7 +299,7 @@
 			transform: translateY(-50%);
 			width: 80%;
 			max-width: 500px;
-			z-index: 11;
+			z-index: 14;
 			background: #ffffff;
 			padding: .3em;
 			border-radius: .3em;
@@ -386,7 +386,9 @@
 
 				const gl = document.querySelector("#gl");
 
-				gl.innerHTML = "<iframe src='./osm3d.html?lat=" + cent.lat + "&lon=" + cent.lng + "' width='100%' height='100%'></iframe>"
+				//gl.innerHTML = "<iframe src='./osm3d.html?lat=" + cent.lat + "&lon=" + cent.lng + "' width='100%' height='100%'></iframe>"
+
+				gl.innerHTML = "<iframe src='./osm3dmap.html#15/" + cent.lat + "/" + cent.lng + "/-40/60' width='100%' height='100%'></iframe>"
 
 				$('#overlay').fadeIn();
 				$('#fpv').fadeIn();
