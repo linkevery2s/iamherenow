@@ -246,6 +246,25 @@
 			border: 1px solid #264af4;
 		}
 
+		.closed-btn6 {
+			position: fixed;
+			right: 4px;
+			color: #ffffff;
+			background: #264af4;
+			cursor: pointer;
+			text-align: center;
+			font-weight: bolder;
+			border-radius: .3em;
+			z-index: 13;
+			padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+		}
+
+		.closed-btn6:hover {
+			background: #ffffff;
+			color: #264af4;
+			border: 1px solid #264af4;
+		}
+
 		.fa-location-crosshairs {
 			color: #0000ff;
 			font-size: 1.5em;
@@ -596,7 +615,7 @@
 	<!-- modal window -->
 	<div class="modal js-modal">
 		<div class="modal_bg" onClick="closed()"></div>
-		<div class="modal_content -mt-8 md:mt-0"><span class="closed" onClick="closed()">×</span>
+		<div class="modal_content -mt-8 md:mt-0"><span class="closed-btn6 text-xs -mt-1" onClick="closed()">閉じる</span>
 
 			<span id="exp"></span>
 
@@ -665,6 +684,9 @@
 
 		<div id="update_scroll" class="overflow-y-scroll bg-yellow-100 m-3 p-3 rounded-md">
 			<p class="text-sm">
+				・２０２５年８月２３日<br>
+				3Dマップをバイナリベクトルタイルに変更<br><br>
+				
 				・２０２５年８月２１日<br>
 				「今ここ。」バージョンアップ（ver.10）<br>
 				3D表示機能追加<br><br>
