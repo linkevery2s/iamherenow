@@ -581,7 +581,7 @@
       "source-layer": "building",
       "filter":["all",["==","ftCode",3112],["==","$type","Polygon"]],
       "paint": {
-        "fill-extrusion-color": "rgb(230,230,230)",
+        "fill-extrusion-color": "rgb(43,203,228)",
         "fill-extrusion-opacity": 0.5,
         "fill-extrusion-height": 40
       }
@@ -611,7 +611,7 @@
       "source-layer": "building",
       "filter":["all",["==","ftCode",3102],["==","$type","Polygon"]],
       "paint": {
-        "fill-extrusion-color": "rgb(230,230,230)",
+        "fill-extrusion-color": "rgb(43,203,228)",
         "fill-extrusion-opacity": 0.8,
         "fill-extrusion-height": 40
       }
@@ -626,7 +626,7 @@
       "source-layer": "building",
       "filter":["all",["==","ftCode",3103],["==","$type","Polygon"]],
       "paint": {
-        "fill-extrusion-color": "rgb(190,230,255)",
+        "fill-extrusion-color": "rgb(230,230,230)",
         "fill-extrusion-opacity": 0.8,
         "fill-extrusion-height": 100
       }
