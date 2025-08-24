@@ -25,14 +25,18 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"
 		integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"
 		integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.min.js"
 		integrity="sha512-0A4MbfuZq5Au9EdpI1S5rUTXlibNBi8CuZ/X3ycwXyZiCjNzpiO9YH6EMqPgzZm6vfNCuZStBQHjnO17nIC0IQ=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.4.0/easy-button.min.js"
+		integrity="sha512-Tndo4y/YJooD/mGXS9D6F1YyBcSyrWnnSWQ5Z9IcKt6bljicjyka9qcP99qMFbQ5+omfOtwwIapv1DjBCZcTJQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.4.0/easy-button.css"
+		integrity="sha512-aiVWmB2G8oV+XfHo1CR6hEAxzCl48Lrl3UBzQ6P+BEMkT8qY1tGecdQx6x/X8i9cCVrwQU9ipsOsZlNkRh9n7w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<script src="https://cdn.jsdelivr.net/npm/leaflet-pulse-icon@0.1.0/src/L.Icon.Pulse.min.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/leaflet-pulse-icon@0.1.0/src/L.Icon.Pulse.min.css" rel="stylesheet">
@@ -91,6 +95,63 @@
 			border-radius: 10px;
 		}
 
+		#closed-btn {
+			position: fixed;
+			right: 4px;
+			color: #ffffff;
+			background: #264af4;
+			cursor: pointer;
+			text-align: center;
+			font-weight: bolder;
+			border-radius: .3em;
+			z-index: 13;
+			padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+		}
+
+		#closed-btn:hover {
+			background: #ffffff;
+			color: #264af4;
+			border: 1px solid #264af4;
+		}
+
+		iframe {
+			margin: 0;
+			padding: 0;
+			border: none;
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%, -50%);
+			z-index: 1;
+			height: 100%;
+			width: 100%;
+		}
+
+		#overlay {
+			width: 100%;
+			height: 120vh;
+			position: fixed;
+			top: 0;
+			left: 0;
+			background: rgba(0, 0, 0, .8);
+			display: none;
+			z-index: 13;
+		}
+
+		#fpv {
+			display: none;
+			height: 85%;
+			max-height: 800px;
+			right: 10px;
+			position: fixed;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 90%;
+			z-index: 14;
+			background: #ffffff;
+			padding: .3em;
+			border-radius: .3em;
+		}
 	</style>
 
 	<script>
@@ -103,13 +164,13 @@
 				attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 			});
 
-			var para = location.hash;
-			var par = para.split("/");
-			var pulsingIcon = L.icon.pulse({ iconSize: [12, 12], color: 'blue' });
+			let para = location.hash;
+			let par = para.split("/");
+			let pulsingIcon = L.icon.pulse({ iconSize: [12, 12], color: 'blue' });
 
 			map = L.map('map', { zoomControl: false });
 
-			var marker = L.marker([par[1], par[2]], { icon: pulsingIcon }).addTo(map);
+			let marker = L.marker([par[1], par[2]], { icon: pulsingIcon }).addTo(map);
 
 			basemap.addTo(map);
 
@@ -118,6 +179,23 @@
 
 			/* コントロールボタン */
 			L.control.zoom({ position: 'topright' }).addTo(map);
+
+			let osm3d = () => {
+
+				let cent = map.getCenter();
+
+				console.log(cent);
+
+				const gl = document.querySelector("#gl");
+
+				gl.innerHTML = "<iframe src='./osm3dmap.html#15/" + cent.lat + "/" + cent.lng + "/-40/60' width='100%' height='100%'></iframe>"
+
+				$('#overlay').fadeIn();
+				$('#fpv').fadeIn();
+
+			}
+
+			let osm3d_button = L.easyButton('fa-cube', function () { osm3d(); }, { position: 'topright' }).addTo(map);
 
 
 			const res = await fetch("https://mreversegeocoder.gsi.go.jp/reverse-geocoder/LonLatToAddress?lat=" + par[1] + "&lon=" + par[2]);
@@ -129,6 +207,17 @@
 
 			document.querySelector('#geocode').innerHTML = "緯度：" + par[1] + "　経度：" + par[2] + "<br>住所：" + jusho_data[1] + jusho_data[3] + data.results.lv01Nm + " 付近";
 
+			const closed_btn = document.querySelector("#closed-btn");
+			const overlay = document.querySelector("#overlay");
+			closed_btn.addEventListener('click', () => {
+				$('#overlay').fadeOut();
+				$('#fpv').fadeOut();
+			});
+
+			overlay.addEventListener('click', () => {
+				$('#overlay').fadeOut();
+				$('#fpv').fadeOut();
+			});
 
 		}
 
@@ -140,12 +229,21 @@
 
 	<a href="./index.html">
 		<div class="nav text-center align-middle">
-		<p class="home"><i class="fa-solid fa-xl fa-home mt-5"></i></p>
-	</div>
+			<p class="home"><i class="fa-solid fa-xl fa-home mt-5"></i></p>
+		</div>
 	</a>
 
 	<!-- map -->
 	<div id='map'></div>
+
+	<!-- ポップアップ用のoverlay -->
+	<div id="overlay"></div>
+
+	<div id="fpv"><span id="closed-btn" class="text-xs">閉じる</span>
+		<div id="gl"></div>
+
+	</div>
+
 
 	<!-- 住所表示 -->
 	<div
